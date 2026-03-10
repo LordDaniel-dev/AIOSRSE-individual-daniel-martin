@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">FinAgent: An Agentic AI Framework Integrating Personal Finance and Nutrition Planning</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Toqeer</forename><forename type="middle">Ali</forename><surname>Syed</surname></persName>
+							<email>toqeer@iu.edu.sa</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Computer and Information System</orgName>
+								<orgName type="institution">Islamic University of Madinah</orgName>
+								<address>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Abdulaziz</forename><surname>Alshahrani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Computer and Information System</orgName>
+								<orgName type="institution">Islamic University of Madinah</orgName>
+								<address>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ali</forename><surname>Ullah</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Computer and Information System</orgName>
+								<orgName type="institution">Islamic University of Madinah</orgName>
+								<address>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ali</forename><surname>Akarma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Computer and Information System</orgName>
+								<orgName type="institution">Islamic University of Madinah</orgName>
+								<address>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sohail</forename><surname>Khan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Effat College of Engineering</orgName>
+								<orgName type="institution" key="instit2">Effat University</orgName>
+								<address>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Muhammad</forename><surname>Nauman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution" key="instit1">Effat College of Engineering</orgName>
+								<orgName type="institution" key="instit2">Effat University</orgName>
+								<address>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Salman</forename><surname>Jan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Arab Open University</orgName>
+								<address>
+									<country key="BH">Bahrain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">FinAgent: An Agentic AI Framework Integrating Personal Finance and Nutrition Planning</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E7508838F0628479BF8B950BE03B1B14</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-04T16:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Agentic AI</term>
+					<term>Household Budgeting</term>
+					<term>Diet Optimization</term>
+					<term>Nutritional Adequacy</term>
+					<term>Multi-Agent Systems</term>
+					<term>Price-Aware Meal Planning</term>
+					<term>Sustainable Development Goals</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The issue of limited household budgets and nutritional demands continues to be a challenge especially in the middle-income environment where food prices fluctuate. This paper introduces a price aware agentic AI system, which combines personal finance management with diet optimization. With household income and fixed expenditures, medical and well-being status, as well as realtime food costs, the system creates nutritionally sufficient meals plans at comparatively reasonable prices that automatically adjust to market changes. The framework is implemented in a modular multi-agent architecture, which has specific agents (budgeting, nutrition, price monitoring, and health personalization). These agents share the knowledge base and use the substitution graph to ensure that the nutritional quality is maintained at a minimum cost. Simulations with a representative Saudi household case study show a steady 12-18% reduction in costs relative to a static weekly menu, nutrient adequacy of over 95% and high performance with price changes of ±20-30%. The findings indicate that the framework can locally combine affordability with nutritional adequacy and provide a viable avenue of capacity-building towards sustainable and fair diet planning in line with Sustainable Development Goals on Zero Hunger and Good Health.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Financial, healthcare, and digital services have also been transformed by artificial intelligence (AI) with generative AI being used to create content, reason, and support interactive decision-making <ref type="bibr" target="#b0">[1]</ref>, <ref type="bibr" target="#b1">[2]</ref>. Nevertheless, the majority of systems are responsive and do not have long-term planning or goal-seeking independence. The This paper was presented at the IEEE International Conference on Computing and Applications (ICCA 2025), <ref type="bibr">Bahrain.</ref> gaps are filled in agentic AI, which involves combining action loops based on planning, monitoring, memory and tools, and facilitating goal-directed behaviour <ref type="bibr" target="#b2">[3]</ref>, <ref type="bibr" target="#b3">[4]</ref>. Gartner estimates that in 2028, agentic-AI will be present in one-third of applications <ref type="bibr" target="#b4">[5]</ref>.</p><p>With these developments, household decisionmaking, especially at the point of budgeting and nutritional requirements, is under-served. Current tools monitor expenses or suggest meals but do not combine financial constraints, nutritional needs and real-time prices <ref type="bibr" target="#b5">[6]</ref>. Low quality of diet increases long term health risks <ref type="bibr" target="#b6">[7]</ref>, particularly among the low income families, which explains the applicability to SDG-2 and SDG-3.</p><p>This work presents a model of agentic-AI that integrates the real-time price monitoring, budgeting, nutritional maximization, and customized dietary restrictions. The system takes into account the market changes and health needs by using a multiagent architecture and cost-sensitive optimization with substitution graphs to adapt the household menus. Saudi household simulations reveal 12-18 % of cost reduction, and more than 95 % nutrient adequacy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. BACKGROUND</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Healthy Diet Fundamentals</head><p>Healthy diets are not only preventive of chronic disease, but must contain balanced macronutrients, sufficient amounts of vitamins and minerals, and minimal amounts of sugars, saturated fats, and sodium <ref type="bibr" target="#b7">[8]</ref>, <ref type="bibr" target="#b8">[9]</ref>. FAO focuses on different kinds of foods such as fruits, vegetables, legumes, whole grains, lean proteins, and dairy <ref type="bibr" target="#b9">[10]</ref>. Iron, calcium and omega-3 fatty acid deficiencies are still common across the globe <ref type="bibr" target="#b10">[11]</ref>. Cultural and religious considerations including halal rules and Ramadan fasting also influence the preferences of the arXiv:2512.20991v1 [cs.AI] 24 Dec 2025 diet and promote flexible and individualized planning of meals <ref type="bibr" target="#b11">[12]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Personal Finance for Households</head><p>Financial management is important to the stability of the household. Whilst guidelines like the 50/30/20 rule are helpful in providing a framework, they might not be suitable to low and middle-income families <ref type="bibr" target="#b12">[13]</ref>. In most middle-income areas, the proportion of food to income is 15-25 % and increases with inflation <ref type="bibr" target="#b13">[14]</ref>. By combining nutrition and budgeting, food resources, which are limited in number, can be allocated more effectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Agentic AI Concepts</head><p>Agents AI combine perception, memory, planning and self-monitoring in a loop <ref type="bibr" target="#b14">[15]</ref>. It drives the retail, travel, and shopping agents that operate round the clock, but most of them are aimed at convenience, not health or financial welfare <ref type="bibr" target="#b14">[15]</ref>. A household decision support is a new direction that can be achieved through integrating nutritional science, economic modeling, and dynamic pricing into an agentic architecture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RELATED WORK</head><p>Literature on the relationship between household finance and optimal diets is scarce, encompassing Fin-Tech, diet planners, and agentic AI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Budgeting and Financial Technologies</head><p>FinTech apps (Mint, YNAB, PocketGuard) track revenues and sort expenditures but are reactive and hardly take nutrition or health into account <ref type="bibr" target="#b15">[16]</ref>. Newer systems combine constrained health information with no dynamic adjustments of prices or supplies <ref type="bibr" target="#b16">[17]</ref>- <ref type="bibr" target="#b18">[19]</ref>. These are further extended by our framework to optimize budgets and nutrition jointly in the face of changing prices in real-time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Diet Planners and Nutritional Optimization</head><p>The classical least-cost models <ref type="bibr" target="#b19">[20]</ref> have developed to include nutrient databases and sustainability restrictions <ref type="bibr" target="#b20">[21]</ref>- <ref type="bibr" target="#b23">[24]</ref>. The majority of them disregard domestic realities, including shared budgets, multigenerational requirements, cultural inclinations, and variable prices, and do not offer personalization. These gaps are filled with our system with real-time, priceaware dietary optimization. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Agentic AI Systems in Consumer Domains</head><p>Agentic AI aids retail <ref type="bibr" target="#b24">[25]</ref>, travel <ref type="bibr" target="#b25">[26]</ref>, and consumer assistance <ref type="bibr" target="#b26">[27]</ref>, however there is little domestic finance or nutrition.Current diet applications are generic chatbots that do not have financial logic, personalization, or adaptive replanning <ref type="bibr" target="#b27">[28]</ref>. Earlier-developed work is siloed: FinTech applications are used to handle budgets, nutrition applications handle intake, and agentic systems handle individual tasks. FinAgent incorporates autonomous replanning, cultural rules, family budgets, personalized nutrition, and real-time pricing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. PROPOSED FRAMEWORK</head><p>The system is an agentic-AI system that jointly optimizes food budgeting and nutritional adequacy in households and responds to supermarket prices, cultural restrictions, and health limitations. A multiagent system will be coordinated into a budgeting, nutrition, cultural knowledge, substitution strategies, and real-time price monitoring system to generate cost-effective weekly meal plans (Figure <ref type="figure" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. System Requirements and Assumptions</head><p>The household income and expenses, demographics, health conditions, nutrient references, cultural rules, and real-time supermarket prices are the inputs in (Table <ref type="table">I</ref>). The weekly food budget B w is calculated using the disposable income and it is overlaid on aggregate household nutrient needs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Multi-Agent System Architecture</head><p>Agents coordinate via a shared knowledge base (Figure <ref type="figure" target="#fig_1">2</ref>):</p><p>TABLE I: Core input requirements and data sources Category Examples / Source Income &amp; Expenses Salary, rent, utilities, school fees Family Profile Age, gender, activity level, household size Health Constraints Deficiencies, allergies, sodium limits, diabetic diets Price Feeds Supermarket APIs, real-time scraping Nutrition References WHO, FAO, USDA dietary guidelines Cultural Preferences Halal rules, local cuisine, seasonal foods • Budget Agent: Computes B w . • Price Monitor: Detects price shocks and triggers re-planning. • Nutrition Agent: Ensures macro-and micronutrient adequacy. • Health Personalizer: Adjusts nutrient targets for medical needs. • Cultural &amp; Preference Agent: Enforces dietary rules. • Substitution Agent: Suggests alternatives via a substitution graph. • Procurement Agent: Converts plans to shopping lists. • Explainer Agent: Provides transparent reasoning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Data and Optimization Model</head><p>Agents share a knowledge base with food ontology, substitutions, household profiles, and prices. Meal planning is formulated as a linear program (LP):</p><p>Indices and Variables:</p><p>• j ∈ J: food items • n ∈ N : nutrients • m ∈ H: household members • x j ≥ 0: quantity of food item j Parameters:</p><p>• p j : item price • c j,n : nutrient content • r m,n : recommended intake • R n = m∈H r m,n : household requirement • B w : weekly budget LP Formulation:</p><formula xml:id="formula_0">Z = j∈J p j x j (<label>1</label></formula><formula xml:id="formula_1">)</formula><formula xml:id="formula_2">j∈J c j,n x j ≥ R n , ∀n ∈ N (2) j∈J p j x j ≤ B w<label>(3)</label></formula><p>x j ≥ 0, ∀j ∈ J</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Price-Aware Adaptation</head><p>Price shocks are detected if</p><formula xml:id="formula_4">|p j,t -p j,t-1 | p j,t-1 &gt; τ, τ ≈ 0.10</formula><p>triggering substitutions and LP re-solving for costefficient meal continuity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Health Personalization</head><p>The Health Personalizer calculates r m,n in real time, modifying R n and constraints, to achieve personalized, adaptive plans. TABLE II: Implementation summary of major system components Category Technology / Source Optimization Engine Python (PuLP, OR-Tools) Agent Orchestration Multi-agent LLM coordination with rule-based triggers Database Layer Household profiles, nutritional tables, health metadata Frontend Interface Lightweight API-driven web UI Price Integration Real-time supermarket APIs and verified scrapers Cloud Infrastructure Containerized deployment with caching and autoscaling</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. System Workflow</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. IMPLEMENTATION</head><p>Its implementation focuses on modularity, realtime responsiveness, privacy and transparency. The system has subsystems, the LP optimizer, multi-agent orchestration, data management, and price interfaces, which are independent and interact via API, allow scaling, fault isolation and efficient updates. Table II summarizes the main system components and the technologies used for each.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. System Workflow and Integration</head><p>The LP engine provides real-time nutritional, cultural and budgetary constraints resulting in interpretable solutions. The orchestration layer deals with the communication between agents through event-based stimuli and common knowledge. Structured data are stored in relational databases; high frequency signals are stored in memory. The UI inputs are taken and weekly plans visualized; all the decision-making is made by autonomous agents. The concept of privacy-first is used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Data Sources</head><p>Traceability and repeatability are guaranteed by three distinct data types:</p><p>1) Real Supermarket Data: Price feeds by Panda, Carrefour and Lulu are generated using authenticated API and vetted scrapers containing price history of individual items, availability indicators and category attributes. Updated daily.</p><p>2) Authoritative Nutritional References: Nutrient values of USDA, FAO, and WHO will be harmonized to GCC dietary standards. All items are mapped using a unified ontology.</p><p>3) Synthetic Household Profiles: Households having incomes between 5,000-15,000 SAR, 2-6 individuals, dietary habits (halal, vegetarian, lowsodium), and health conditions influencing nutrient requirement are created</p><p>TABLE III: Weekly Food Cost Comparison (SAR, 4-Person Household; mean ± SD) Method Mean Cost Savings Nutrition Adequacy (%) Fixed Menu 480 ± 15 -85 Static Optimization 440 ± 12 8% 92 Manual Planning 455 ± 18 5% 88 Agentic AI 415 ± 14 13-18% 97</p><p>by means of stratified sampling using World Bank and CEIC distributions <ref type="bibr" target="#b28">[29]</ref>. Simulation of market volatility is on price shocks of ±10%-±30%. Fixed randomly selected seeds will yield reproducibility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Evaluation Protocol</head><p>Two complementary assessments are done, synthetic simulations and a real Saudi household case study.</p><p>1) Synthetic Experiments: 100 synthetic households are experimented in 12 conditions of price-shocks, repeated 10 times. Metrics include:</p><p>• Cost efficiency: savings versus static baseline, • Nutritional adequacy: proportion of R n attained, • Adaptivity: re-planning success rate. Variance and confidence intervals are reported.</p><p>2) Real Household Case Study: A four-week comparison of an adaptive vs. static plans of reducing costs, covering nutrients, and practical feasibility is done through a Saudi household. Anonymized non-sensitive data is kept only.</p><p>This design facilitates the controlled quantitative analysis and validation in real-life.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. EVALUATION AND PERFORMANCE METRICS</head><p>The three cases used are (i) synthetic simulations, (ii) ablation experiments and (iii) a real Saudi home case study. Measures were cost efficiency, nutritional adequacy and price shock adaptability. Synthetic experiments were done on 200 households (mean ± SD). The case study was four weeks long; the experiment involved 312 food items.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Cost Efficiency</head><p>Cost efficiency was evaluated with respect to fixed weekly menus, fixed optimization, and manual planning. In 30 trials, the agentic system led to a consistent decrease in weekly costs but high nutrient adequacy. Table <ref type="table">III</ref> shows savings of 13-18% relative to fixed menus. TABLE IV: Adaptivity to Price Shocks (4-Person Household; mean cost over 30 runs) Scenario Static Plan Agentic AI Adequacy Maintained? Chicken +20% 495 425 Yes Fish -15% 465 410 Yes Rice +30% 510 445 Yes Mixed ±20% 500 430 Yes</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Nutritional Adequacy</head><p>Sufficiency of Protein, Vitamin D, Iron and Calcium was compared with RDAs. The agentic AI attained ≥95% in terms of nutrients, compared to static and manual plans, especially Iron and Vitamin D (Figure <ref type="figure" target="#fig_4">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Adaptivity Under Price Shocks</head><p>Major food were subjected to price shocks of ±10%, ±20%, ±30%. Re-optimization was initiated at τ = 0.1. Table <ref type="table">IV</ref> and Figure <ref type="figure" target="#fig_5">5</ref> indicate that the plans of static surpassed the budgets, whereas agentic AI were affordable and sufficient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Ablation Studies</head><p>Eliminating the Price Monitor would increase the weekly costs by 9 percent, disabling Health Personalizer dropped Vitamin D adequacy to 70 percent, and eliminating the Preference Agent led to duplicated menus and decreased user satisfaction (3.2 vs. 4.4). Each of the modules is necessary to the performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Case Study: Saudi Household</head><p>A four-week evaluation with a Saudi household (10,000 SAR/month) showed:</p><p>• Average grocery cost: 1,660 SAR (17% reduction),</p><p>• Nutritional adequacy: ≥95% including Vitamin D, • Price shock handling: 20% chicken increase mitigated via lentil/sardine substitution, • User feedback: cost transparency 4.5/5, cultural relevance 4.2/5. Figure <ref type="figure" target="#fig_6">6</ref> illustrates weekly plan adaptations under market changes.  VII. DISCUSSION AND CONCLUSION Synthetic simulations, ablation studies, and a fourweek Saudi household case study show that the agentic AI framework delivers high nutritional adequacy, cost efficiency, and culturally appropriate meal plans. The actual implementation of the program resulted in a fourmember family having ≥95% nutrient coverage, adherence to halal and Ramadan diets, and a 17% decrease in grocery expenditure.</p><p>Robustness is confirmed by experiments with 200 homes over 30 runs: weekly spending decreased by 12-18% compared to fixed and static baselines, and the system remained stable against ±30% price shocks, automatically re-optimizing while maintaining dietary sufficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and Ethics</head><p>Data. Price feeds that are semi-real-time and comprehensive nutrient tables are required; data that is sparse can be a performance problem. Imputation and regionspecific datasets should be included in the future work.</p><p>Privacy. Household information is sensitive, and ondevice calculation, differential protection, encryption, and retention under the user control reduce risks.</p><p>Bias. Recommendations can be skewed with databases or assumptions. They need auditing, constraints of fairness and culturally adaptive food ontologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion and Future Work</head><p>Multi-agent system will be used to harmonize budget modeling, nutritional optimization, and price-sensitive adaptation to provide affordable nutritional plans. The next steps involve the large scale deployment, long term compliance studies, as well as connection with loyalty programs, subsidies and school meals, with ethical governance that provides transparency, accountability, and user confidence.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Architecture of the agentic AI framework integrating budgeting, nutrition, cultural preferences, and price awareness</figDesc><graphic coords="2,311.98,51.62,251.05,149.77" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Multi-agent workflow illustrating inter-agent collaboration through the shared knowledge base</figDesc><graphic coords="3,48.96,191.15,251.04,86.97" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: End-to-end workflow from data collection to adaptive re-planning</figDesc><graphic coords="3,311.98,51.62,251.05,91.40" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 shows the sequence: 1 ) 2 ) 3 ) 7 )</head><label>1237</label><figDesc>Figure 3 shows the sequence: 1) Data ingestion: Populate knowledge base. 2) Budget computation: Estimate B w . 3) Nutrient profiling: Compute R n . 4) LP optimization: Generate baseline plan. 5) Monitoring: Detect price deviations. 6) Substitution &amp; re-optimization: Update LP with alternatives. 7) Plan generation: Shopping list output. 8) Explanation: Justification for decisions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 :</head><label>4</label><figDesc>Fig. 4: Nutritional adequacy across planning methods (mean over 30 runs).</figDesc><graphic coords="5,48.96,51.62,251.05,70.80" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 :</head><label>5</label><figDesc>Fig. 5: System adaptability under price shocks (SD over 30 runs).</figDesc><graphic coords="5,311.98,51.62,251.04,112.52" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 :</head><label>6</label><figDesc>Fig. 6: Weekly adaptation of meal plans during the fourweek Saudi household case study.</figDesc><graphic coords="5,333.80,215.56,207.42,141.73" type="bitmap"/></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Language models are few-shot learners</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ryder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Subbiah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1877" to="1901"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Gpt-4 technical report</title>
+		<author>
+			<persName><surname>Openai</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/2303.08774"/>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. Rep.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Generative to agentic ai: Survey, conceptualization, and challenges</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2504.18875</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Generative agents: Interactive simulacra of human behavior</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Bernstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology</title>
+		<meeting>the 36th Annual ACM Symposium on User Interface Software and Technology</meeting>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page" from="1" to="22"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><surname>Gartner</surname></persName>
+		</author>
+		<ptr target="https://www.gartner.com/en/articles/intelligent-agent-in-ai"/>
+		<title level="m">Gartner predicts 2025: Agentic ai in enterprises</title>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Correlating health and wellness analytics for personalized decision making</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Idris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khattak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Weiwei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Afzal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2015 17th International Conference on e-Health Networking, Application &amp; Services (HealthCom)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="256" to="261"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Food and nutrition science: the new paradigm</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leitzmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asia Pacific Journal of Clinical Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="15"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Organization</surname></persName>
+		</author>
+		<ptr target="https://www.who.int/news-room/fact-sheets/detail/healthy-diet"/>
+		<title level="m">Healthy diet fact sheet</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Trends in vitamin d status around the world</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Lips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>De Jongh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Van Schoor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Bone and Mineral Research Plus</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">10585</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Fao nutrition and food systems report</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<ptr target="https://www.fao.org/nutrition/en/"/>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Interventions for micronutrient deficiency control in developing countries: past, present and future</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3875S" to="3878S"/>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Impact of ramadan fasting on dietary intakes among healthy adults: a year-round comparative study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shatila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baroudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E S</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chehab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Abbas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Faris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Naja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">689788</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Financial planning behaviour: A systematic literature review and new theory development</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H K</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-J</forename><surname>Yii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Financial Services Marketing</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="979" to="1001"/>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Food security update</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bank</surname></persName>
+		</author>
+		<ptr target="https://www.worldbank.org/en/topic/agriculture/brief/food-security-update"/>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The rise of agentic ai: A review of definitions, frameworks, architectures, applications, evaluation metrics, and challenges</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kongari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Naguru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pasnoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vilipala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future Internet</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">404</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Challenges and trends of financial technology (fintech): A systematic literature review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Suryono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Budi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Purwandari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">590</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Data-driven optimal dynamic pricing strategy for reducing perishable food waste at retailers</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kayikci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Demir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mangla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Koc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cleaner Production</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page">131068</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The impact of inflation on local government fiscal health</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Martell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Budgeting, Accounting &amp; Financial Management</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="234" to="252"/>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Exploring the role of reinforcement learning in personal finance management: A comprehensive literature survey</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nalawade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Yunnus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Shankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Balasaheb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Aspan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Recent Advances in Engineering and Technology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="21" to="26"/>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The cost of subsistence</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Stigler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Farm Economics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="303" to="314"/>
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Diet optimization techniques: A review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Babalola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Ojokoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Odili</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2020 International Conference in Mathematics, Computer Engineering and Computer Science (ICMCECS)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="1" to="5"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The cost of eating more sustainable diets: A nutritional and environmental diet optimisation study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Verly-Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>De Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M L</forename><surname>Marchioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Darmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1073" to="1086"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Diet optimization for sustainability: Indigoo, an innovative multilevel model combining individual and population objectives</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rocabois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tompa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vieux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gazan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">12667</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The price of nutrition: Can household food budgets support a healthy diet?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Acharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Halder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asian Journal of Food Research and Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="893" to="902"/>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Towards better interaction between salespeople and consumers: the role of virtual recommendation agent</title>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Saad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Choura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="858" to="903"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An overview of recent advances in distributed coordination of multi-agent systems</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Unmanned Systems</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="307" to="325"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">An llmbased behavior agent with natural language personality control: Enabling trait-driven npc decision-making through prompt engineering</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Tarigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wijaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Salim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hardi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Engineering, Technology &amp; Applied Science Research</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="26" to="827"/>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A systematic review of artificial intelligence chatbots for promoting physical activity, healthy diet, and weight loss</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-L</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fukuoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Behavioral Nutrition and Physical Activity</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">160</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Global economic data, indicators, charts &amp; forecasts</title>
+		<author>
+			<persName><surname>Ceic</surname></persName>
+		</author>
+		<ptr target="https://www.ceicdata.com/en"/>
+		<imprint>
+			<date type="published" when="2025-09-28">2025. 28 September 2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cooperative Game Theory Model for Sustainable UN Financing: Addressing Global Public Goods Provision</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-02-13">13 Feb 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Labib</forename><surname>Shami</surname></persName>
+							<email>labibs@wgalil.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Economics</orgName>
+								<orgName type="institution">Western Galilee College</orgName>
+								<address>
+									<settlement>Acre</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Teddy</forename><surname>Lazebnik</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Information Systems</orgName>
+								<orgName type="institution">University of Haifa</orgName>
+								<address>
+									<settlement>Haifa</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Computing</orgName>
+								<orgName type="institution">Jonkoping University</orgName>
+								<address>
+									<settlement>Jonkoping</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cooperative Game Theory Model for Sustainable UN Financing: Addressing Global Public Goods Provision</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-02-13">13 Feb 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">98328C1D2F9F1D68BF1FB6369013BB6E</idno>
+					<idno type="arXiv">arXiv:2602.15062v1[physics.soc-ph]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-04T16:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Cooperative Games</term>
+					<term>Noncooperative Games</term>
+					<term>Public Goods</term>
+					<term>Nash Equilibrium</term>
+					<term>Lindahl Equilibrium</term>
+					<term>Trading Equlibrium JEL Classification: C71</term>
+					<term>C72</term>
+					<term>H41</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study introduces a novel cooperative game theory model designed to improve the United Nations' current funding mechanisms, which predominantly rely on voluntary contributions. By shifting from a Nash equilibrium framework, where member states act in self-interest, to a cooperative model, the proposed approach aligns each country's financial contributions with the benefits they derive from UN activities. The model ensures a more sustainable and equitable system by introducing personalized pricing based on derived utility. Using agent-based simulations, the research demonstrates that the suggested approach increases global utility, reduces free-rider issues, and creates a more efficient resource allocation system. The findings suggest that the proposed model can optimize UN funding, ensuring a more stable and effective framework for global public goods provision, while considering the varying economic capacities of member states. Further research is recommended to assess the political viability of the model.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The financing mechanisms of international organizations are crucial for their effectiveness and operational viability. The United Nations (UN), as a leading global governance entity and multilateral organization, plays a vital role in addressing international challenges, from peace and security to humanitarian crises and development needs. Optimizing the UN's funding structure and ensuring its sustainability are crucial for enhancing its capacity to effectively address global challenges.</p><p>The UN relies on both the political will and funding of member states to implement its mandates and fulfill multilateral functions. Its financing mechanisms have evolved in an attempt to balance financial responsibilities among member states and adapt to changing global dynamics. The United Nations' funding landscape is characterized by a diverse array of sources, reflecting the organization's global reach and multifaceted responsibilities. These funding mechanisms, which have evolved over time, include mandated assessments, voluntary contributions, and trust funds. This multifaceted funding structure has profoundly influenced the UN's operational capabilities and ability to respond to complex international issues while navigating the intricacies of resource allocation and strategic prioritization.</p><p>Financial contributions are indispensable to the UN's core operations in peacekeeping, humanitarian aid, and development. Thus, inadequate funding can compromise aid deployment efficiency, potentially exacerbating human suffering in crises. Sustained funding is crucial for achieving long-term development goals such as poverty reduction, healthcare improvements, and educational advancements, while unpredictable funding constrains the UN's ability to plan and execute strategies effectively. As global issues become more complex, financial contributions from member states have grown increasingly precarious, raising concerns about funding sustainability and predictability. This necessitates a reassessment of funding strategies to enhance organizational resilience and effectiveness.</p><p>The inconsistent and sometimes inadequate financial contributions from member states create significant challenges across various operational areas. One of the critical issues surrounding the UN's funding is the increasing trend toward earmarked contributions, which can limit the flexibility of resource allocation. As noted by <ref type="bibr" target="#b6">Campos (2018)</ref>, the decentralized funding model allows donor countries to exert influence over specific programs, potentially skewing priorities away from broader UN objectives <ref type="bibr" target="#b6">(Campos, 2018)</ref>. This situation raises concerns about the sustainability of UN operations, as the reliance on voluntary contributions can lead to funding shortfalls for essential programs, particularly in humanitarian and development sectors <ref type="bibr" target="#b5">(Browne, 2017)</ref>. The earmarking of funds, while beneficial for specific projects, can undermine the principles of multilateralism that the UN is built upon, as highlighted by <ref type="bibr" target="#b5">Browne (2017)</ref>.</p><p>Moreover, the UN's funding challenges are exacerbated by geopolitical dynamics and the shifting priorities of member states. The reduction of contributions from major donors, particularly during the Trump administration, has sparked debates about the UN's financial viability and its capacity to maintain peacekeeping missions and humanitarian efforts <ref type="bibr" target="#b0">(Abdenur, 2019)</ref>. The implications of such funding cuts are profound, as they not only affect immediate operational capabilities but also the long-term strategic goals of the organization. <ref type="bibr" target="#b13">Coleman (2017)</ref> points out that reforming financing for UN peacekeeping is particularly challenging due to the politicized nature of these contributions. These financial uncertainties extend beyond peacekeeping, affecting crucial sectors such as humanitarian aid and development. The UN frequently depends on voluntary contributions, which can vary with changing political climates and donor priorities. This results in a fragmented financial environment, often leading to sporadic and insufficient funding windows that threaten both current and future programs.</p><p>Despite proposals for reforms aimed at stabilizing and increasing the predictability of funding, entrenched political and structural obstacles continue to impede progress. Tackling these challenges is essential for the UN to effectively fulfill its global mandates and achieve its long-term goals in peacekeeping, humanitarian aid, and development. To enhance its capacity to provide global public goods, the UN has considered negotiated pledges or replenishments as a funding mechanism that merges core funding features-particularly the delegation of autonomy-with the interests of member states in specific areas <ref type="bibr" target="#b4">(Baumann and Haug, 2024;</ref><ref type="bibr" target="#b32">Jenks and Jones, 2013)</ref>. However, to date, negotiated pledges have only been implemented in the International Fund for Agricultural Development (IFAD) and the UN climate funds. This research introduces a novel funding approach to ensure sustainable UN operations financing, mitigating budgetary uncertainties. The proposed mechanism aims to optimize benefits for individual member states (individual utility) while maximizing the global impact of UN initiatives (global utility). It creates a stable financial ecosystem where member states are incentivized to maintain their commitments, as deviations would negatively impact individual and collective benefits. This is achieved by implementing a cooperative game theory model based on tailored pricing structures for each member state. This approach seeks to establish a robust, self-sustaining financial framework that aligns member states' interests with the UN's global objectives, fostering long-term stability and effectiveness in UN operations.</p><p>The provision of public goods such as healthcare, public education, or global public goods, is critical for governments and citizens alike <ref type="bibr" target="#b53">(Wyrobek et al., 2022;</ref><ref type="bibr" target="#b19">Deneulin and Townsend, 2007;</ref><ref type="bibr" target="#b35">Kindleberger, 1981)</ref>.</p><p>Theoretically, agents in an economy should prefer to allocate some, if not most, of their resources to public goods organized by an all-known agent <ref type="bibr" target="#b2">(Andreoni, 1988)</ref>. In many cases, these theoretical predictions are not realized as they assume all agents in the economy are symmetric <ref type="bibr" target="#b22">(Fischbacher and Gachter, 2010)</ref>. Indeed, in reality, agents express different types of asymmetry such as unique utility functions <ref type="bibr" target="#b48">(Shi, 2019)</ref> or even the available information about the economy's state <ref type="bibr" target="#b36">(Mailath and Postlewaite, 1990)</ref>. Recent studies focusing on the computational aspect of the economy even show different computational capabilities between agents <ref type="bibr" target="#b51">(Tesfatsion, 2002;</ref><ref type="bibr" target="#b10">Chen, 2012;</ref><ref type="bibr" target="#b1">Alexi et al., 2023)</ref>.</p><p>In a narrower context, the COVID-19 pandemic highlighted the critical need for global cooperation in addressing public health crises <ref type="bibr" target="#b14">(Conti, 2020;</ref><ref type="bibr" target="#b52">WHO, 2022)</ref>. Given the transnational nature of infectious diseases, isolated national responses are insufficient <ref type="bibr" target="#b21">(Emeto et al., 2021;</ref><ref type="bibr" target="#b31">Imtyaz et al., 2021)</ref>. Indeed, <ref type="bibr" target="#b55">Zhang (2021)</ref> proposes that cooperative financing for public health goods, particularly in pandemic preparedness and response, is essential to mitigate the impact of such global challenges. The cooperative financing model involves determining individual contributions to public goods based on each participant's ability to pay and the benefits they receive. This approach mirrors personalized Lindahl pricing, ensuring a fair and efficient distribution of costs. To this end, pandemics require a global cooperative approach due to varying national health capacities <ref type="bibr" target="#b33">(Kandel et al., 2020)</ref>. A cooperative financing model can equalize resource distribution for pandemic preparedness activities like surveillance, research, and healthcare infrastructure development.</p><p>While such cooperation is specific and theoretically should include all countries globally, more sustainable cooperation with politically intervened countries, such as United Nations (UN) member states, is of great importance.</p><p>This paper depicts two well-known models for public goods allocation -the Nash and Lindahl equilibria.</p><p>Although the Nash equilibrium outcome is conceptually appealing, it is not Pareto efficient 1 . The possibility of social failure in the form of free riders encouraged many scholars to look for methods to overcome the inefficiency of the Nash equilibrium allocation <ref type="bibr" target="#b50">(Shitovitz and Spiegel, 2001;</ref><ref type="bibr" target="#b41">Peleg, 1986;</ref><ref type="bibr" target="#b12">Coase, 1960)</ref>. Such a line of thought was developed by applying the Lindahl equilibrium conditions to the Nash allocation in an attempt to exploit the efficiency property inherent in the Lindahl cooperative equilibrium <ref type="bibr" target="#b20">(Dijkstra and Nentjes, 2020;</ref><ref type="bibr" target="#b9">Chen and Zeckhauser, 2018;</ref><ref type="bibr" target="#b42">Perets et al., 2012)</ref>. However, each of these studies presented limitations (for example, limiting the analysis to a single public good, symmetry among the economic agents, and a certain type of utility function) that prevented reaching general results regarding the existence and uniqueness of the allocation -both for confirmation or refutation of these properties. Recall that although the Lindahl equilibrium allocation in a public goods economy is efficient, it does not necessarily Pareto dominate the Nash equilibrium bundle <ref type="bibr" target="#b49">(Shitovitz and Spiegel, 1998)</ref>. This conclusion, which has been affirmed in many studies <ref type="bibr" target="#b42">(Perets et al., 2012;</ref><ref type="bibr" target="#b49">Shitovitz and Spiegel, 1998;</ref><ref type="bibr" target="#b12">Coase, 1960)</ref>, prevents individuals from preferring the Lindahl bundle over their Nash allocation.</p><p>To develop the model proposed in the study, we adopt <ref type="bibr">Perets et al.'s (2012)</ref> model -the "Trading Equilibrium" -which is based on a personalized price mechanism that yields a core allocation that strictly Pareto dominates the unique Nash allocation. The importance of the "Trading Equilibrium" is that it provides an efficient cooperative solution that Pareto dominates the non-cooperative Nash equilibrium. We develop a prescriptive model that takes the Nash Equilibrium as the starting point, under the assumption that the current financing model of the UN's activities (and in particular the amounts each country chooses to contribute beyond the amount it is obliged to transfer in practice) is obtained in accordance with the Nash equilibrium.</p><p>From there, we consider a Pareto-improving path that relies on the principles of the Lindahl Equilibrium.</p><p>However, unlike <ref type="bibr">Perets et al.'s (2012)</ref> model with one private and one public goods, we consider a model with a finite number of consumption (private) and public goods.</p><p>A generalization of the model to account for multiple private and public goods is essential when modeling the environment in which the United Nations operates, as it provides a range of global public goods. This phase of the research is critical, as it involves applying a model that reflects the economic framework governing member states' contributions to the financing of United Nations activities in the provision of global public goods. The incorporation of <ref type="bibr">Perets et al.'s (2012)</ref> model, originally developed and validated However, if resources are allocated in an economically efficient manner, it does not imply equality or fairness.</p><p>for a single private and public good, is a pivotal step. The initial stage of this study will, therefore, establish the existence and uniqueness of the Trading equilibrium within an extended version of the model, which includes a finite number of both private and public goods. This extension is necessary to align the model with the research objectives, enabling its application to more complex scenarios involving the provision of global public goods by the various UN entities.</p><p>Based on the newly proposed model, we prove the existence of Nash and Trading equilibria allocations and show that their unity is guaranteed. Moreover, we demonstrate achieving the predicted Trading equilibrium using computer simulation and historical data of the sum of the contributions in each fund channel from each member country to finance UN activities. In particular, we show that the proposed model provides a computational framework to investigate and simulate international cooperation with countries that have asymmetric objectives and resources, making the proposed model highly realistic and implementable.</p><p>The rest of the paper is organized as follows. Section 1 provides an overview of the United Nation's funding model and the public goods economy theory. Section 2 provides a formal definition of the model as well as the proofs for the existence and uniqueness of the Nash and Trading equilibria allocations. Section 3 outlines a computer simulation that implements the proposed model for the UN funding. Finally, section 4 evaluates the framework's potential impact and concludes with recommendations for policy and future research directions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Related work</head><p>In this section, we provide the theoretical and applied background used in the proposed theoretical analysis and the computer simulation. Initially, we briefly review the structure of the UN's past and present funding models. Next, we present the development of multi-agent economics equilibria evolution from the Nash equilibria to the Trading equilibria.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">The United Nations' funding models and their development</head><p>The United Nations' financial framework has undergone considerable transformation since its inception in 1945. Initially, the funding model combined voluntary contributions, mandatory assessments, and the estab-lishment of trust funds, each of which played a vital role in supporting the organization's diverse functions.</p><p>This diversified funding approach sought to equitably distribute financial obligations among member states, thereby enabling the UN to function efficiently while maintaining broad political legitimacy.</p><p>The evolution of the UN's early financing mechanisms underscores a continuous pursuit of financial stability and effectiveness. Assessed contributions were designed to provide a consistent and fair flow of resources, while voluntary contributions and trust funds offered the flexibility and targeted support necessary to address specific global issues. Analyzing these early funding structures reveals the inherent complexities and trade-offs in international financing, and underscores the ongoing necessity for innovative strategies to ensure the UN's sustained operation in an evolving global landscape.</p><p>In its formative years, the UN primarily depended on assessed contributions, a mandatory financing model based on the "Scale of Assessments," which was calculated through formulas agreed upon by all member states. This scale allocated financial responsibilities according to member states' capacity to pay, accounting for factors such as per capita income and debt burdens <ref type="bibr" target="#b29">(Haug et al., 2022)</ref>. The Scale of Assessments reflects the principle of "differentiated universality," which seeks to balance global inclusivity and fairness by considering the unique economic circumstances of individual countries <ref type="bibr" target="#b29">(Haug et al., 2022)</ref>. This system was designed to ensure a stable and predictable flow of financial resources, representing a collective commitment to international cooperation and shared responsibility.</p><p>The United Nations' reliance on assessed contributions proved inadequate in addressing the growing financial demands associated with its expanding array of activities, including peacekeeping, humanitarian assistance, and development programs. This financial shortfall led to the introduction of voluntary contributions, notably through initiatives such as the Expanded Program of Technical Assistance (EPTA). Unlike the regular budget, which is financed through mandatory assessments, programs under EPTA were supported by voluntary contributions from member states <ref type="bibr" target="#b26">(Graham, 2023)</ref>. This dual funding model-combining mandatory and voluntary sources-enabled the UN to adjust to shifting political and financial contexts, allowing for more flexible responses to global challenges.</p><p>Nevertheless, voluntary contributions, while providing flexibility, also introduced complexities and dependencies. These contributions are discretionary, with member states determining both the amount and the purpose of their funding. A significant subset of voluntary contributions is earmarked funding, wherein donors designate how their funds are to be utilized. Wealthier nations, in particular, have contributed disproportionately, gradually shifting the financial burden onto a smaller group of countries <ref type="bibr" target="#b26">(Graham, 2023)</ref>.</p><p>While this ensured the continuation of critical programs, it increased the UN's susceptibility to financial instability and political influence from its largest donors.</p><p>The creation of trust funds marked another significant evolution in the UN's financial mechanisms. Trust funds, often established for specific purposes such as emergency relief or development projects, allowed for targeted funding and greater donor involvement. They reflected an adaptation to the increasingly complex global landscape and donor preferences. The rise of trust funds presents an opportunity for the UN to diversify its funding sources and reduce dependency on traditional donor contributions <ref type="bibr" target="#b43">(Reinsberg et al., 2015)</ref>.</p><p>Although the UN's founders envisioned an organization primarily funded through assessed contributions, today the majority of its financial resources come from voluntary funding, which is provided at the discretion of donors who determine the amount, timing, and purpose of their contributions. Between 2011 and 2022, while the absolute amount of assessed contributions to the UN remained stable, their proportion within the overall funding structure has significantly decreased. In contrast, voluntary contributions, particularly earmarked funding, have seen notable growth in both absolute and relative terms, with other sources playing a relatively minor role. By 2022, assessed contributions accounted for only 18% of the UN's funding, while voluntary contributions made up 82% <ref type="bibr" target="#b4">(Baumann and Haug, 2024)</ref>. This dramatic shift in the UN's financing model has had significant consequences for multilateralism. While voluntary funding has allowed the UN to expand its financial resources and activities beyond what would have been possible through assessed contributions alone, it has simultaneously diminished the influence of intergovernmental bodies governed by multilateral processes and altered the accountability frameworks of many UN programs and agencies <ref type="bibr" target="#b25">(Graham, 2015)</ref>.</p><p>The discretionary nature of voluntary funding undermines inclusive multilateral decision-making, as individual donors can dictate priorities by deciding when and how much to contribute, thereby influencing the UN's capacity to fulfill its mandates. Financing is not merely a matter of volume, but also of the mechanisms through which funds are transferred, as these have important political and organizational ramifications. Critics have raised concerns about whether the current financing model is appropriate, given the increasing focus on the UN's normative roles and the provision of global public goods rather than project-based activities. Some argue that the most suitable method to fund the UN's normative and global work is through assessed contributions, or alternatively through voluntary core contributions. However, the growing trend of financing global functions through selective voluntary contributions from a small group of donors, who often pick and choose which norms to support, reflects an ongoing challenge in the UN's financial structure <ref type="bibr" target="#b32">(Jenks and Jones, 2013)</ref>.</p><p>In contrast to the current funding structure of the United Nations, which relies heavily on voluntary contributions, the proposed model is based on obligatory contributions from each member state, determined according to the specific benefits they derive from UN activities. This approach not only ensures greater financial stability but also promotes voluntary participation by aligning contributions with the perceived value of UN services. Each UN agency's activities are framed as global public goods, with the value each nation assigns to these activities reflected in the portion of its budget allocated to the services provided. The specific contribution, or "personal price," that each member state is obligated to provide is derived from a cooperative public goods model, which will be elaborated upon in the subsequent section. This model aims to establish a more equitable and efficient financial framework for the provision of global public goods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">The provision of public goods</head><p>In an economic framework characterized by private ownership of all commodities and wherein economic agents are uniformly characterized as "small," the first welfare theorem posits that the competitive equilibrium allocation achieves Pareto efficiency, subject to the condition of local non-satiation <ref type="bibr" target="#b3">(Arrow, 1951)</ref>.</p><p>Nevertheless, in economies featuring public goods, the efficiency of a competitive equilibrium is not assured.</p><p>Conventional neoclassical economic theory anticipates a suboptimal provision of public goods, attributing this to individuals engaging in free-riding behavior by leveraging the contributions of others. However, a voluntary public good contribution is observed in both the real world and laboratories <ref type="bibr" target="#b38">(McGinty and Milam, 2013)</ref>.</p><p>Based on Paul Samuelson's work, a public good is non-excludable and non-rivalrous, where no one can be excluded from its use and where the use by one does not diminish the availability of the good to others <ref type="bibr" target="#b46">(Samuelson, 1954)</ref>. This concept has been debated and modified over time. In The Affluent Society, John Kenneth Galbraith suggests that public goods are "things [that] do not lend themselves to production, purchase, and sale. They must be provided for everyone if they are to be provided for anyone, and they must be paid for collectively or they cannot be had at all." <ref type="bibr" target="#b24">(Galbraith, 1998)</ref>. Given the non-excludable and non-rival nature of public goods, they cannot be provided satisfactorily through a market mechanism but have to be provided through some form of public action (e.g. via taxation). The public provision does not necessarily entail government provision and public goods can be provided by other actors than governments.</p><p>The most common equilibrium concepts used in the theory of public goods economies are Nash and Lindahl equilibria. Both solution concepts are applied to the well-known economic problem of the private provision of public goods <ref type="bibr" target="#b17">(Danziger, 1976;</ref><ref type="bibr" target="#b15">Cornes and Hartley, 2007)</ref>. In Lindahl equilibrium, determining the level of public goods provided and their financing is solved by adapting the price mechanism so that an efficient allocation remains the result of voluntary market activities. By using the Lindahl approach, individuals face personalized prices (rather than some political choice mechanism or coercive taxation) at which they may purchase public goods. When the system of personalized prices is such that everyone prefers the same quantity of the public good, then the economy is in a Lindahl equilibrium. Since each individual buys and consumes the total levels produced of public goods, the price to producers is the sum of the prices individuals pay. Hence, in equilibrium, the supply at these prices equals common demand. Thus, Lindahl equilibrium assumes that the economy is cooperative and brings unanimity about public goods provision, with costs being shared proportionately to (marginal) benefits <ref type="bibr" target="#b49">(Shitovitz and Spiegel, 1998;</ref><ref type="bibr" target="#b44">Roberts, 1989)</ref>.</p><p>The Nash equilibrium suggests a solution that is based on the assumption that the economy is noncooperative. The amount of each public good purchased by any agent is determined independently. By taking the other consumers' purchases as given, each agent adjusts its purchase of the public goods to maximize utility. When each consumer is in a position where he has no incentive to change his purchase the economy is in Nash equilibrium. Because of consumers' myopic interests, one of the key results in the public good literature indicates that if there are at least two individuals, the Nash allocation is not Paretooptimal <ref type="bibr" target="#b17">(Danziger, 1976)</ref>. The inefficiency in non-cooperative games is mainly due to the existence of two consequences of market failures: the first is known as "The Free Rider Problem" which emphasizes the fact that the larger the number of agents, the more each agent is convinced that reducing his contribution will not reduce the size of the public good since the other agents will continue to contribute as before, regardless of the size of his contribution, and it is even possible that the agent will not contribute at all to the production of the public good and will only benefit from its consumption <ref type="bibr" target="#b27">(Hampton, 1987;</ref><ref type="bibr" target="#b34">Kim and Walker, 1984)</ref>. The second market failure is the "Tragedy of the Commons" which was first introduced by Hardin (1968) and deals with the conflict that arises between individuals in society regarding the provision of the common good when limited resources are exploited by those individuals. This leads to the inefficient and unsustainable use of resources, as individuals do not consider the long-term consequences of their actions. Non-cooperative individual actions lead to the overuse of common pool resources and under-provision of public goods. This ultimately leads to a depletion of resources that is not in the long-term interest of society.</p><p>Thus, as <ref type="bibr" target="#b12">Coase (1960)</ref> pointed out, when the economic agents behave according to the Nash equilibrium, they will look for trading opportunities that will generate efficient allocations which strictly Pareto dominates their (inefficient) Nash allocation. As <ref type="bibr" target="#b46">Samuelson (1954)</ref> showed, one could draw a demand or marginal rate of substitution, curve for each individual, and that their vertical summation is the relevant object to equate with the marginal rate of transformation between public and private goods at a Pareto optimum. That is, for each public good one has</p><formula xml:id="formula_0">∑ i∈N MRS i Y l -x i = RPT Y l -x i ,</formula><p>where RPT Y l -x i is the rate of technological substitution in production between public (Y l ) and private (x i ) goods. Since the Lindahl allocation is a vector of individual prices that satisfies the Samuelson criterion, it is always Pareto-optimal <ref type="bibr" target="#b23">(Foley, 1970)</ref>. Nevertheless, the Lindahl allocation, while Pareto efficient, does not Pareto dominate (utility-wise) the Nash allocation, since some agents might strongly prefer their Nash consumption bundle over their Lindahl consumption bundle (see <ref type="bibr" target="#b49">Shitovitz and Spiegel (1998)</ref> examples 1 and 2 on page 6).</p><p>Scholars have long compared the performance of these two equilibria in a public goods economy (Dijkstra and Nentjes, 2020; <ref type="bibr" target="#b17">Danziger, 1976)</ref>. With an explanatory purpose, <ref type="bibr" target="#b17">Danziger (1976)</ref> graphically compared the non-cooperative Nash equilibrium and the cooperative Lindahl equilibrium, with the understanding that the transition from the Nash to the Lindahl equilibrium can be considered as caused by an income and a substitution effect. According to his findings, in a sufficiently large economy, the transition from a Nash to a Lindahl equilibrium will benefit everybody. However, in small economies, an ethical evaluation of the scattering of advantages and disadvantages may be necessary before deciding whether or not the Lindahl equilibrium should be preferred to the Nash equilibrium.</p><p>In a seminal paper, <ref type="bibr" target="#b8">Champsaur (1975)</ref> provided proof that the core of an economy with one private good and one public good is a vN&amp;M stable set. Based on this result and the work of <ref type="bibr" target="#b41">Peleg (1986)</ref>, <ref type="bibr" target="#b50">Shitovitz and Spiegel (2001)</ref> showed that in the same model setup, there exists a core allocation that Pareto dominates the inefficient Nash allocation with a finite number n ≥ 2 of consumers. This result was generalized in <ref type="bibr" target="#b42">Perets et al. (2012)</ref> to such an economy with a mixed measure space of consumers. The authors introduced a new equilibrium concept called "Trading Equilibrium", which is based on a personalized price mechanism that yields a core allocation which strictly Pareto dominates the unique Nash allocation in that market. In an economy with one private good, one public good, and linearly additive production technology of the public good, and by using the Nash allocation as the consumers' initial bundle (an approach similar to Dijkstra and Nentjes (2020) and Chen and Zeckhauser ( <ref type="formula">2018</ref>)), the authors showed that the consumers will have the incentive to trade among them to achieve a different allocation which is efficient and Pareto dominates the one they currently have. The importance of the "Trading Equilibrium" is that it provides an efficient cooperative solution that Pareto dominates the non-cooperative Nash equilibrium. Unlike <ref type="bibr" target="#b17">Danziger's (1976)</ref> descriptive research method, these researchers used mathematical tools to obtain their results. However, their economy contained only one private and one public good. In the present study, we will relax this limitation and assume a finite number of private and public goods.</p><p>An interesting approach to the comparison between the models (albeit in a cooperative version of Nash equilibrium) was proposed by <ref type="bibr" target="#b20">Dijkstra and Nentjes (2020)</ref> in the area of environmental economics. The authors compare the Exchange-Matching-Lindahl (EML) solution (a bottom-up mechanism) and the Nash</p><p>Bargaining solution (a top-down mechanism) for the provision of one public good. Under the EML solution, countries are offered an exchange rate that specifies the ratio between global and national abatement. In equilibrium, exchange rates are such that each country demands the same amount from the world. This amount is the sum of all countries' supply, and the equilibrium is Pareto-efficient. Their results indicate that in a setting with two agents both mechanisms are equivalent. However, in a setting with more than two agents, EML benefits all agents. Unlike the current study, the researchers' work was limited to one public good and a quadratic utility function only.</p><p>As suggested in the studies reviewed, the use of cooperative game theory can help to address the issue of inefficient allocation in economies characterized by voluntary self-provision of public goods. However, this approach is not without its own challenges. Cooperative game theory can be difficult to implement in practice <ref type="bibr" target="#b17">(Danziger, 1976)</ref>, and the models can be complex and difficult to solve. Despite these challenges, the use of cooperative game theory can help to improve the efficiency of the provision of global public goods.</p><p>This is an important issue, as global public goods are essential for the functioning of society.</p><p>2 Public goods economy with asymmetric agents</p><p>Despite the Nash equilibrium allocation's lack of Pareto efficiency, economic agents, once having attained it, exhibit no incentive to deviate given the choices of their counterparts. This is where the Trading equilibrium intervenes. It takes the Nash allocation as a starting point as if it were the initial bundle for the agents and sets personalized prices for each public good. These prices are tailored to each agent in a manner conducive to facilitating trade, thereby engendering a utility increase for at least one agent while maintaining indifference for others. Consequently, the Trading equilibrium supersedes the Nash allocation in Pareto dominance.</p><p>Intuitively, consider a population of agents that can purchase (or contribute to) two types of goods:</p><p>private and public. The former contributes solely to the utility of the agent, while the latter contributes to the utility of all agents within the population. All the agents are rational and all-knowing. The overarching objective of the population, and by extension, the economy, is to converge towards a stable equilibrium state.</p><p>Formally, consider a pure public good economy with a finite-size set of agents (states), N := {1, ..., N}, which can purchase K := {1, ..., K} private goods and contribute to the production of L := {1, ..., L} pure global public goods. Each agent, i ∈ N, is endowed with a pre-defined strictly positive amount ω i = (ω 1 i , ..., ω K i ) ∈ R K ++ of the private goods. Let the vectors x i = (x 1 i , ..., x K i ) ∈ R K + represent units of the private goods each consumer, i ∈ N, decided to consume from his initial endowment. We assume that 0 ≤ x i ≤ ω i for all consumers. Each agent, i ∈ N, has a unique utility function u i (x i ,Y ) : R K+L → R, where</p><formula xml:id="formula_1">y i = (y 1 i , ..., y L i ) ∈ R L</formula><p>+ is the vector that represents units of global public goods that were produced by the contribution of agent i ∈ N from the private goods in his possession. Here, any public good can be produced by any private good on a one-to-one basis with a linear production function. Thus, the vector Y = (Y 1 , ...,Y L )</p><p>represents the total amount of the global public goods produced, such that Y l := ∑ i∈N y l i . Namely, each agent's utility is determined by the amount of private goods and the aggregated agents' contribution toward the production of public goods. In relation to the research topic, expenditures on private goods correspond to the budgets of individual government offices within each country, while contributions toward the production of public goods represent the obligatory financial contributions from member states to support the operations of various UN agencies.</p><p>In addition, let us assume that the utility functions of the agents, ∀i ∈ [1, . . . , N] : u i (x i ,Y ), are continuous, strictly quasi-concave, and that agents derive positive marginal utility from the private and public goods. This assumption is used to make sure the utility functions are aligned with these empirically measured. Hence, all commodities are strictly desired over R K+L ++ and agents are indifferent between all bundles on the boundary of R K+L + . Furthermore, we assume Ordinal Separability of the utility functions and the Strict Ordinal Normality for private and public goods (That is, increasing the amount of the private good or decreasing the amount of the public good will lead to an increase in the value of the marginal rate of substitution)</p><formula xml:id="formula_2">∂ MRS i Y l -x k i ∂Y l &lt; 0 ∧ ∂ MRS i Y l -x k i ∂ x k i &gt; 0, s.t. MRS i Y l -x k i = ∂ u i (x i ,Y ) ∂Y l ∂ u i (x i ,Y ) ∂ x k i .<label>(1)</label></formula><p>Based on this model definition, a rational agent aims to optimize its own utility function. One can identify two types of equilibria: the Nash and Trading equilibria. The utility does not originate in the initial allocation as it is drawn from the "strategy" which is the division of the initial allocation between the purchase of the private goods and the contribution to the production of the public goods. The Nash (or the voluntary) provision of pure public goods is characterized by the non-cooperative game theoretic notion of Nash equilibrium. Thus:</p><p>Definition 1. The Nash equilibrium in our economy is a N-tupple strategy s * = (s * 1 , ..., s * N ) such that:</p><p>1. For each i ∈ N, s * i = (x * i , y * i ) ∈ S i where:</p><formula xml:id="formula_3">S i =        (x i , y i ) ∈ R K+L + : ∑ k∈K x k i + ∑ l∈L y l i ≤ ∑ k∈K ω k i x k i ≤ ω k i ∀k ∈ K        2. For each l ∈ L we have Y * l = ∑ i∈N y l * i 3. For each i ∈ N we have U i (s * ) ≥ U i (s i , s * -i ) Where U i (s * ) = U i (s * 1 , ..., s * N ) = u i (x * i , ∑ j∈N (ω j -x * j )).</formula><p>Importantly, since the private and public goods in the proposed framework are by themselves symmetric in nature, we treat the allocation as a set rather than a vector. As such, symmetric allocations are treated as identical. For example, let us assume a single private good and two public goods, indicated by x 1 ,Y 1 ,Y 2 .</p><p>For agent i, both strategies (x 1 i , y 1 i , y 2 i ) = (1, 3, 2) and (1, 2, 3) are identical if and only if the utility of the agent from both strategies is identical. This result is possible when both strategies lead to the same final allocation with the same amount of each of the public goods. Hence, there can be a unique Nash equilibrium allocation with an infinite number of strategies leading to that allocation. For more details, see the example in the appendix.</p><p>In a similar manner, the Trading equilibrium of the proposed model is defined as follows:</p><p>Definition 2. The Trading Equilibrium in our economy is an allocation ( xi , Ȳ ) and a non-negative personalized price vector pi = ( p1 i , ..., pL i ) such that:</p><formula xml:id="formula_4">1. ∑ k∈K ∑ i∈N xk i + ∑ l∈L Ȳl = ∑ k∈K ∑ i∈N x k * i + ∑ l∈L Y * l = ∑ k∈K ∑ i∈N ω k i 2. ∑ k∈K xk i + ∑ l∈L pl i Ȳl ≤ ∑ k∈K x * k + ∑ l∈L pl i Y * l For each i ∈ N 3.</formula><p>For each i ∈ N and for each (x i ,Y ), that satisfies</p><formula xml:id="formula_5">∑ k∈K x k i + ∑ l∈L pl i Y l ≤ ∑ k∈K x * k + ∑ l∈L pl i Y * l , we have u i ( xi , Ȳ ) ≥ u i (x i ,Y ) 4. For each l ∈ L we have ∑ i∈N pl i = 1</formula><p>Recall that (x * 1 , ..., x * K ;Y * 1 , ...,Y * L ) represents the Nash allocation. Moreover, by the desirability of the commodities we have in condition 2 of definition 2 budget equality (Thus, the budget available for the Trading equilibrium bundle for an agent is the monetary value of his Nash equilibrium bundle). Following these two definitions, we show that the Nash and Trading equilibria exist and are unique.</p><p>Theorem 1. For the proposed economy, a unique Nash allocation exists.</p><p>Proof. In order to show that Nash allocation exists, we need to show that there is an allocation of all the agents in the population such that it is not beneficial for any agent to alter its allocation. Formally, let us define a set of functions µ i (S) → R that get the allocation of the entire population and return the utility of the i th agent. Following the original proof by Nash himself, in order to prove the existence of a Nash equilibria, we use the Kakutani fixed-point theorem <ref type="bibr" target="#b54">(Yu et al., 2016;</ref><ref type="bibr" target="#b40">Nash Jr, 1950)</ref>. To this end, we first have to set Z and Φ where Z is a non-empty, compact, and convex subset of some Euclidean space R n and Φ : Z → 2 Z such that Φ has a closed graph and is non-empty and convex for all x ∈ Z. For our economy, S is defined by the intersection of the amount of private and public goods each agent in the economy can buy -∀i ∈ N : x i + y i ≤ ω i . Under the assumption, at least one agent, i ∈ N, has resources; Z is non-empty.</p><p>In addition, Z is the intersection of linear constructions that results in a compact and convex subset of R n .</p><p>The conditions for Φ are also met according to the economy's agents' utility functions assumption. As such,</p><formula xml:id="formula_6">µ := ∑ i∈N µ i (S)</formula><p>, has a fixed point, and therefore the economy has a Nash equilibrium.</p><p>In addition, we wish to show that the Nash equilibrium has a unique allocation. Let us falsy assume there are two Nash equilibria, s * 1 and s * 2 such that s * 1 ̸ = s * 2 . Following the third condition in the Nash equilibrium definition, for every agent in the population, i ∈ N, we must have</p><formula xml:id="formula_7">U i (s * 1 ) ≥ U i (s i , s * -i,1</formula><p>) and</p><formula xml:id="formula_8">U i (s * 2 ) ≥ U i (s i , s * -i,2</formula><p>). In particular, s * 1 should satisfy the second condition and the other way around. As such, setting both conditions, we obtain that</p><formula xml:id="formula_9">U i (s * 1 ) ≥ U i (s * 2 ) and U i (s * 2 ) ≥ U i (s * 1 ) which leads to U i (s * 1 ) = U i (s * 2 ).</formula><p>However, this contradicts our initial assumption that s * 1 ̸ = s * 2 and therefore there is only one Nash equilibrium.</p><p>For a detailed proof, please refer to the appendix.</p><p>Theorem 2. For the proposed economy, a Trading allocation exists and is unique inside the allocation space.</p><p>Proof. In order to show a Trading equilibrium exists, one is required to find an equilibria with a global utility higher than or identical to the one obtained at the Nash equilibrium. To this end, as each agent in the population proposes searches for the global optimal, we will use the Simplex theorem to show there is an optimum to the objective function <ref type="bibr" target="#b39">(Nabli, 2009)</ref>. In order to use the Simplex theorem we need to show that the objective function is continuous and derivative to all the parameters and at all possible allocations, and the constraints define finite, close, and concave. To this end, the global utility function u := ∑ i∈N u i is a sum of continuous and strictly quasi-concave functions which means it is also continuous and strictly quasi-concave, as required. Next, the constraints of the Simplex task we define are linear as the sum of contributions of each agent to all the private and public goods is limited by the initial amount of resources it has. We also add the fourth definition of the Trading equilibrium, namely that the sum of prices is 1 as a constraint, which is yet another linear constraint. In addition, by definition, agents can not negatively contribute to either a private or public good which enforces a non-negativity constraint for each agent and for each good. Now, following the second and third conditions for the Trading equilibrium, we need to make sure that the Trading equilibria allocation of each agent is at least as good as one of the Nash equilibria allocations of the same agent. To this end, for each agent i ∈ N we add the constraint</p><formula xml:id="formula_10">u i ( xi , Ȳ ) ≥ u i (x i ,Y ).</formula><p>Since u i is assumed to be concave, the intersection of these constraints is still concave as well. Overall, the intersection of constraints defines a finite, close, and concave space. Hence, the proposed economy satisfies the Simplex theorem condition and has a global optimum. This allocation is, by definition, a Trading equilibrium of the proposed economy, showing its existence. Now, in order to show that the Trading equilibrium is unique, we can use the extreme value theorem (Martínez-Legaz, 2014) while taking into consideration that ∀i ∈ N : U i is monotonically increasing for every private and public good. Namely, let us falsy assume that there are two trading equilibria, t * 1 and t * 2 . As both are global optimum of ∑ i∈N U i , according to Simplex theorem this can exist if and only if t * 1 and t * 2</p><p>are on the edge of the possible allocation space. As such, if one ignores the edge of the allocation space, the function ∑ i∈N U i is a monotonic and harmonic function. Hence, it obtains a single optimum.</p><p>We provide more detailed proof of the uniqueness of the Nash equilibrium allocation that closely follows the definition in the appendix. In addition, a numeric example of how one can calculate the Nash and Trading equilibria is also provided in the appendix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Computer simulation</head><p>The financial contributions of member states to the United Nations provide a valuable case study for applying our global public goods provision model with asymmetric agents (states) <ref type="bibr" target="#b7">(Caparros and Finus, 2020)</ref>. The intricate dynamics between states, each characterized by unique economic conditions, political frameworks, and objectives, closely resemble the heterogeneous agent structure inherent in our model. Furthermore, these contributions highlight the critical differences between Nash equilibria and cooperative (trading) equilibria.</p><p>A purely self-interested strategy, similar to a Nash equilibrium, may result in suboptimal global outcomes, such as a UN initiative benefiting one nation disproportionately while being inconsequential to others. Conversely, a cooperative framework, wherein states work collectively to optimize global utility, can promote more balanced resource allocation and shared economic benefits. Our model's mechanism of personalized Lindahl prices finds resonance in international agreements designed to allocate contributions based on a nation's economic capacity, preferences, and anticipated benefits.</p><p>To operationalize the proposed model, we developed a computer simulation using Python (version 3.9.2), leveraging historical data to simulate a trading equilibrium. Initially, we assume UN member states historically followed a Nash equilibrium, focusing on national interests with limited regard for broader global outcomes. Utilizing this as a baseline, the model seeks to transition towards the cooperative Trading equilibrium. For the case study, we compiled the contributions of 138 UN member states (for which we have in our possession cross data for both budgets for government ministries and donations to the UN) in U.S. dollars across 10 UN offices (WFP, UNHCR, UNICEF, DPO, IOM, WHO, UN, FAO, UNDP, and UN-DPO)<ref type="foot" target="#foot_1">foot_1</ref> . Additionally, each country was assumed to operate 10 local offices serving as private goods, benefiting solely the nation-state<ref type="foot" target="#foot_2">foot_2</ref> . A sum of a linear and logarithmic function based regression model was fitted to estimate each country's resources based on the total used budgets of both UN and local offices (adjusted by the average conversion rate for each year), providing projections for 2024.</p><p>Specifically, each country's unique utility function (u i ) was estimated by correlating the portion of its budget allocated to different offices with the respective importance it assigns to the services provided. In other words, the utility weight that each country assigns to the services of a government ministry is inferred from the budget allocated to that ministry, fitting the function α 1 x + α 2 ln(x) where α 1 , α 2 ∈ R + are parameters and the function is aligned with the condition in the proposed model and the law of diminishing return <ref type="bibr" target="#b47">(Shephard and Färe, 1974)</ref>. Similarly, the utility weight attributed to each United Nations branch, reflecting the value of the global public good, is derived from the monetary contributions made by each country over time, fitted to the same function. This method, using revealed preferences, helps determine the coefficients in each country's unique utility function for both national private goods (government ministry services) and global public goods (UN services). This results in the weights <ref type="bibr">. . , 1380]</ref>. Formally, the utility function of country i (for a representative person within the country) takes the form:</p><formula xml:id="formula_11">ζ i j , ξ i c,1 , ξ i c,2 ∈ R + for j ∈ [1, . . . , 10], c ∈ [1, .</formula><formula xml:id="formula_12">u i := 10 ∑ j=1 (ζ i j Y j ) + 1380 ∑ c=1 (ξ c,1 x c + ξ c,2 ln(x c )).<label>(2)</label></formula><p>Notably, there are 10 global public goods in the form of UN offices and each country (138 of them) has 10 local offices that operate as private goods, resulting in 1390 goods in total for this configuration. For country k, ξ c 1 , ξ c,2 ̸ = 0 such that i ∈ [10(k + 1), 10(k + 1) + 9] and ξ c,1 = ξ c,1 = 0, otherwise. Importantly, this utility function satisfies the proposed model's assumptions.</p><p>We implemented this economic model in a computer simulation using the agent-based simulation approach <ref type="bibr" target="#b18">(Deguchi, 2004;</ref><ref type="bibr" target="#b30">Heckbert et al., 2010;</ref><ref type="bibr" target="#b11">Ciatto et al., 2020)</ref> where each agent (state) in the population is represented using a finite state machine <ref type="bibr" target="#b45">(Sakellariou, 2002)</ref> that contains its available resources as well as its current allocation. The simulation operates in rounds, such that each round is denoted by t i such that</p><formula xml:id="formula_13">t i ∈ [0, T ]</formula><p>where T &lt; ∞. First, at t 0 , the initial amount of resources and utility functions of the agents in the population are allocated. Afterward, at each round t i , for each agent (state) in the population, it computes its optimal strategy concerning its utility function and assumes all other agents are available to it. The agents update their strategy at the end of each round after all the agents in the population compute their new strategy. This process repeats until at some round, t N , all agents in the population keep the same strategy as in the t N-1 round. At this point, we iteratively reach the Trading equilibrium using the gradient descent (GD) method <ref type="bibr" target="#b16">(Curry, 1944)</ref>. The GD stops when the gradient's norm is smaller than a pre-defined threshold ε ∈ R + , which indicates the economy reached the Trading equilibrium. to coverage, resulting in the Trading equilibria. As demonstrated in Figure 1, the implementation of the proposed funding model yields a significant increase in global utility. The initial point reflects the global utility derived from the current funding model utilized by the United Nations, which is based mainly on voluntary contributions rather than mandatory payments. In this scenario, the global utility is valued at 0.941 points, following normalization to the Trading equilibria, representing the Nash equilibrium. However, the global benefit under the proposed trading equilibrium model shows about a 6% increase. This represents an improvement in global utility. Moreover, the transition to the proposed model results in a marked increase in the utility for individual states, with an increase in the value of the utility ranging from 2.5% to 7.5%<ref type="foot" target="#foot_3">foot_3</ref> . It is important to note that the transition to the new financing model did not result in increased contributions from all member states. Notably, two of the largest contributors to the United Nations-the United States and China-experienced a slight reduction in their required payments. Nevertheless, both their individual benefits and the overall global benefit were enhanced under the new model, demonstrating the efficiency and equity gains achieved through the revised funding mechanism.</p><p>The proposed model's contribution extends beyond the enhancement of private and global utility, which may not necessarily represent its most significant achievement. Equally important outcomes of the model include the stabilization of the UN budget and the equitable distribution of financial responsibility for UN activities, underscoring its broader impact.</p><p>In addition, we computed the number of "free riders" -i.e., agents that did not contribute any resource to the production of the public good<ref type="foot" target="#foot_4">foot_4</ref> . For the Nash equilibrium of each simulation, we obtain 2.02 ± 0.68 percent of free riders while for the Trading equilibrium is 1.38 ± 0.61. Based on a one-tailed T-test, we show that the number of free riders of the Trading equilibrium is statistically less with p &lt; 0.01. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Discussion and conclusion</head><p>The UN's financing mechanisms are crucial for its operational viability and effectiveness in addressing global challenges. The current reliance on earmarked and voluntary contributions poses significant risks to its ability to respond flexibly to crises. Therefore, reforming the funding structure to incorporate diverse and innovative financing strategies is essential for maximizing the UN's capacity to fulfill its mandate in a rapidly changing global landscape.</p><p>The present study has sought to extend the analysis of global public goods provision within the frame-work of the United Nations, applying a novel Trading Equilibrium model to simulate and enhance the financing structure of global public goods. The simulation results reveal significant implications for international cooperation, particularly in providing global public goods through multilateral institutions such as the UN.</p><p>The findings underscore that a transition from a Nash equilibrium to a Trading equilibrium yields considerable improvements in global utility. In the Nash equilibrium, each member state acts in its self-interest, contributing suboptimally to the financing of global public goods, resulting in uneven benefits across nations.</p><p>The Trading equilibrium, by contrast, fosters a cooperative framework where member states' contributions are aligned with their utility, leading to more efficient allocation of resources. This supports the theoretical assertion that cooperative solutions, modeled through mechanisms such as personalized Lindahl prices, enhance the overall welfare of the international system.</p><p>In practical terms, this model can potentially address the inherent inefficiencies associated with freeriding behavior and the uneven financial burden observed in the current UN funding structure. By tailoring contributions to each state's economic capacity and the benefits they derive, the model mitigates the risk of countries underfunding critical UN programs, particularly in sectors such as peacekeeping and humanitarian aid, which are often underfunded due to voluntary, discretionary contributions.</p><p>The implications of this study are profound for future policy directions aimed at reforming the UN's financing mechanisms. The current system, which heavily relies on voluntary contributions, faces challenges in terms of predictability and equity. Earmarked contributions, as highlighted by other studies, skew the allocation of resources toward the priorities of wealthier donor states, potentially undermining multilateralism. The Trading equilibrium model presents an alternative that aligns more closely with the principle of burden-sharing, while maintaining the autonomy of member states in deciding their contribution levels based on their national interests.</p><p>The simulation results suggest that implementing a cooperative framework for UN financing would not only enhance the predictability and sustainability of funding but also ensure that the global public goods provided by the UN benefit all member states more equitably. Such a framework would also support the UN in fulfilling its mandate more effectively, particularly in areas that are traditionally underfunded or politically sensitive.</p><p>While the Trading Equilibrium model presents promising outcomes, it is important to note certain limita-tions of this study. Firstly, the model assumes that all member states are rational actors, willing to cooperate under the right conditions. However, in practice, geopolitical considerations, domestic politics, and differing priorities among member states can hinder cooperation. Future research could explore how such political dynamics might affect the implementation of this model in real-world settings. In reality, individuals and countries operate with bounded rationality, meaning their decisions are often based on incomplete information and limited processing power. This assumption, while necessary for tractability in the current model, diverges from real-world behavior, where strategic decisions regarding public goods provision are made under uncertainty and with constraints on data availability and computational resources. Future research should aim to relax these assumptions to better reflect the decision-making processes of real-world agents. One possible direction is to incorporate elements of bounded rationality or imperfect information into the model, allowing for the exploration of how these factors impact the convergence to Nash or Trading equilibria. In particular, agent-based simulations that account for different information structures and learning mechanisms could provide valuable insights into how equilibria emerge in more realistic public goods economies.</p><p>Moreover, the model's focus on financial contributions does not fully capture other forms of participation and cooperation that are critical to the UN's effectiveness, such as political support, operational capacity, and diplomatic engagement. Expanding the model to account for these non-monetary contributions could provide a more comprehensive understanding of how to optimize global public goods provision in multilateral contexts. To this end, in the countrys' weight fitting procedure (see Section 4), the data distinguish between assessed, voluntary core (un-earmarked) and voluntary non-core (earmarked) contributions is not made lacking such resolution in the data. Thus, if a country only has assessed contributions to a UN program, this is probably forcing them to spend more than they would have wanted to, which not nessasarly indicates the contry's utility from such spend.</p><p>Taken jointly, the study highlights the potential for significant improvements in the efficiency and equity of UN financing through the implementation of a Trading Equilibrium model. By aligning contributions with both economic capacity and national benefits, the model offers a pathway to more sustainable and cooperative international financing mechanisms. However, further research is needed to account for the complexities of political and non-monetary factors in the international system. The results of this study where all commodities are strictly desired over R K+L ++ and agents are indifferent between all bundles on the boundary of R K+L + , then by the individual rationality condition we get that each i ∈ N will prefer the allocation in which he contributes half of any quantity of private good in his possession (and distributes the total contribution equally among the public goods) and all the other agents make a non-negative contribution from each private good, rater than an allocation in which there exists k ∈ K for whom x k i = 0. Since for</p><formula xml:id="formula_14">each i ∈ N we have U i (s * ) ≥ U i (s i , s * -i ), especially when s i = ω 1 i 2 , ..., ω K i 2 ; ∑ k∈K ( ω k i 2 ) L , ..., ∑ k∈K ( ω k i 2 ) L ∈ R K+L ++ ,</formula><p>it follows that for each i ∈ N and k ∈ K we have x k * i &gt; 0.</p><p>Theorem 4. Our finite economy admits a unique Nash allocation. We denote it by ((x * i ) i∈N ,Y * ).</p><p>Proof. Assume by negation that there are two Nash equilibria ((x * i ) i∈N ,Y * ) and ((x * * i ) i∈N ,Y * * ). Thus, there may be three cases: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model computation example</head><p>For a numerical illustration of this paper, consider the following example. Assume all agents share the utility function:</p><formula xml:id="formula_15">u i (x 1 i , x 2 i ,Y 1 ,Y 2 ) = x 1 i x 2 i Y 1 Y 2 i = 1, 2</formula><p>The initial endowment of each agent is:</p><formula xml:id="formula_16">ω 1 = (3, 2) , ω 2 = (2, 3)</formula><p>By the interior solution condition for Nash equilibrium, MRS i Y l -x k i (x * i ,Y * ) = 1, we get ∀i ∈ N:</p><formula xml:id="formula_17">x 1 i = x 2 i = 0.5Y 1 x 1 i = x 2 i = 0.5Y 2 Y 1 = Y 2 = y 1 1 + y 1 2 = y 2 1 + y 2 2</formula><p>Substituting these results in the budget constraint ∑ k∈K x k i + ∑ l∈L y l i ≤ ∑ k∈K ω k i will yield: 0.5Y 1 + 0.5Y 1 + y 1 1 + y 2 1 = 5 0.5Y 1 + 0.5Y 1 + y 1 2 + y 2 2 = 5 Vertical summation will yield 4Y 1 = 10, thus Y * 1 = 2.5 and the unique Nash equilibrium allocation is: <ref type="bibr">.25, 1.25, 1.25, 1.25; 2.5, 2.5)</ref> And the utilities are:</p><formula xml:id="formula_18">(x * 1 , x * 2 ;Y * 1 ,Y * 2 ) = (1</formula><formula xml:id="formula_19">u * 1 = u * 2 = 7.8125</formula><p>Note that this unique allocation results from infinite possible combinations of Nash strategies. That is, the contribution of the first agent to the production of the first public good depends on and complements the contribution of the second agent to the production of the same public good. This is the case for the production of the second public good. Hence, there may be infinite combinations of the agents' contributions to the production of the public goods, but the result of all those combinations leads to the same amount of each of the public goods (symmetry of strategies). In the case of our example, the final result is Y * 1 = Y * 2 = 2.5.</p><p>To calculate the Lindahl equilibrium allocation we will use the general rule of <ref type="bibr" target="#b46">Samuelson (1954)</ref>. That is, for each public good one has</p><formula xml:id="formula_20">∑ i∈N MRS i Y l -x k i = RPT Y l -x k i</formula><p>, where RPT Y l -x k i = 1 is the rate of technological substitution in production between public and private goods. Thus:</p><formula xml:id="formula_21">x 1 1 0.5Y 1 + x 1 2 0.5Y 1 = 1 ⇒ x 1 1 + x 1 2 = 0.5Y 1 x 2 1 0.5Y 1 + x 2 2 0.5Y 1 = 1 ⇒ x 2 1 + x 2 2 = 0.5Y 1 x 1 1 0.5Y 2 + x 1 2 0.5Y 2 = 1 ⇒ x 1 1 + x 1 2 = 0.5Y 2</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 shows the results of this simulation for n = 100 initial conditions with T = 200 and a population of size N = 138 (number of member states for which we have data) where the x-axis indicates the simulation round and the y-axis is the normalized average global utility (the absolute values hold limited significance; therefore, we normalize them relative to the final objective, namely the Trading Equilibrium, to derive a meaningful measure of relative improvement). The blue (solid) line indicates the average case in which all the other cases are normalized with respect to it. The green vertical line indicates the average duration taken</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: simulation of UN member countries resource allocation with 10 UN offices for all countries and 10 local offices for each country. The simulation is computed for n = 100 times, each time with slightly different initial conditions. The blue (solid) line presents the average of the simulations. The green vertical line indicates the average duration taken to coverage into the Trading equilibria.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>YYY</head><figDesc>1. For each i ∈ N and k ∈ K we have x k * i = x k * * i and there exists l ∈ L for whom Y * l ̸ = Y * * l is met.Assume, w.l.o.g., that for this specific l ∈ L we have Y * l &gt; Y * * l . Thus, there exists i ∈ N for whomy l * i &gt; 0 and for some k ∈ K we have 0 &lt; x k * i &lt; ω k i .Hence, by the interior solution condition for Nash equilibrium, we getMRS i Y l -x k i (x * i ,Y * ) = 1. Moreover, since for each i ∈ N and k ∈ K we have x k * i = x k * * i , we also get 0 &lt; x k * * i &lt; ω k i and thus MRS i Y l -x k i (x * * i ,Y * * ) = 1. However, since Y * l &gt; Y * * l andx k * i = x k * * i , it follows that, by the strict ordinal normality assumption, we must haveMRS i i ,Y * * ) = 1. A contradiction.2. For each l ∈ L we have Y * l = Y * * l &gt; 0 and there exists i ∈ N for whomx k * i ̸ = x k * * i is met. By Condition 2 of Definition 1 we get ∑ l∈L Y * l = ∑ i∈N ∑ k∈K (ω k ix k * i ). Thus, there exists k ∈ K and i ∈ N for whom we havex k * i &lt; x k * * i ≤ ω k i so that for some l ∈ L we get MRS i Y l -x k i (x * i ,Y * ) =1. However, since for this specific l ∈ L we have Y * l = Y * * l and x k * i &lt; x k * * i it follows that, by the strict ordinal normality assumption, we must have MRS i exists i ∈ N and l ∈ L for whom x * i ̸ = x * * i and Y * l ̸ = Y * * l , respectively. Assume, w.l.o.g., that for this specific l ∈ L we have Y * l &gt; Y * * l . Thus, there exists i ∈ N for whom y l * i &gt; 0 and for some k ∈ K we have 0 &lt; x k * i &lt; ω k i . Hence, by the interior solution condition for Nash equilibrium, we get MRSi Y l -x k i (x * i ,Y * ) = 1. Now, if for each i ∈ N and k ∈ K we have x k * i &gt; x k * * i , then by ∑ l∈L Y * l = ∑ i∈N ∑ k∈K (ω k ix k * i )there must be l ∈ L for whom Y * l &lt; Y * * l where, by the strict ordinal normality assumption, for each i ∈ N and k ∈ K we get MRS i i ,Y * ) ≤ 1. However, since Y * * l &gt; 0 it follows that for some i ∈ N and k ∈ K we must have i ,Y * ) = 1. A contradiction. Thus, if we assume, w.l.o.g, that for this specific l ∈ L we have Y * l &gt; Y * * l then there exist i ∈ N and k ∈ K for whom x k * i &lt; x k * * i i ,Y * * ) ≤ 1. A contradiction.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>An allocation of resources is Pareto efficient if it is not possible to make anyone better off without making someone else worse off.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>The data is available at: https://unsceb.org/fs-revenue-government-donor</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><p>The data is available at: https://data.un.org/Data.aspx?d=SNA&amp;f=group_code%3a301</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3"><p>For a comparison between the two funding models for all member states, and for a more detailed comparison for selected countries, please refer to the supplementary materials.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_4"><p>The free rider phenomenon occurs when individuals or entities benefit from a resource or service without contributing to its cost. For example, in the context of a Nash equilibrium, this phenomenon arises in situations where the equilibrium strategies lead to undercontribution to a public good or resource, due to rational self-interest.</p></note>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>No funds, grants, or other support was received.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data used in this study is presented in the paper with the relevant references.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>provide a solid foundation for policymakers and scholars alike to rethink and innovate the ways in which global public goods are financed in the 21st century.</p><p>The reliance on voluntary contributions often results in unpredictable and politically influenced funding, limiting the UN's ability to plan effectively. A shift toward obligatory contributions, structured around personalized pricing models like Lindahl Equilibrium, would stabilize funding and enhance long-term resource allocation for critical global programs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statements and Declarations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing Interests</head><p>The authors have no relevant financial or non-financial interests to disclose.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>The authors contributed equally.</p><p>Conceptualization, formal analysis and investigation, validation, original draft, and manuscript editing were performed by Labib Shami.</p><p>Formal analysis and investigation, software, visualization, original draft, and manuscript editing were performed by Teddy Lazebnik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix The Nash provision in our economy</head><p>Below we present a detailed proof of the uniqueness of the Nash equilibrium allocation.</p><p>Theorem 3. In our economy, for each i ∈ N and k ∈ K we have x k * i &gt; 0, where x k * i &gt; 0 is agent i's consumption of the private good k at the unique Nash equilibrium allocation.</p><p>Proof. Since each i ∈ N is endowed with a strictly positive amount</p><p>goods and for each agent, i ∈ N, the preference relation is defined over his consumption bundles in R K+L + ,</p><p>3 , and the Trading equilibrium allocation will be:</p><p>And the utilities are:</p><p>Note that for all i ∈ N we get:</p><p>ūi &gt; u * i Thus, the Trading equilibrium allocation strictly Pareto dominates (utility-wise) the Nash allocation. That is, all agents would prefer to replace their Nash bundle with their Trading equilibrium bundle.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Un peacekeeping in a multipolar world order: Norms, role expectations, and leadership</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Abdenur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">United nations peace operations in a changing global order</title>
+		<imprint>
+			<biblScope unit="page" from="45" to="65"/>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microfounded tax revenue forecast model with heterogeneous population and genetic algorithm approach</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alexi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lazebnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Economics</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="30"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Privately provided public goods in a large economy: The limits of altruism</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Andreoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="73"/>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">An extension of the basic theorems of classical welfare economics</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Arrow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the second Berkeley symposium on mathematical statistics and probability</title>
+		<meeting>the second Berkeley symposium on mathematical statistics and probability</meeting>
+		<imprint>
+			<publisher>University of California Press</publisher>
+			<date type="published" when="1951">1951</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="507" to="533"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Financing the united nations: Status quo, challenges, and reform options</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haug</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Vertical funds: new forms of multilateralism</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Browne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Policy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="36" to="45"/>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The political economy of un system operational activities: overcoming the bilateralization of multilateralism through pooled funds? Monc ¸ões</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Campos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Relac ¸ões Internacionais da UFGD</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="83" to="115"/>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The corona-pandemic: A game-theoretic perspective on regional and global governance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caparros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Finus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental and Resource Economics</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="913" to="927"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">How to share the cost of a public good?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Champsaur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Game Theory</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="113" to="129"/>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Collective action in an asymmetric world</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zeckhauser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="103" to="112"/>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Varieties of agents in agent-based computational economics: A historical and an interdisciplinary perspective</title>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Dynamics and Control</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="25"/>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Agent-based explanations in AI: Towards an abstract framework</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ciatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Omicini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvaresi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Workshop on Explainable, Transparent Autonomous Agents and Multi-Agent Systems</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="3" to="20"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The problem of social cost</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Coase</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Law and Economics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="44"/>
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Extending un peacekeeping financing beyond un peacekeeping operations? the prospects and challenges of reform</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Governance</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Historical and methodological highlights of quarantine measures: from ancient plague epidemics to current coronavirus disease (COVID-19) pandemic</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Conti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta bio-medica : Atenei Parmensis</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="226" to="229"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Aggregative public good games</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cornes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hartley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economic Theory</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="201" to="219"/>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The method of steepest descent for non-linear minimization problems</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Curry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly of Applied Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="258" to="261"/>
+			<date type="published" when="1944">1944</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A graphic representation of the Nash and Lindahl equilibria in an economy with a public good</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Danziger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="295" to="307"/>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Gaming Simulation and the Dynamics of a Virtual Economy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Deguchi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Public goods, global public goods and the common good</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deneulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Townsend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International journal of social economics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1/2</biblScope>
+			<biblScope unit="page" from="19" to="36"/>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Pareto-efficient solutions for shared public good provision: Nash bargaining versus exchange-matching-lindahl</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nentjes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resource and Energy Economics</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">101179</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evaluation of the effect of border closure on covid-19 incidence rates across nine african countries: an interrupted time series study</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Emeto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">O</forename><surname>Alele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ilesanmi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans R Soc Trop Med Hyg</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Social preferences, beliefs, and the dynamics of free riding in public goods experiments</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Fischbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gachter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="541" to="556"/>
+			<date type="published" when="2010-03">2010. March</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Lindahl's solution and the core of an economy with public goods</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Foley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica: Journal of the Econometric Society</title>
+		<imprint>
+			<biblScope unit="page" from="66" to="72"/>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Galbraith</surname></persName>
+		</author>
+		<title level="m">The affluent society</title>
+		<imprint>
+			<publisher>Houghton Mifflin Harcourt</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Money and multilateralism: how funding rules constitute io governance</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Graham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Theory</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="162" to="194"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Graham</surname></persName>
+		</author>
+		<title level="m">Transforming International Institutions: How Money Quietly Sidelined Multilateralism at The United Nations</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>85Voluntary Funding and Financial Crisis</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Free-rider problems in the production of collective goods</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hampton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics &amp; Philosophy</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="245" to="273"/>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The tragedy of the commons</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hardin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="issue">3859</biblScope>
+			<biblScope unit="page" from="1243" to="1248"/>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">International organizations and differentiated universality: reinvigorating assessed contributions in united nations funding</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gulrajani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weinlich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">39780</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Agent-based modeling in ecological economic</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Heckbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baynes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of the New York Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">1185</biblScope>
+			<biblScope unit="page" from="39" to="63"/>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Analysing governmental response to the covid-19 pandemic</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Imtyaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haleem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Javaid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Oral Biology and Craniofacial Research</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jenks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jones</surname></persName>
+		</author>
+		<title level="m">United nations development at a crossroads</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Center on International Cooperation</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>New York University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Health security capacities in the context of covid-19 outbreak: an analysis of international health regulations annual report data from 182 countries</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chungong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Omaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="issue">10229</biblScope>
+			<biblScope unit="page" from="1047" to="1053"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The free rider problem: Experimental evidence</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public choice</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="24"/>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Dominance and Leadership in the International Economy: Exploitation, Public Goods, and Free Rides</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Kindleberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Studies Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="242" to="254"/>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Asymmetric Information Bargaining Problems with Many Agents</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Mailath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Postlewaite</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="351" to="367"/>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">On weierstrass extreme value theorem</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Martínez-Legaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optimization Letters</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="391" to="393"/>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Public goods provision by asymmetric agents: experimental evidence</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcginty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Milam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Choice and Welfare</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1159" to="1177"/>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">An overview on the simplex algorithm</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nabli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematics and Computation</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="479" to="489"/>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Equilibrium points in n-person games</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Nash</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the national academy of sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="48" to="49"/>
+			<date type="published" when="1950">1950</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A proof that the core of an ordinal convex game is a von Neumann-Morgenstern solution</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peleg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="83" to="87"/>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Trading equilibrium in a public good economy with smooth preferences and a mixed measure space of consumers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Perets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shitovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spiegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mathematical Economics</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="163" to="169"/>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The rise of multi-bi aid and the proliferation of trust funds</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Reinsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Michaelowa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Z</forename><surname>Eichenauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook on the economics of foreign aid</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="527" to="554"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roberts</surname></persName>
+		</author>
+		<title level="m">Lindahl equilibrium</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Agent based modelling and simulation using state machines</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sakellariou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd International Conference on Simulation and Modeling Methodologies, Technologies and Applications</title>
+		<meeting>the 2nd International Conference on Simulation and Modeling Methodologies, Technologies and Applications</meeting>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="270" to="279"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The pure theory of public expenditure</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Samuelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The review of economics and statistics</title>
+		<imprint>
+			<biblScope unit="page" from="387" to="389"/>
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The law of diminishing returns</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Shephard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Färe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Production Theory: Proceedings of an International Seminar Held at the University</title>
+		<meeting><address><addrLine>Karlsruhe; Berlin, Heidelberg; Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1973-07">1974. May-July 1973</date>
+			<biblScope unit="page" from="287" to="318"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Economic description of tolerance in a society with asymmetric social cost functions</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic research -Ekonomska istraživanja</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="2548" to="2593"/>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Cournot-Nash and Lindahl equilibria in pure public good economies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shitovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spiegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Theory</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="18"/>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Stable provision vs. Cournot-Nash equilibria in pure public good economies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shitovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spiegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economic Theory</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="219" to="224"/>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Agent-based computational economics: Growing economies from the bottom up</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tesfatsion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Life</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="82"/>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Who coronavirus disease (covid-19) dashboard</title>
+		<author>
+			<persName><surname>Who</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Public goods in economics and other social sciences</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wyrobek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rosiek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niżnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Goods and the Fourth Industrial Revolution</title>
+		<imprint>
+			<biblScope unit="page" from="35" to="69"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Equivalence results between Nash equilibrium theorem and some fixed point theorems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fixed Point Theory and Applications</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10"/>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Challenges and approaches of the global governance of public health under covid-19</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Public Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
