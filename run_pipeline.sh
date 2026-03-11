@@ -12,4 +12,4 @@ echo "3. Extracting links"
 python src/extract_links.py
 
 echo "Pipeline finished."
-echo "Results available in /app/results"
+echo "Results available in the directory /results"
