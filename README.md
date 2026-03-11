@@ -1,6 +1,8 @@
 # AIOSRSE-individual-daniel-martin
 Repository for the development of individual assessments of AIOSRSE.
 
+Pipeline: PDF → Grobid → TEI XML → Python scripts → Results
+
 1. Dataset selection criteria
 
 - Source: arXiv
@@ -23,34 +25,48 @@ I used the processFulltextDocument service endpoint from the TEI section. Only h
 
 The XML files generated with GROBID were processed using three Python scripts located in the src/ directory. These scripts extract the information required for the analysis of the selected papers.
 
-  3.1. Word Cloud Generation
-
-  generate_wordcloud.py extracts the text contained in the <abstract> sections of all the TEI XML files. The abstract texts are combined and cleaned using standard English stopwords. A word cloud is then
-  generated to visualize the most frequent terms appearing in the abstracts of the dataset.	
-  The resulting image is saved as: results/wordcloud.png
-  This visualization highlights the dominant topics and keywords present in the selected research papers.
+	3.1. Word Cloud Generation
 	
-  3.2. Figure Counting
+	generate_wordcloud.py extracts the text contained in the <abstract> sections of all the TEI XML files. The abstract texts are combined and cleaned using standard English stopwords. All the identified words are exported to a CSV file where each row contains the word or pattern of words (i.e. food security) and the frequency in the text (number value). A word cloud is then generated to visualize the most frequent terms appearing in the abstracts of the dataset.	
+	The resulting image is saved as: results/wordcloud.png
+	The resulting CSV is saved as: results/word_frequencies.csv
+	This visualization highlights the dominant topics and keywords present in the selected research papers.
+	
+	Validation of Results
+	
+	Validation was performed by manually comparing the extracted text from the <abstract> sections in the TEI XML files with the original PDF abstracts. The extracted text was verified to match the abstract content in the original articles.
+	
+	3.2. Figure Counting
 
-  count_figures.py counts the number of figures in each article. Figures are identified by locating <figure> elements with identifiers following the pattern xml:id="fig_X" in the TEI XML structure.
+	count_figures.py counts the number of figures in each article. Figures are identified by locating <figure> elements with identifiers following the pattern xml:id="fig_X" in the TEI XML structure.
 	Since figures can also be referenced elsewhere in the document (e.g., <ref target="#fig_0">), only the actual <figure> elements are counted to avoid duplicates.
 	The script generates a bar chart showing the number of figures per article, with the numeric value displayed above each bar.
 	The output is saved as:	results/figures_per_article.png
 	
-  3.3. Link Extraction
+	Validation of Results
+	
+	To validate the number of figures per article:
+	Figures were manually counted in the original PDF documents. The counts were compared with the values obtained from the <figure xml:id="fig_X"> elements in the TEI XML files. This ensured that figure references (such as <ref target="#fig_0">) were not counted as figures.
+	
+	3.3. Link Extraction
 
-  extract_links.py extracts hyperlinks appearing in each paper. Three patterns were identified in the TEI XML:
+ 	extract_links.py extracts hyperlinks appearing in each paper. Three patterns were identified in the TEI XML:
 	Explicit URL references: <ref type="url" target="https://example.com">
 	URLs appearing as plain text inside paragraph elements (often corresponding to footnotes): <p>https://example.com</p>
 	Bibliographic links included in reference lists: <ptr target="http://dx.doi.org/..."/>
 	All detected links are exported to a CSV file where each row contains the article name and the extracted link.
 	The output file is: results/links_per_article.csv
 	The CSV uses ; as a delimiter to ensure correct visualization in spreadsheet software.
+
+	Validation of Results
+
+	Validation of extracted links was performed by manually checking each article and confirming that the detected URLs correspond to:
+	Explicit URL references; links appearing in footnotes; DOI references in bibliographies
 	
-  3.4. Running the scripts
+	3.4. Running the scripts
 	
-  From the src/ directory the scripts can be executed with: python(3) generate_wordcloud.py; python(3) count_figures.py; python(3) extract_links.py.
+	From the src/ directory the scripts can be executed with: python(3) generate_wordcloud.py; python(3) count_figures.py; python(3) extract_links.py.
 	Each script processes all XML files located in:	data/grobid_xmls/ and stores the resulting outputs in the results/ directory.
 	
-  ## Note on AI Usage
-  Portions of this step, including documentation and code, were created or refined with the assistance of AI tools. All outputs were reviewed and validated by the author.
+	## Note on AI Usage
+	Portions of this step, including documentation and code, were created or refined with the assistance of AI tools. All outputs were reviewed and validated by the author.
