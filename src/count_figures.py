@@ -20,8 +20,8 @@ import re
 from lxml import etree
 import matplotlib.pyplot as plt
 
-XML_DIR = "../data/grobid_xmls"
-OUTPUT_FILE = "../results/figures_per_article.png"
+XML_DIR = "data/grobid_xmls"
+OUTPUT_FILE = "results/figures_per_article.png"
 
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 
