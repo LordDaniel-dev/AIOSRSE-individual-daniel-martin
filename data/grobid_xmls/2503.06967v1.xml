@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SWITCHING TO A GREEN AND SUSTAINABLE FINANCE SETTING: A MEAN FIELD GAME APPROACH</title>
+				<funder ref="#_vfJbchG">
+					<orgName type="full">Australian Research Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-03-10">10 Mar 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anna</forename><surname>Aksamit</surname></persName>
+							<email>anna.aksamit@sydney.edu.au</email>
+						</author>
+						<author>
+							<persName><forename type="first">Kaustav</forename><surname>Das</surname></persName>
+							<email>kaustav.das@monash.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Mathematics</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Victoria</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Centre for Quantitative Finance and Investment Strategies</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Victoria</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ivan</forename><surname>Guo † ‡ , Kihun</surname></persName>
+							<email>ivan.guo@monash.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Mathematics</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Victoria</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Centre for Quantitative Finance and Investment Strategies</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Victoria</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Mathematics and Statistics</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<postCode>2006</postCode>
+									<settlement>New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhou</forename><surname>Zhou</surname></persName>
+							<email>zhou.zhou@sydney.edu.au.</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Mathematics</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Victoria</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Centre for Quantitative Finance and Investment Strategies</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Victoria</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Mathematics and Statistics</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+								<address>
+									<postCode>2006</postCode>
+									<settlement>New South Wales</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SWITCHING TO A GREEN AND SUSTAINABLE FINANCE SETTING: A MEAN FIELD GAME APPROACH</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2025-03-10">10 Mar 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EE440E10366253F2ACA4D7998D70C39B</idno>
+					<idno type="arXiv">arXiv:2503.06967v1[math.PR]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-04T16:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mean Field Games</term>
+					<term>Game theory</term>
+					<term>FBSDE of McKean-Vlasov type, Major and Minor players</term>
+					<term>Green and sustainable finance</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We consider a continuum of carbon-emitting firms who seek to maximise their stock price, and a regulator (e.g., Government) who wishes for the economy to flourish, whilst simultaneously punishing firms who behave non-green. Interpreting the regulator as a major player and the firms as the minor players, we model this setting through a mean field game with major and minor players. We extend the stochastic maximum principle derived by Carmona &amp; Zhu [A probabilistic approach to mean field games with major and minor players. Annals of Applied Probability, 2016, 94, 745-788]  by relaxing the assumptions on the forms of the minimisers for the Hamiltonians, allowing them to depend on more arguments. This allows the major and representative minor player to interact in a more natural fashion, thereby permitting us to consider more realistic models for our green and sustainable finance problem. Through our stochastic maximum principle, we derive explicit Nash equilibria for a number of examples.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In this article, we consider a mean field description of a Green and sustainable finance problem, where we have a continuum of carbon-emitting firms who seek to maximise their stock price, and a regulator (e.g., Government) who wishes for the economy to thrive, whilst simultaneously punishing firms who behave non-green. We model this setting through a type of mean field game with a major and minor player, where the regulator is designated as the major player, and the firms as the minor players. To elaborate, such a game consists of a population of infinitely many indistinguishable and statistically identical players (the minor players), whose individual contributions to the system are negligible, and another separate player whose impact on the whole system is ever present and felt at all times (the major player). Both the major player and representative minor player's objective is to minimise their total expected utility, in the sense of a sort of Nash equilibrium, over the set of their admissible strategies. <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref> examined this type of game in great detail, and under suitable assumptions proved both necessary and sufficient stochastic maximum principles for this setting, and moreover, proved convergence of approximate Nash equilibria in the finite player game to Nash equilibria in the mean field description. Despite this, a critical assumption they make is on the form of minimisers of the major and representative minor player's minimisers, namely, that they do not depend on certain arguments. We found however, that the class of models that obeys this assumption is rather small, and thus prevents one from considering many realistic models in applications. Therefore, our main focus in this article is to relax these assumptions considerably, and then in this new setting, derive similar results to theirs. This enables us to study the aforementioned regulator/firm Major/minor player game with non-trivial models.</p><p>The theory of mean field games was first initiated by <ref type="bibr">(Lasry and</ref><ref type="bibr">Lions, 2006a,b, 2007)</ref> and independently by <ref type="bibr" target="#b13">(Huang et al., 2003</ref><ref type="bibr" target="#b14">(Huang et al., , 2006))</ref>. The main purpose of the theory is to study large systems of competitive individuals at a macroscopic level rather than the microscopic by enforcing the mean field ideology, namely that the number of players is large, they are statistically identical, their individual contributions are negligible, and each individual can only interact with the population through the overall presence of the population -the so-called mean field. The microscopic approach requires one to investigate a finite player stochastic differential game, a feat which is nigh impossible when the number of players is assumed to be large. Therefore, the mean field approach is highly enticing as it allows one to recast the system through a mean field description, which is typically easier to solve than the corresponding stochastic differential game formulation of the problem. By solving the mean field game, it is then possible to construct approximate Nash equilibria for the finite player stochastic differential game. This in turn justifies the theory of mean field games as a tractable way to tackle such systems and most importantly, form meaningful solutions to the finite player setting. Mathematically, there have been two primary directions for tackling mean field games, the original analytic approach developed by Lasry and Lions, which is reminiscent of the Dynamic Programming Principle and resulting HJB equation from control theory. The other approach which came later is called the probabilistic approach, spearheaded by Carmona and Delarue, see <ref type="bibr" target="#b3">(Carmona and Delarue, 2013)</ref> and which relies on adaptations of the Pontryagin maximum principles, again from control theory. It would be remiss to not mention the books <ref type="bibr">(Carmona and Delarue, 2018a,b)</ref>, which are a compendium on the subject of mean field games via both the analytic and probabilistic approach, however the focus is mainly on the probabilistic approach.</p><p>There are classes of large systems consisting of competitive players where the mean field ideology is violated in at least one way. Our focus in this article is on the situation where we have a player whose individual contribution to the system is ever present, and does not become negligible no matter how many players are included in the system, and is also not statistically identical to the other players. It is appropriate to call this particular player the major player, and dub the others as minor players. This setting, dubbed mean field games with major and minor players, was first introduced in the linear-quadratic setting <ref type="bibr" target="#b14">(Huang et al., 2006)</ref> and have been extensively studied since, see for example <ref type="bibr" target="#b12">(Huang, 2010</ref><ref type="bibr">, Nguyen and Huang, 2012a</ref><ref type="bibr">,b, Nourian and Caines, 2013</ref><ref type="bibr" target="#b7">, Carmona and Wang, 2017)</ref>. However, there have been disagreements within the community as to what truly constitutes a major player in the mean field setting, or in other words, what is the right mean field strategy that describes a mean field game with major and minor players. The Major/minor player strategy detailed in <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref> was proved to be an accurate description of this setting, as they demonstrated that the approximate Nash equilibria they construct for the finite player setting indeed converges to the Nash equilibria in the mean field setting. This is the interpretation that we adopt in this article. It is also worth noting that there have been efforts in describing a mean field setting for a Stackelberg game, for example <ref type="bibr" target="#b0">(Bensoussan et al., 2015</ref><ref type="bibr">, 2016</ref><ref type="bibr" target="#b11">, Elie et al., 2019</ref><ref type="bibr" target="#b9">, Dayanıklı and Laurière, 2024)</ref>.</p><p>Mean field game theory has proved as an attractive method to describe settings regarding Environmental, Social, and Governance concerns, in particular scenarios pertaining to Green and sustainable finance. For example, <ref type="bibr" target="#b18">(Lavigne and Tankov, 2023</ref>) consider a setting where there is a continuum of carbon-emitting firms, and two groups of investors, the green-minded investor and neutral investor. They establish existence of Nash equilibria for the mean field game amongst the firms and obtain results which have meaningful interpretations for the game they consider. In <ref type="bibr" target="#b10">(Dayanikli and Lauriere, 2024)</ref>, they consider a setting with multiple populations of carbon-emitting electricity producers, where each population is at the behest of a taxation regulator (who acts as a principal as they are assumed to have no state process). Adapting the theory developed in <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref>, they model this setting as a so-called multipopulation mean field game with major players and minor players.</p><p>Our main contribution in this article is an extension of the necessary and sufficient stochastic maximum principles from <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref>, these are Theorem 3.1 and Theorem 3.2 respectively. The primary attribute of the extension is that we permit the minimisers of the players' Hamiltonians to depend on more arguments than previously allowed in the literature, which we believe is crucial for the purposes of applications. This is evident in Section 5, where we tackle a number of examples modelling the regulator/firm Major/minor player game previously described, which we believe can not be addressed with previous results in the literature. We hope that this extension will motivate and excite both practitioners and academics alike to develop more sophisticated models to address problems related to Green and sustainable finance.</p><p>The sections are organised as follows:</p><p>In Section 2 we introduce the mean field game framework we will be working with in this article. We describe the Major/minor mean field game strategy that will be a central point in this article.</p><p>In Section 3 we state and prove both a necessary and sufficient stochastic maximum principle for our Major/minor mean field game strategy.</p><p>In Section 4 we adjust our model framework by enlarging the state process to include a component corresponding to the representative minor player's integrated strategy. This technique allows us to achieve results similar to that of extended mean field games.</p><p>In Section 5 we consider examples of the regulator/firm Major/minor player game previously described, and derive explicit Nash equilibria.</p><p>Appendix A contains some useful information regarding the differential calculus over spaces of probability measures that we choose to adopt in this article, the so-called L differential calculus, and is mainly a summary of ideas found in <ref type="bibr">(Carmona and Delarue, 2018a, Chapter 5)</ref>. Appendix B contains the proof of Theorem 3.1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Prelimininaries</head><p>All vectors in this article will be understood as column vectors. For a function f : R n → R m , ∂ x f will denote its Jacobian, which is an element of R n×m for fixed x ∈ R n . When m = 1, this will coincide with the gradient of f . For a, b ∈ R n , we write a • b := n i=1 a i b i to denote the usual Euclidean inner product on R n . For matrices A, B ∈ R n×m , we write A • B = tr(AB ⊤ ) to denote the Frobenius inner product. Sometimes when an argument in a function is redundant, we will put a • in place of it.</p><p>Let (E, E) be a measurable space where (E, • E ) is a normed space and E the Borel σ-field generated by • E . In the following we will denote by P p (E), p ≥ 0, the space of p-integrable probability measures, that is, probability measures on µ on (E, E) that satisfy</p><formula xml:id="formula_0">E x p E µ(dx) &lt; ∞.</formula><p>The space P p (E) is endowed with the following p-Wasserstein metric:</p><formula xml:id="formula_1">W p (µ, µ ′ ) := inf π∈Π(µ,µ ′ ) E×E x -y p E π(dx × dy) 1/p</formula><p>where Π(µ, µ ′ ) is the subset of P p (E × E) with marginals µ and µ ′ in the first and second components respectively. The p-th moment of a measure µ ∈ P p (E) is defined as</p><formula xml:id="formula_2">M p (µ) := E x p E µ(dx).</formula><p>Moreover, the mean of a probability measure µ is denoted by μ := E xµ(dx), the integral being interpreted as a Bochner integral. In general, the mean of a probability measure does not coincide with its first moment.</p><p>For an N -tuple x = (x 1 , . . . , x N ) ∈ E N we will write x -i = (x 1 , . . . , x i-1 , x i+1 , . . . , x N ) to denote the tuple with the i-th element removed, and (y, x -i ) = (x 1 , . . . , x i-1 , y, x i+1 , . . . , x N ) so that x = (x i , x -i ). Moreover, the empirical distributions of x and x -i will be written as</p><formula xml:id="formula_3">μx := 1 N N j=1 δ x j , μx -i := 1 N -1 1≤j =i≤N δ x j ,</formula><p>respectively, where δ y denotes the Dirac measure on (E, E).</p><p>Remark 2.1 (Matrix notation). In the rest of this article, we will utilise the following notation regarding matrices: The zero and identity matrices of dimension p × q will be denoted by 0 p×q and I p×q respectively. For matrices A ∈ R p×c , B ∈ R q×c we denote by (A; B) the stacking of A on top of B, and which takes values in R p+q×c . This only makes sense when the A and B have the same number of columns. Precisely, (A; B) i,j = A i,j 1 {1≤i≤p} + B i,j 1 {p+1≤i≤p+q} . For matrices C ∈ R r×p , D ∈ R r×q , we denote by (C, D) the placing of D onto the right of C, which takes values in R r×p+q . This only makes sense when the matrices have the same number of rows.</p><p>Precisely, (C, D) i,j = C i,j 1 {1≤j≤p} + D i,j 1 {p+1≤j≤p+q} . It can seen that (A; B) = (A ⊤ , B ⊤ ) ⊤ and similarly, (C, D) = (C ⊤ ; D ⊤ ) ⊤ .</p><p>2.1. Model framework. Consider a finite time horizon [0, T ]. Let B = (B t ) t∈[0,T ] be a mdimensional standard Brownian motion with augmented natural filtration (F t ) t∈[0,T ] . In the rest of this article, a subscript 0 will refer to the major player, whereas the absence of a subscript will refer to the representative minor player. Let A 0 ⊆ R k 0 and A ⊆ R k denote the set of actions for the major and a representative minor player respectively at a time t ∈ [0, T ], these sets being closed and convex. Denote by A 0 and A the set of strategy profiles for the major and minor player respectively. Here we assume that the major player's strategies are deterministic, whereas the representative minor player's strategy is progressively measurable w.r.t. (F t ) t∈[0,T ] .</p><p>In either case, the strategy is assumed to be square integrable. For example, α</p><formula xml:id="formula_4">= (α t ) t∈[0,T ] ∈ A if α : [0, T ] × Ω → A, progressively measurable w.r.t. (F t ) t∈[0,T ]</formula><p>, and</p><formula xml:id="formula_5">E T 0 |α t | 2 dt &lt; ∞, whereas α 0 ∈ A 0 if α 0 : [0, T ] → A 0 and T 0 |α 0t | 2 dt &lt; ∞.</formula><p>Consider the state processes of the major and representative minor player respectively:</p><formula xml:id="formula_6">dX µ 0t = b 0 (t, X µ 0t , α 0t , µ t )dt, (2.1) dX µ t = b(t, X µ 0t , X µ t , α 0t , α t , µ t )dt + σ(t, X µ t )dB t ,<label>(2.2)</label></formula><p>as well as their McKean-Vlasov versions</p><formula xml:id="formula_7">dX 0t = b 0 (t, X 0t , α 0t , L(X t ))dt, (2.3) dX t = b(t, X 0t , X t , α 0t , α t , L(X t ))dt + σ(t, X t )dB t , (2.4) where b 0 : [0, T ] × R d 0 × A 0 × P 2 (R d ) → R d 0 , b : [0, T ] × R d 0 × R d × A 0 × A × P 2 (R d ) → R d and σ : [0, T ] × R d → R d×m .</formula><p>There is ostensibly a peculiarity here, namely the difference between the state processes eqs. (2.1)-(2.2) vs their McKean-Vlasov counterparts eqs. (2.3)-(2.4). In this setting, X and X µ both refer to the state process of the representative minor player, the main difference being that eq. (2.2) has an arbitrary flow of probability measures (µ t ) t∈[0,T ] ⊆ P 2 (R d ) in the measure argument, whereas in eq. (2.4) the law of the process being solved for appears in the measure argument. It turns out that in the mean field strategy, the choice of whether one considers X versus X µ is crucial. Roughly speaking, the major player performs its optimisation whilst considering the system eqs. (2.3)-(2.4), whereas the representative minor player performs its optimisation whilst considering the system eqs. (2.1)-(2.2) for some fixed flow of probability measures (µ t ) t∈[0,T ] .</p><p>The following strategy, which we dub the Major/minor mean field game strategy (MmMFG strategy for short) outlines the overall mean field strategy for the major and representative minor players:</p><p>Major/minor mean field game strategy (MmMFG strategy)</p><p>Step 1 Fix a flow of probability measures (µ t ) t∈[0,T ] ⊆ P 2 (R d ).</p><p>Step 2 Find a Nash equilibrium (α µ 0 , αµ ) to the following stochastic differential game:</p><formula xml:id="formula_8">J 0 (α 0 , α) = E T 0 f 0 (t, X 0t , α 0t , L(X t ))dt + g 0 (X 0T , L(X T )) , J µ (α 0 , α) = E T 0 f (t, X µ 0t , X µ t , α 0t , α t , µ t )dt + g(X µ 0T , X µ T , µ T ) ,</formula><p>where we minimise J 0 over α 0 ∈ A 0 and J µ over α ∈ A subject to the following state process(es) of the major and representative minor player:</p><formula xml:id="formula_9">dX µ 0t = b 0 (t, X µ 0t , α 0t , µ t )dt, dX µ t = b(t, X µ 0t , X µ t , α 0t , α t , µ t )dt + σ(t, X µ t )dB t ,</formula><p>as well as their McKean-Vlasov versions</p><formula xml:id="formula_10">dX 0t = b 0 (t, X 0t , α 0t , L(X t ))dt, dX t = b(t, X 0t , X t , α 0t , α t , L(X t ))dt + σ(t, X t )dB t .</formula><p>Step 3 Solve the fixed point problem L( Xµ t ) = µ t . Here Xµ t refers to the state process (X µ t ) t∈[0,T ] along the Nash equilibrium (α µ 0 , αµ ).</p><p>We call the fixed point (μ t ) t∈[0,T ] a MmMFG equilibrium.</p><p>We will say that the MmMFG strategy has a solution if Steps 1-3 can legitimately be carried out.</p><p>We note that the optimisation of the major player involves perturbations of α 0 → J 0 (α 0 , α). Moreover, α 0 is the strategy of the major player, which by assumption should impact themself and the whole population of minor players. Thus perturbations of the nature α 0 → J 0 (α 0 , α) should induce changes in any measure arguments. In contrast to this, the optimisation of the representative minor player involves perturbations of α → J µ (α 0 , α). However, since the population is assumed to be arbitrarily large, the representative minor player's individual contribution to the system is lost, and thus any perturbation of its strategy α should not affect the whole population; this is why we fix the measure flow as µ t prior to optimisation. In the end however, we do want the measure µ t to be the law of the state process, hence this leads to the fixed point step (Step 3).</p><p>Remark 2.2. In our modelling framework, the state processes eqs. (2.1) and (2.3) corresponding to the major player do not possess a noise term, unlike that in <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref>. We have done this for two reasons: (i) for the simplicity, so that the subsequent analysis does not require conditional expectations w.r.t. the major player's noise, (ii) since the examples that we study in Section 5 do not in fact include a state process for the major player. Indeed, we could have completely left out the major player's state process from this article, however we chose to include it since as long as there is no noise term, the subsequent analysis poses no extra challenge. In addition, for simplicity we have assumed that the diffusion coefficient σ is independent of the strategies of both the major and representative minor player α 0 , α, as well as the probability measure µ. Despite this, in the rest of the article, it is still possible to include a noise term for the major player's state process and allow σ to depend on α 0 , α, µ, however modifications will need to be made in the lines of <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref>.</p><p>The following Hamiltonians will be pivotal for the analysis. For (t, x 0 , x, y 0 , y, z, α 0 , α, µ) ∈</p><formula xml:id="formula_11">[0, T ] × R d 0 × R d × R d 0 × R d × R d×m × A 0 × A × P(R d ): H 0 (t, x 0 , x, y 0 , y, z, α 0 , α, µ) = b 0 (t, x 0 , α 0 , µ) • y 0 + b(t, x 0 , x, α 0 , α, µ) • y + σ(t, x)z + f 0 (t, x 0 , α 0 , µ),</formula><p>(2.5)</p><formula xml:id="formula_12">H(t, x 0 , x, y, z, α 0 , α, µ) = b(t, x 0 , x, α 0 , α, µ) • y + σ(t, x) • z + f (t, x 0 , x, α 0 , α, µ), (2.6)</formula><p>as well as their reduced versions respectively:</p><formula xml:id="formula_13">H R 0 (t, x 0 , x, y 0 , y, α 0 , α, µ) = b 0 (t, x 0 , α 0 , µ) • y 0 + b(t, x 0 , x, α 0 , α, µ) • y + f 0 (t, x 0 , α 0 , µ), (2.7) H R (t, x 0 , x, y, α 0 , α, µ) = b(t, x 0 , x, α 0 , α, µ) • y + f (t, x 0 , x, α 0 , α, µ).</formula><p>(2.8)</p><p>We will also introduce the following functions:</p><formula xml:id="formula_14">H 0 (t, x 0 , y 0 , z, α 0 , α, ν) := R d+d H 0 (t, x 0 , x, y 0 , y, z, α 0 , α, µ)ν(dx × dy), (2.9) H R 0 (t, x 0 , y 0 , α 0 , α, ν) := R d+d H R 0 (t, x 0 , x, y 0 , y, α 0 , α, µ)ν(dx × dy), (2.10)</formula><p>where ν ∈ P(R d+d ) and µ refers to the marginal in the first d components, namely µ(</p><formula xml:id="formula_15">•) := ν(• × R d ).</formula><p>This means that for a random vector (U t , V t ) taking values in R d+d , that</p><formula xml:id="formula_16">H 0 (t, x 0 , y 0 , z, α 0 , α, L(U t , V t )) = E[H 0 (t, x 0 , U t , y 0 , V t , z, α 0 , α, L(U t ))], H R 0 (t, x 0 , y 0 , α 0 , α, L(U t , V t )) = E[H R 0 (t, x 0 , U t , y 0 , V t , α 0 , α, L(U t ))].</formula><p>For simplicity, we may refer to H 0 (respectively H R 0 ) as a Hamiltonian (respectively reduced Hamiltonian) as an abuse of terminology. We will extensively utilise the notation x := (x 0 , x).</p><p>We will enforce the following assumption regarding the regularity of the drift, diffusion, running cost, and terminal cost coefficients above. For notational simplicity, in the following assumption, we will sometimes suppress arguments. As norms on finite dimensional spaces are equivalent, in the following assumption there is no need to worry about the precise definitions of any of the product norms. We refer the reader to Appendix A for definitions of L differentiability of functions of probability measures and associated properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assumption A (Regularity of coefficients).</head><p>(A1) There exists a constant c &gt; 0 such that for all t ∈ [0, T ],</p><formula xml:id="formula_17">x ′ 0 , x 0 ∈ R d 0 , α ′ 0 , α 0 ∈ A 0 , x ′ , x ∈ R d , α ′ , α ∈ A, µ ′ , µ ∈ P 2 (R d ), we have: |(b 0 , σ 0 )(t, x ′ 0 , α ′ 0 , µ ′ ) -(b 0 , σ 0 )(t, x 0 , α 0 , µ)| + |(b, σ)(t, x ′ 0 , x ′ , α ′ 0 , α ′ , µ ′ ) -(b, σ)(t, x 0 , x, α 0 , α, µ)| ≤ L |x ′ 0 -x 0 | + |x ′ -x| + |α ′ 0 -α 0 | + |α ′ -α| + W 2 (µ ′ , µ) .</formula><p>(A2) For any α 0 ∈ A 0 and α ∈ A:</p><formula xml:id="formula_18">T 0 |(b 0 , σ 0 )(t, 0, α 0 , δ 0 )| 2 + |(b, σ)(t, 0, 0, α 0 , α, δ 0 )| 2 dt &lt; ∞. (A3) There exists a constant c L &gt; 0 such that for all t ∈ [0, T ], x ′ 0 , x 0 ∈ R d 0 , α ′ 0 , α 0 ∈ A 0 , x ′ , x ∈ R d , α ′ , α ∈ A, µ ′ , µ ∈ P 2 (R d ), we have: |(f 0 , g 0 )(t, x ′ 0 , α ′ 0 , µ ′ ) -(f 0 , g 0 )(t, x 0 , α 0 , µ)| ≤ c L 1 + |x ′ 0 | + |x 0 | + |α ′ 0 | + |α 0 | + M 2 (µ ′ ) + M 2 (µ) × |x ′ 0 -x 0 | + |α ′ 0 -α 0 | + W 2 (µ ′ , µ) .</formula><p>and</p><formula xml:id="formula_19">|(f, g)(t, x 0 , x ′ , α 0 , α ′ , µ ′ ) -(f, g)(t, x 0 , x, α 0 , α, µ)| ≤ c L 1 + |x ′ 0 | + |x 0 | + |x ′ | + |x| + |α ′ 0 | + |α 0 | + |α ′ | + |α| + M 2 (µ ′ ) + M 2 (µ) × |x ′ 0 -x 0 | + |x ′ -x| + |α ′ 0 -α 0 | + |α ′ -α| + W 2 (µ ′ , µ) .</formula><p>(A4) The maps (x 0 , α 0 ) → b 0 , b, f 0 are differentiable, and the maps (x 0 , α 0 , µ)</p><formula xml:id="formula_20">→ ∂ x 0 (b 0 , b, f 0 ) and (x 0 , α 0 , µ) → ∂ α 0 (b 0 , b, f 0 ) are continuous. The maps (x, α) → b, σ, f are differentiable, and the maps (x, α, µ) → ∂ x (b, σ, f ) and (x, α, µ) → ∂ α (b, f ) are continuous.</formula><p>The maps µ → b 0 , b, f 0 are L differentiable, and the maps (</p><formula xml:id="formula_21">x 0 , X, α 0 ) → ∂ µ (b 0 , f 0 )(t, x 0 , α 0 , L(X))(X) are continuous.</formula><p>The map x 0 → g 0 is differentiable, and the map (x 0 , µ) → ∂ x 0 g 0 is continuous. The map µ → g 0 is L differentiable, and the map (x 0 , X) → ∂ µ g 0 (x 0 , L(X))(X) is continuous. The map x → g is differentiable, and the mapping (x 0 , x, µ) → ∂ x g is continuous.</p><p>2.2. Finite player setting. The MmMFG strategy is meant to serve as a mean field description of the following finite player framework, which is described through a stochastic differential game. Suppose we have N + 1 players, where the 0-th player corresponds to the major player, and players 1, . . . , N are the minor players. Let B = (B 1 , . . . , B N ) denote a N d-dimensional Brownian motion. Denote by A i the space of admissible strategies for the i-th minor player, namely strategies α i : [0, T ] × Ω → A which are progressively measurable w.r.t. the augmented filtration generated by B i , and</p><formula xml:id="formula_22">E[ T 0 |α i t | 2 dt] &lt; ∞.</formula><p>The major player's admissible strategies remain elements of A 0 . Suppose the players possess the following state processes:</p><formula xml:id="formula_23">dX 0t = b 0 (t, X 0t , α 0t , μXt )dt, dX i t = b(t, X 0t , X i t , α 0t , α i t , μX -i t )dt + σ(t, X i t )dB i t , X i 0 = x i 0 , i = 1, . . . , N,</formula><p>where X 0 refers to the state process of the major player, and X i refers to the state process of the i-th minor player. Moreover, we write X := (X 1 , . . . , X N ) and α := (α 1 , . . . , α N ).</p><p>The utility function for the major player is given by:</p><formula xml:id="formula_24">J 0 (α 0 , α) = E T 0 f 0 (t, X 0t , α 0t , μXt )dt + g 0 (X 0T , μX T ) ,</formula><p>and for the i-th minor player:</p><formula xml:id="formula_25">J i (α 0 , α i , α -i ) = E T 0 f (t, X 0t , X i t , α 0t , α i t , μX -i t )dt + g(X 0T , X i T , μX -i T ) , i = 1, . . . , N.</formula><p>The objective of the above N + 1 player game is for the major player to minimise α 0 → J 0 (α, α) and the minor players to minimise α i → J i (α 0 , α i , α -i ) in the sense of Nash equilibrium. However, finding true Nash equilibria to this stochastic differential game is difficult. Put simply, this is because the finite player setting for large N is highly interactive, and thus the corresponding mathematical system (be it PDE or FBSDE in nature) becomes highly coupled. Thus, the purpose of passing to the mean field regime is to increase tractability of the system, and by solving the MmMFG strategy, determine approximate Nash equilibria for the finite player setting. What we precisely mean by approximate Nash equilibria is given by the following definition, which is originally stated in <ref type="bibr" target="#b8">(Carmona and Zhu, 2016</ref>, §4):</p><p>Definition 2.1 (ε-Nash equilibrium). Fix ε &gt; 0. A set of admissible controls (α 0 , α1 , . . . , αN ) ∈ A 0 × N i=1 A i is called an ε-Nash equilibrium for the above (N + 1)-player stochastic differential game if for all α 0 ∈ A 0 we have</p><formula xml:id="formula_26">J 0 (α 0 , α) -ε ≤ J 0 (α 0 , α)</formula><p>and for all i = 1, . . . , N and α i ∈ A i we have</p><formula xml:id="formula_27">J i (α 0 , αi , α-i ) -ε ≤ J i (α 0 , α i , α-i ).</formula><p>In general, the purpose of studying the mean field description of a system is to construct ε N -Nash equilibria to the associated stochastic differential game, where ε N is a sequence which tends to 0 as N → ∞ in a sufficiently fast manner. How one can precisely determine ε N -Nash equilibria in our setting is described in Section 3.3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">A stochastic maximum principle</head><p>We now derive a stochastic maximum principle (SMP) for the MmMFG strategy. As is standard, we first consider necessary conditions. From there, we will be able to deduce extra assumptions that lead to sufficiency in Section 3.2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">A necessary stochastic maximum principle.</head><p>Assumption B (Convexity of Hamiltonians in strategy). α 0 → H 0 (t, x 0 , y 0 , z, α 0 , α, ν) and α → H(t, x 0 , x, y, z, α 0 , α, µ) are convex.</p><p>As we are deducing a necessary condition, we now assume that (α µ 0 , αµ ) is a Nash equilibrium, that is Steps 1-2 of the MmMFG strategy are satisfied. At the moment, Step 3 is not yet considered.</p><p>Consider the following FBSDEs. For the major player's problem:</p><formula xml:id="formula_28">dX 0t = b 0 (t, X 0t , α 0t , L(X t ))dt, dX t = b(t, X t , α 0t , α t , L(X t ))dt + σ(t, X t )dB t , dP 0t = -∂ x 0 H 0 (t, X t , P t , Q t , α 0t , α t , L(X t ))dt + Q 0t dB t , dP t = -∂ x H 0 (t, X t , •, P t , Q t , α 0t , α t , L(X t )) + Ẽ[∂ µ H 0 (t, Xt , P t , Qt , α0t , αt , L(X t ))(X t )] dt + Q t dB t , P 0T = ∂ x 0 g 0 (X 0T , L(X T ))(X T ), P T = ∂ µ g 0 (X 0T , L(X T ))(X T ). (3.1)</formula><p>For the representative minor player's problem:</p><formula xml:id="formula_29">dX µ 0t = b 0 (t, X µ 0t , α 0t , µ t )dt, dX µ t = b(t, X µ t , α 0t , α t , µ t )dt + σ(t, X µ t )dB t , dY µ t = -∂ x H(t, X µ t , Y µ t , Z µ t , α 0t , α t , µ t )dt + Z µ t dB t , Y µ T = ∂ x g(X µ 0T , X µ T , µ T ).</formula><p>(3.2)</p><p>Theorem 3.1 (Necessary stochastic maximum principle for MmMFG strategy). Enforce Assumptions A (Regularity of coefficients) and B (Convexity of Hamiltonians in strategy). Let</p><p>Steps 1-2 of the MmMFG strategy be fulfilled, and denote by (α µ 0 , αµ ) the associated Nash equilibrium. Let ( X, P , Q) and ( Xµ , Ŷ µ , Ẑµ ) denote the unique solutions to the FBSDEs eq. (3.1) and eq. (3.2) respectively along the Nash equilibrium (α µ 0 , αµ ). Then</p><formula xml:id="formula_30">E[H R 0 (t, Xt , P t , αµ 0t , αµ t , L( Xt ))] ≤ E[H R 0 (t, Xt , P t , α 0 , αµ t , L( Xt ))]</formula><p>for all α 0 ∈ A 0 , dt a.e. and</p><formula xml:id="formula_31">H R (t, Xµ t , Ŷ µ t , αµ 0t , αµ t , µ t ) ≤ H R (t, Xµ t , Ŷ µ t , αµ 0t , α, µ t )</formula><p>for all α ∈ A, dP × dt a.e.</p><p>Proof. Given in Appendix B.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.</head><p>A sufficient stochastic maximum principle. A sufficient part of the stochastic maximum principle can be established under additional convexity conditions.</p><p>Assumption C (Convexity of Hamiltonians and terminal costs).</p><p>(C1) The Hamiltonians H 0 and H satisfy the following convexity assumptions. For all</p><formula xml:id="formula_32">x 0 , x ′ 0 ∈ R d 0 , x, x ′ ∈ R d , α 0 , α ′ 0 ∈ A 0 , α, α ′ ∈ A, µ, µ ′ ∈ P 2 (R d ), as well as t ∈ [0, T ], y 0 ∈ R d 0 , y ∈ R d , there exists λ 0 , λ &gt; 0 such that H 0 (t, x ′ 0 , x ′ , y 0 , y, z, α ′ 0 , α, µ ′ ) -H 0 (t, x 0 , x, y 0 , y, α 0 , α, µ) ≥ ∂ x H 0 • (x ′ -x) + ∂ x 0 H 0 • (x ′ 0 -x 0 ) + ∂ α 0 H 0 • (α ′ 0 -α 0 ) + Ẽ[∂ µ H 0 ( X) • ( X′ -X)] + 1 2 λ 0 |α ′ 0 -α 0 | 2 , H(t, x ′ 0 , x ′ , y, z, α 0 , α ′ , µ ′ ) -H(t, x 0 , x, y, α 0 , α, µ) ≥ ∂ x 0 H • (x ′ 0 -x 0 ) + ∂ x H • (x ′ -x) + ∂ α H • (α ′ -α) + Ẽ[∂ µ H( X) • ( X′ -X)] + 1 2 λ|α ′ -α| 2 ,</formula><p>where X, X′ are defined on some probability space ( Ω, F, P), square integrable, and possess laws µ, µ ′ respectively. Here we write H 0 ≡ H 0 (t, x 0 , x, y 0 , y, z, α 0 , α, µ) and H ≡ H(t, x 0 , x, y, z, α 0 , α, µ) for simplicity.</p><p>(C2) The terminal costs g 0 and g satisfy the following convexity conditions. For all</p><formula xml:id="formula_33">x 0 , x ′ 0 ∈ R d 0 , x, x ′ ∈ R d , µ, µ ′ ∈ P 2 (R d ), g 0 (x ′ 0 , µ ′ ) -g 0 (x 0 , µ) ≥ ∂ x 0 g 0 (x 0 , µ) • (x ′ 0 -x 0 ) + Ẽ[∂ µ g 0 (x 0 , µ)( X) • ( X′ -X)], g(x 0 , x ′ , µ) -g(x 0 , x, µ) ≥ ∂ x g(x 0 , x, µ) • (x ′ -x),</formula><p>where X, X′ are defined on some probability space ( Ω, F, P), square integrable, and possess laws µ, µ ′ respectively.</p><p>Clearly Assumption C encompasses Assumption B.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assumption D (Minimisers of Hamiltonians</head><formula xml:id="formula_34">). Functions [0, T ] × R d 0 × R d 0 × P 2 (R d+d ) ∋ (t, x 0 , y 0 , ν) → α0 (t, x 0 , y 0 , ν) ≡ α0t , [0, T ] × R d 0 × R d × R d × P 2 (R d ) ∋ (t, x 0 , x, y, µ) → α(t, x 0 , x, y, α 0 , µ) ≡ αt uniquely exist such that H R 0 (t, x 0 , y 0 , α0t , α, ν) ≤ H R 0 (t, x 0 , y 0 , α 0 , α, ν), ∀α 0 ∈ A 0 , (3.3) H R (t, x 0 , x, y, α 0 , αt , µ) ≤ H R (t, x 0 , x, y, α 0 , α, µ), ∀α ∈ A. (3.4)</formula><p>Actually, unique existence of these minimisers is guaranteed through Assumption (C1), since α → H R and α 0 → H R 0 are strongly convex and continuous. However, we do still need to make the assumption that α0 does not depend on α.</p><p>Remark 3.1. In the existing literature, the analogous assumption to Assumption D (Minimisers of Hamiltonians) is stricter. In fact, in <ref type="bibr" target="#b8">(Carmona and Zhu, 2016</ref><ref type="bibr">, pp 1545</ref><ref type="bibr">&amp; 1547)</ref>, they assume the following more stringent assumptions, that: the minimiser α depends only on (t, x 0 , x, y, µ), and therefore is independent of α 0 .</p><p>whereas the minimiser α0 depends only on (t, x 0 , y 0 , µ), and is therefore independent of the second marginal of ν.</p><p>Although seemingly subtle, we believe our relaxed assumptions are substantially beneficial for real world applications. Indeed, assuming that the minimisers α and α0 are independent of of α 0 and the second marginal of ν respectively precludes many desirable models, namely models with non-trivial interaction between the major and representative minor player. Moreover, our relaxed assumptions intuitively make sense, as it seems plausible that the optimal strategy of the minor player can depend on that of the major player, but not the other way around. Indeed, it is plain to see that the practical examples we choose to investigate in Section 5 would not be possible to formulate without our relaxed assumptions.</p><p>Theorem 3.2 (Sufficient stochastic maximum principle for MmMFG strategy). Enforce Assumptions A (Regularity of coefficients), C (Convexity of Hamiltonians and terminal costs), and D (Minimisers of Hamiltonians). Let ᾱ0t := α0 (t, X 0t , P 0t , L(X t , P t )) and ᾱt := α(t, X 0t , X t , Y t , ᾱ0t , L(X t )). Consider the FBSDE</p><formula xml:id="formula_35">dX 0t = b 0 (t, X 0t , ᾱ0t , L(X t ))dt, dX t = b(t, X t , ᾱ0t , ᾱt , L(X t ))dt + σ(t, X t )dB t , dP 0t = -∂ x 0 H 0 (t, X t , P t , Q t , ᾱ0t , ᾱt , L(X t ))dt + Q 0t dB t , dP t = -∂ x H 0 (t, X t , •, P t , Q t , ᾱ0t , ᾱt , L(X t )) + Ẽ[∂ µ H 0 (t, Xt , P t , Qt , α0t , αt , L(X t ))(X t )] dt + Q t dB t , dY t = -∂ x H(t, X t , Y t , Z t , ᾱ0t , ᾱt , L(X t ))dt + Z t dB t ,</formula><p>(3.5) with conditions</p><formula xml:id="formula_36">P 0T = ∂ x 0 g 0 (X 0T , L(X T )), P T = ∂ µ g 0 (X 0T , L(X T ))(X T ), Y T = ∂ x g(X T , L(X T )).</formula><p>(3.6)</p><p>Assume the above FBSDE eqs. (3.5)-(3.6) has a unique solution denoted by ( X, P , Ŷ, Q, Ẑ). Let α0t := α0 (t, X0t , P0t , L( Xt , Pt )) and αt := α(t, X0t , Xt , Ŷt , α0t , L( Xt )). Then (α 0 , α) is a Nash equilibrium for the MmMFG strategy.</p><p>Proof. The proof can be carried out by following the ideas from our proof of Theorem 3.1, and then adapting the arguments made in (Carmona and Delarue, 2015, Theorem 4.7) as well as <ref type="bibr">(Carmona and Zhu, 2016, Appendix)</ref> to deduce sufficiency.</p><p>Remark 3.2. Establishing wellposedness for the FBSDE eqs. (3.5)-(3.6), which we note is of McKean-Vlasov type, is in general, a very difficult task, and beyond the scope of this article. It is plausible to conjecture that in the linear-quadratic setting, a general solvability result can be achieved similar to that found in <ref type="bibr">(Carmona and Zhu, 2016, §5)</ref>. However, the presence of the argument α 0 within the minimiser α poses additional problems. Instead, we consider particular examples in Section 5 where solvability is possible, and we leave general wellposedness results of this FBSDE for future work.</p><p>3.3. Approximate Nash equilibria for the finite player game. Assuming that the MmMFG strategy can be solved, we can determine ε N -Nash equilibria in the sense of Definition 2.1 for the finite player game outlined in Section 2.2 through the sufficient stochastic maximum principle Theorem 3.2. We will be relatively informal in this section, and more precise details can be found in <ref type="bibr">(Carmona and Zhu, 2016, §4)</ref>.</p><p>To be precise, let μt denote the MmMFG equilibrium found in Step 3 of the MmMFG strategy. Enforce all assumptions in Theorem 3.2 so that it holds, and denote the unique solution of the FBSDE eqs. (3.5)-(3.6) by ( X, P , Ŷ, Q, Ẑ). Assume also that decoupling fields θ P : [0, T ] × R d and θ Y : [0, T ] × R d 0 × R d exist which are Lipschitz continuous in the space variables, uniformly in t ∈ [0, T ], and such that</p><formula xml:id="formula_37">P t = θ P (t, X t ), Y t = θ Y (t, X 0t , X t ).</formula><p>Consider the SDEs:</p><formula xml:id="formula_38">d X0t = b 0 (t, X0t , α0t , μ Xt )dt, d Xi t = b(t, X0t , Xi t , α0t , αi t , μ Xt )dt + σ(t, Xi t )dB i t , X i 0 = x i 0 , i = 1, . . . , N,</formula><p>where α0t := α0 (t, X0t , P0t , μt • (I d , θ P (t, •) -1 ) and αi t := α(t, X0t , Xi t , θ Y (t, X 0t , Xi t ), α0t , μt ). By adapting arguments given in the proof of <ref type="bibr">(Carmona and Zhu, 2016, Theorem 4</ref>.1), it can shown that (α 0t , (α i t ) 1≤i≤N ) forms an ε N -Nash equilibrium for the N + 1 player game. Moreover, under additional regularity assumptions, the speed of convergence can also be described.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Enlarging the state space</head><p>In this section, we consider an extension of our modelling framework. Namely, we invoke the model framework from Section 2.1, however with one important distinction. Here, we will enlarge the McKean-Vlasov state process of the representative minor player from X t (originally given in eq. (2.4)) to χ t = (X t ; γ t ) ∈ R d+k , where</p><formula xml:id="formula_39">dX t = b(t, X 0t , X t , γ t , α 0t , α t , L(X t , γ t ))dt + σ(t, X t , γ t )dB t , dγ t = α t dt,</formula><p>which can be compactly written as</p><formula xml:id="formula_40">dχ t = B(t, X 0t , X t , γ t , α 0t , α t , L(X t , γ t ))dt + Σ(t, X t , γ t )dB t</formula><p>with B(t, x 0 , x, γ, α 0 , α, λ) = (b(t, x 0 , x, γ, α 0 , α, λ); α t ) and Σ(t, x, γ) = (σ(t, x, γ); 0 k×m ). In order to distinguish this setting from the original modelling framework, we use λ to denote a generic element of P 2 (R d+k ) rather than µ. Furthermore, we will enlarge the state process of the representative minor player (originally given in eq. (2.2)) with the fixed flow of probability measures (λ t ) t∈[0,T ] ⊆ P 2 (R d+k ) in a similar way to the McKean-Vlasov case to obtain χ λ t = (X λ t ; γ t ). As α t is the strategy of the representative minor player, γ t can be thought of as their integrated strategy. The purpose of enlarging the state process in this way is to include the joint distribution L(X t , γ t ) in the measure arguments. This will be useful in Section 5, as we do wish to include the law of the representative firm's integrated strategy in our model. This idea is similar to the framework of extended mean field games, where rather than enlarging the state space, one includes L(X t , α t ) (the joint distribution of the representative minor player's state process and strategy) in measure arguments. However, the fixed point step in the framework of extended mean field games is typically more difficult to tackle. Therefore, we opt to enlarge the state space in this manner to enable us to include the joint distribution L(X t , γ t ). Despite χ t being the state process of the representative minor player, in the following we will prefer to write the instances of X t and γ t individually in order to emphasise these components.</p><p>In this new setting, the state processes can be described as:</p><formula xml:id="formula_41">dX λ 0t = b 0 (t, X λ 0t , α 0t , λ t )dt, (4.1) dX λ t = b(t, X λ 0t , X λ t , γ t , α 0t , α t , λ t )dt + σ(t, X λ t , γ t )dB t , (4.2) dX 0t = b 0 (t, X 0t , α 0t , L(X t , γ t ))dt, (4.3) dX t = b(t, X 0t , X t , γ t , α 0t , α t , L(X t , γ t ))dt + σ(t, X t , γ t )dB t , (4.4) dγ t = α t dt, (4.5)</formula><p>and the utility functions as:</p><formula xml:id="formula_42">J 0 (α 0 , α) = E T 0 f 0 (t, X 0t , α 0t , L(X t , γ t ))dt + g 0 (X 0T , L(X T , γ T )) , J λ (α 0 , α) = E T 0 f (t, X λ 0t , X λ t , γ t , α 0t , α t , λ t )dt + g(X λ 0T , X λ T , γ T , λ T ) . For (t, x 0 , x, γ, y 0 , y, ỳ, α 0 , α, λ) ∈ [0, T ] × R d 0 × R d × R k × R d 0 × R d × R k × A 0 × A × P 2 (R d+k ),</formula><p>the Hamiltonians are given by:</p><formula xml:id="formula_43">H 0 (t, x 0 , x, γ, y 0 , y, ỳ, z, α 0 , α, λ) = b 0 (t, x 0 , α 0 , λ) • y 0 + b(t, x 0 , x, γ, α 0 , α, λ) • y + α • ỳ + σ(t, x, γ) • z + f 0 (t, x 0 , α 0 , λ), H(t, x 0 , x, γ, y, ỳ, z, α 0 , α, λ) = b(t, x 0 , x, α 0 , α, λ) • y + α • ỳ + σ(t, x, γ) • z + f (t, x 0 , x, γ, α 0 , α, λ),</formula><p>and their reduced versions respectively:</p><formula xml:id="formula_44">H R 0 (t, x 0 , x, γ, y 0 , y, ỳ, α 0 , α, λ) = b 0 (t, x 0 , α 0 , λ) • y 0 + b(t, x 0 , x, γ, α 0 , α, λ) • y + α • ỳ + f 0 (t, x 0 , α 0 , λ), H R (t, x 0 , x, γ, y, ỳ, α 0 , α, λ) = b(t, x 0 , x, γ, α 0 , α, λ) • y + α • ỳ + f (t, x 0 , x, γ, α 0 , α, λ).</formula><p>Following the same steps from Section 3.2, and noting that χ t and χ λ t are the representative minor player's state processes, not X t and X λ t , the FBSDE derived from the sufficient part of the stochastic maximum principle, namely eqs. (3.5)-(3.6), reads as follows:</p><formula xml:id="formula_45">dX 0t = b 0 (t, X 0t , ᾱ0t , L(X t , γ t ))dt, dX t = b(t, X 0t , X t , γ t , ᾱ0t , ᾱt , L(X t , γ t ))dt + σ(t, X t , γ t )dB t , dγ t = α t dt, dP 0t = -∂ x 0 H 0 (t, X 0t , X t , γ t , P 0t , P t , Pt , Q t , ᾱ0t , ᾱt , L(X t , γ t ))dt + Q 0t dB t , d P t Pt = -∂ (x,γ) H 0 (t, X 0t , X t , γ t , •, P t , Pt , Q t , ᾱ0t , ᾱt , L(X t , γ t )) + Ẽ[∂ λ H 0 (t, X0t , Xt , γt , P0t , Pt , Pt , Qt , α0t , αt , L(X t , γ t ))(X t ; γ t )] dt + Q t Qt dB t , d Y t Ỳt = -∂ (x,γ) H(t, X 0t , X t , γ t , Y t , Ỳt , Z t , ᾱ0t , ᾱt , L(X t , γ t ))dt + Z t Zt dB t , (4.6)</formula><p>with conditions</p><formula xml:id="formula_46">P 0T = ∂ x 0 g 0 (X 0T , L(X T , γ T )), P T PT = ∂ λ g 0 (X 0T , L(X T , γ T ))(X T ; γ T ), Y T ỲT = ∂ (x,γ) g(X T , γ T , L(X T , γ T )).</formula><p>(4.7)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Applications to Green and sustainable Finance</head><p>In this section, we consider a problem pertaining to Green and sustainable finance inspired by <ref type="bibr" target="#b18">(Lavigne and Tankov, 2023)</ref> as well as <ref type="bibr" target="#b10">(Dayanikli and Lauriere, 2024)</ref>. The problem involves a large number of statistically identical carbon-emitting firms (the minor players) who wish to maximise their stock price, and a regulator (the major player) who wishes for the economy to flourish, whilst at the same time will penalise firms who behave non-green. Of course, we wish to model this setting through the MmMFG strategy and utilise the power of Theorem 3.2. The representative firm's strategy α corresponds to their emission rate, whereas the regulator's strategy α 0 corresponds to a taxation rate. The firm's state process X corresponds to the log of their stock price, which is adjusted due to the regulator's taxation rate. For simplicity, we assume that interest rates are 0. Importantly, the regulator possesses no state process, and thus can be thought of as a principal (although, not a leader like in a Stackelberg game). Therefore, everything involving x 0 , y 0 , X 0 , P 0 , Q 0 disappears from the modelling framework. Ergo, in the following we will omit these arguments. To be precise, removing the major player's state process modifies the FBSDE eqs. (4.6)-(4.7) to the following:</p><formula xml:id="formula_47">dX t = b(t, X t , γ t , ᾱ0t , ᾱt , L(X t , γ t ))dt + σ(t, X t , γ t )dB t , dγ t = ᾱt dt, d P t Pt = -∂ (x,γ) H 0 (t, X t , γ t , P t , Pt , ᾱ0t , ᾱt , L(X t , γ t )) + Ẽ[∂ λ H 0 (t, Xt , γt , Pt , Pt , Qt , Qt , α0t , αt , L(X t , γ t ))(X t ; γ t )] dt + Q t Qt dB t , d Y t Ỳt = -∂ (x,γ) H(t, X t , γ t , Y t , Ỳt , Z t , Zt , ᾱ0t , ᾱt , L(X t , γ t ))dt + Z t Zt dB t ,</formula><p>(5.1)</p><p>with conditions</p><formula xml:id="formula_48">P T PT = ∂ λ g 0 (L(X T , γ T ))(X T ; γ T ), Y T ỲT = ∂ (x,γ) g(X T , γ T , L(X T , γ T )).</formula><p>(5.2)</p><p>We recall that the probability measure λ serves as a proxy for the joint distribution of (X t ; γ t ). Moreover, we will denote its first and second marginals as</p><formula xml:id="formula_49">λ x (•) := λ(• × R d 0 ) and λ γ (•) := λ(R d × •).</formula><p>Furthermore, the probability measure ν ∈ P 2 (R (d+k)+(d+k) ) is a proxy for the joint distribution of (X t ; γ t ; P t ; Pt ).</p><p>We would like to emphasise that the following examples, despite seeming simple, can not be tackled with the theory developed previously in the literature. Succinctly put, this is because the minimisers of the the upcoming Hamiltonians will depend on arguments which were forbidden in the previous literature. 5.1. Example 1. We will start off with a simple example. The coefficients we choose are given by b</p><formula xml:id="formula_50">(t, x, γ, α 0 , α, λ) = α -α 0 - 1 2 σ 2 t , σ(t, x, γ) = σ t , f 0 (t, α 0 , λ) = 1 2 α 2 0 , g 0 (λ) = -λx + λγ , f (t, x, γ, α 0 , α, λ) = 1 2 α 2 α 2 0 , g(x, γ, λ) = -x.</formula><p>The motivation for choosing such coefficients is the following. First, the coefficients b and σ are chosen so as to model the log of a stock price as an arithmetic Brownian motion, and it is adjusted due to the taxation rate of the regulator. f 0 states that the regulator wishes to reduce running taxation rates. g 0 is chosen so that the regulator desires to maximise the overall economy, and also minimise the emissions of the representative firm. f states that the representative firm wishes to minimise their running emissions level, which is weighted by the regulator's taxation rate. g is chosen so that the representative firm wishes to maximise their terminal stock price.</p><p>The reduced Hamiltonians then read as</p><formula xml:id="formula_51">H R 0 (t, x, γ, y, ỳ, α 0 , α, λ) = (α -α 0 - 1 2 σ 2 t )y + αỳ + 1 2 α 2 0 , H R (t, x, γ, y, ỳ, α 0 , α, λ) = (α -α 0 - 1 2 σ 2 t )y + αỳ + 1 2 α 2 α 2 0 .</formula><p>By appealing to the sufficient stochastic maximum principle for the MmMFG strategy Theorem 3.2, our first task is to minimise α 0 → E H R 0 (t, X t , γ t , P t , Pt , α 0 , α, L(X t , γ t )) and α → H R (t, x, γ, y, ỳ, α 0 , α, λ). This yields the minimisers:</p><formula xml:id="formula_52">α0 (t, L(X t , γ t , P t , Pt )) = E[P t ], α(t, x, γ, y, ỳ, α 0 , λ) = -(y + ỳ)/α 2 0 .</formula><p>The FBSDE eqs. (5.1)-( <ref type="formula">5</ref>.2) thus becomes:</p><formula xml:id="formula_53">dX t = - Y t + Ỳt (E[P t ]) 2 -E[P t ] - 1 2 σ 2 t dt + σ t dB t , dγ t = - Y t + Ỳt E[P t ] dt, d P t Pt = Q t Qt dB t , d Y t Ỳt = Z t Zt dB t ,</formula><p>with terminal conditions:</p><formula xml:id="formula_54">P T PT = -1 1 , Y T ỲT = -1 0 .</formula><p>If the above FBSDE has a solution ( X, γ, P, P, Ŷ, Ŷ, Q, Q, Ẑ, Ẑ), then the optimal strategy is given by α0t = E[ Pt ] and αt = -( Ŷt + Ŷt )/(α 0t ) 2 . It is plain to see that Pt = -1, Pt = 1, Ŷt = -1, Ŷt = 0. Therefore, the optimal strategy is α0t = -1 and αt = 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Example 2.</head><p>One reason for the simplistic solution of the previous example stems from the fact that the major player's running cost f 0 is essentially independent of the representative minor player. Therefore, to obtain a framework which is more interesting, an option is to adjust the running cost of the major player f 0 . The coefficients we now choose are given by</p><formula xml:id="formula_55">b(t, x, γ, α 0 , α, λ) = α -α 0 - 1 2 σ 2 t , σ(t, x, γ) = σ t , f 0 (t, α 0 , λ) = 1 2 α 2 0 / λγ , g 0 (λ) = -λx + λγ , f (t, x, γ, α 0 , α, λ) = 1 2 α 2 α 2 0 , g(x, γ, λ) = -x.</formula><p>The interpretation in this modification of f 0 is that the regulator punishes firms with low emissions less than firms with high emissions. The reduced Hamiltonians then read as</p><formula xml:id="formula_56">H R 0 (t, x, γ, y, ỳ, α 0 , α, λ) = (α -α 0 - 1 2 σ 2 t )y + αỳ + 1 2 α 2 0 / λγ , H R (t, x, γ, y, ỳ, α 0 , α, λ) = (α -α 0 - 1 2 σ 2 t )y + αỳ + 1 2 α 2 α 2 0 .</formula><p>Minimising α 0 → E H R 0 (t, X t , γ t , P t , Pt , α 0 , α, L(X t , γ t )) and α → H R (t, x, γ, y, ỳ, α 0 , α, λ) yields the minimisers:</p><formula xml:id="formula_57">α0 (t, L(X t , γ t , P t , Pt )) = E[P t ]E[γ t ], α(t, x, γ, y, ỳ, α 0 , λ) = -(y + ỳ)/α 2 0 .</formula><p>The FBSDE eqs. (5.1)-(5.2) thus becomes:</p><formula xml:id="formula_58">dX t = - Y t + Ỳt (E[P t ]) 2 (E[γ t ]) 2 -E[P t ]E[γ t ] - 1 2 σ 2 t dt + σ t dB t , dγ t = - Y t + Ỳt (E[P t ]) 2 (E[γ t ]) 2 dt, d P t Pt = 0; 1 2 (E[P t ]) 2 (E[γ t ]) 2 E[∂ λγ (1/E[γ t ])(γ t )] dt + Q t Qt dB t , d Y t Ỳt = Z t Zt dB t ,</formula><p>with terminal conditions:</p><formula xml:id="formula_59">P T PT = -1 1 , Y T ỲT = -1 0 .</formula><p>If the above FBSDE has a solution ( X, γ, P, P, Ŷ, Ŷ, Q, Q, Ẑ, Ẑ), then the optimal strategy is given by α0t</p><formula xml:id="formula_60">= E[ Pt ]E[γ t ] and αt = -( Ŷt + Ŷt )/(α 0t ) 2 .</formula><p>First, we immediately have that Pt = -1, Ŷt = -1, Ŷt = 0. This suggests that we study the ODE</p><formula xml:id="formula_61">d(E[γ t ]) = 1/(E[γ t ]) 2 dt, E[γ 0 ] = 0.</formula><p>This yields the real solution of E[γ t ] = 3 1/3 t 1/3 . Therefore the optimal strategy is α0t = -3 1/3 t 1/3 and αt = 1/(3 2/3 t 2/3 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Example 3.</head><p>Although Example 2 is more interesting than Example 1, we still have not been able to achieve substantial interaction between the major and minor player. Again our strategy is to modify the coefficient f 0 , so that the coefficients we choose are given by:</p><formula xml:id="formula_62">b(t, x, γ, α 0 , α, λ) = α -α 0 - 1 2 σ 2 t , σ(t, x, γ) = σ t , f 0 (t, α 0 , λ) = 1 2 α 2 0 / λγ + α 0 λx , g 0 (λ) = -λx + λγ , f (t, x, γ, α 0 , α, λ) = 1 2 α 2 α 2 0 , g(x, γ, λ) = -x.</formula><p>The interpretation in this modification of f 0 is still that the regulator punishes firms with low emissions less than firms with high emissions, but in addition, the regulator's taxation rate is affected by the overall performance of the economy.</p><p>The reduced Hamiltonians then read as</p><formula xml:id="formula_63">H R 0 (t, x, γ, y, ỳ, α 0 , α, λ) = (α -α 0 - 1 2 σ 2 t )y + αỳ + 1 2 α 2 0 / λγ + α 0 λx , H R (t, x, γ, y, ỳ, α 0 , α, λ) = (α -α 0 - 1 2 σ 2 t )y + αỳ + 1 2 α 2 α 2 0 .</formula><p>Minimising α 0 → E H R 0 (t, X t , γ t , P t , Pt , α 0 , α, L(X t , γ t )) and α → H R (t, x, γ, y, ỳ, α 0 , α, λ) yields the minimisers:</p><formula xml:id="formula_64">α0 (t, L(X t , γ t , P t , Pt )) = (E[P t ] -E[X t ])E[γ t ], α(t, x, γ, y, ỳ, α 0 , λ) = -(y + ỳ)/α 2 0 .</formula><p>The FBSDE eqs. (5.1)-( <ref type="formula">5</ref>.2) thus becomes:</p><formula xml:id="formula_65">dX t = - Y t + Ỳt (E[P t ] -E[X t ]) 2 (E[γ t ]) 2 -(E[P t ] -E[X t ])E[γ t ] - 1 2 σ 2 t dt + σ t dB t , dγ t = - Y t + Ỳt (E[P t ] -E[X t ]) 2 (E[γ t ]) 2 dt, d P t Pt = (E[P t ] -E[X t ])E[γ t ]; 1 2 (E[P t ] -E[X t ]) 2 (E[γ t ]) 2 E[∂ λγ (1/E[γ t ])(γ t )] dt + Q t Qt dB t , d Y t Ỳt = Z t Zt dB t ,</formula><p>with terminal conditions:</p><formula xml:id="formula_66">P T PT = -1 1 , Y T ỲT = -1 0 .</formula><p>If the above FBSDE has a solution ( X, γ, P, P, Ŷ, Ŷ, Q, Q, Ẑ, Ẑ), then the optimal strategy is given by α0t = (E[ Pt ] + E[ Xt ])E[γ t ] and αt = -( Ŷt + Ŷt )/(α 0t ) 2 .</p><p>Unfortunately we were unable to solve the above system explicitly. In fact more generally, it seems probable that the resulting FBSDE from pushing the complexity of the system further than this will not be explicitly solvable. However, we should highlight that the formulation of the preceding FBSDE was only possible due the sufficient stochastic maximum principle developed in this article. In future work, we would like to study such systems using numerical methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusion</head><p>In this article, we have considered a mean field model for a game with a continuum of carbonemitting firms, who wish to maximise their stock performance, and a regulator who wishes for the economy to flourish whilst simultaneously punishing firms who behave non-green. Our desire was to model this through the theory of mean field games with major and minor players, however we found that with the existing results in the literature, non-trivial models were not feasible. By considering the scenario where the minimisers of the major and representative minor players' Hamiltonians depend on certain additional arguments, we extended the necessary and sufficient stochastic maximum principle developed in <ref type="bibr" target="#b8">(Carmona and Zhu, 2016)</ref>. Using this theorem, we were able to solve some examples explicitly pertaining to problems in Green and sustainable finance. Future work would be to consider more complex models which fit within our framework and where explicit solutions may not exist, therefore requiring the use of numerical methods. We would also like to formulate our problem through a mean field Stackelberg game, and compare the results to the ones achieved through our mean field game with major and minor players. functions which map P 2 (R q ) to R p 1 ×p 2 (which would be useful for example, when the diffusion coefficient σ in eq. ( <ref type="formula" target="#formula_6">2</ref>.2) depends on µ); we leave this adaptation to the reader.</p><p>The definition of L derivative requires the notion of lifting functions of probability measures to spaces of random variables. In order for lifting to be well-defined, we require the following surjection type result: For every µ ∈ P 2 (R q ), there exists a probability space ( Ω, F, P) and square integrable R q valued random variable X on it such that P • X -1 = µ.</p><p>Definition A.1 (Lifted function). Let P 2 (R q ) ∋ µ → φ(µ) ∈ R p . The lifting of φ at µ ∈ P 2 (R q ) is denoted by φ and defined as L 2 ( Ω, F, P; R q ) ∋ X → φ(X) := φ(L(X)) ∈ R p , where ( Ω, F, P) is a probability space and X is a square integrable random variable on it such that P • X -1 = µ. Definition A.2 (L derivative). Let P 2 (R q ) ∋ µ → φ(µ) ∈ R p and denote by φ its lifting. Fix µ ∈ P 2 (R q ) and let X, H ∈ L 2 ( Ω, F, P; R q ) such that P • X -1 = µ. Then φ is L differentiable at µ if and only if the Fréchet derivatives of the components of φ ≡ ( φ1 , . . . , φp ) at X, denoted by D φi (X) and identified with random variables in L 2 ( Ω, F, P; R q ) through Riesz representation, exist. The L derivative of φ at µ is defined as D φ(X) := (D φ1 (X), . . . , D φp (X)) ⊤ ∈ L 2 ( Ω, F, P; R p×q ), which is a matrix valued random variable.</p><p>To further elaborate on the above definitions, first note that the Fréchet derivatives of the components D φi (X) satisfy</p><formula xml:id="formula_67">φi (X + H) = φi (X) + E[D φi (X) • H] + o(H), 1 ≤ i ≤ p. Therefore, φ(X + H) = φ(X) + E[D φ(X)H] + o(H).</formula><p>Remark A.1. The distribution of the L derivative does not depend on the random variable used to represent it. That is, if X, X are two R q valued random variables possibly defined on different probability spaces (Ω, F, P), ( Ω, F, P) such that P • X -1 = P • X-1 = µ, then D φ(X) d = D φ( X). Therefore, one can identify the L derivative with a Borel measurable function which we denote by ∂ µ φ(µ)(•) : R q → R p×q , so that D φ(X) = ∂ µ φ(µ)(X) whenever X is a R q valued square integrable random variable supported on some probability space and such that L(X) = µ. An illustrative example is the following. Consider the function</p><formula xml:id="formula_68">φ(µ) = R q h(x)µ(dx)</formula><p>where h : R q → R p , and the preceding integral being a Bochner integral. Therefore, φ : P 2 (R q ) → R p . Hence, ∂ µ φ(µ)(•) : R q → R p+q , and it can be shown that ∂ µ φ(µ)(•) = ∂ x h(•) so that the L derivative is identified with the Jacobian of h. Additionally, when h</p><formula xml:id="formula_69">(x) = x, then ∂ µ φ(µ)(•) = I p×q . Definition A.3 (L convexity). Let P 2 (R q ) ∋ µ → φ(µ) ∈ R. Then φ is convex if for each µ, µ ′ ∈ P 2 (R q ), we have φ(µ ′ ) -φ(µ) ≥ Ẽ[∂ µ φ(µ)( X) • ( X′ -X)]</formula><p>whenever X, X′ ∈ L 2 ( Ω, F, P) such that X ∼ µ and X′ ∼ µ ′ . A.2. Calculating L derivatives in some particularly useful settings. In even the slightest non-trivial settings, calculating L derivatives can be nonintuitive. In this section we will consider a few examples which should help clarify how some calculations in this article are performed.</p><p>In many instances of L differentiation, the fact that the distribution of the L derivative is independent of the random variable and probability space used to represent it can be exploited in a convenient way. For example, consider the case where we have a function</p><formula xml:id="formula_70">R d × P 2 (R d ) ∋ (x, µ) → ψ(x, µ) ∈ R d .</formula><p>By exploiting the fundamental theorem of Fréchet differentiation, and utilising so-called partial L differentiation, we have the following representations</p><formula xml:id="formula_71">ψ(X + Y, L(X + Y )) = ψ(X, L(X)) + 1 0 ∂ x ψ(X + λY, L(X + λY )) • Y + Ẽ[∂ µ ψ(X + λY, L(X + λY ))( X + λ Ỹ ) • Ỹ ] dλ, E[ψ(X + Y, L(X + Y ))] = E[ψ(X, L(X))] + 1 0 E[∂ x ψ(X + λY, L(X + λY )) • Y ] + E Ẽ[∂ µ ψ(X + λY, L(X + λY ))( X + λ Ỹ ) • Ỹ ] dλ.</formula><p>Here random variables with tildes denote independent copies of the respective original versions defined on a copy of the respective original probability space. For example, in the above X, X are defined on probability spaces (Ω, F, P), ( Ω, F, P) respectively such that P • X -1 = P • X-1 . This technique of copying the random variables and the underlying probability space is crucial. For example:</p><formula xml:id="formula_72">ψ(X, L(X + Y )) -ψ(X, L(X)) = 1 0 Ẽ[∂ µ ψ(X, L(X + λY ))( X + λ Ỹ ) • Ỹ ] dλ.</formula><p>The above LHS is a random variable. On the other hand, if we did not utilise the tilde notation on the RHS, then it would be non-random, which does not make sense.</p><p>Sometimes it will be necessary to take L derivative of a function in a marginal of the probability measure being mapped. To be more precise, consider the situation where we have the map P 2 (R q 1 +q 2 ) ∋ ν → φ(ν) ∈ R p . Let µ i , i = 1, 2, denote the marginals of ν in the sense that µ 1 (•) = ν(• × R q 2 ) and µ 2 (•) = ν(R q 1 × •). Consider the setting when φ(ν) = φ(µ 1 ), where</p><formula xml:id="formula_73">P 2 (R q 1 ) ∋ µ 1 → φ(µ 1 ) ∈ R p . Our objective is to express R q 1 +q 2 ∋ (x, y) → ∂ ν φ(ν)(x, y) ∈ R p×(q 1 +q 2 ) in terms of R q 1 ∋ x → ∂ µ 1 φ(µ 1 )(x) ∈ R p×q 1 . It not too difficult to show that ∂ ν φ(ν)(x, y) = (∂ µ 1 φ(µ 1 )(x), 0 p×q 2 ).</formula><p>For illustration, consider the example where</p><formula xml:id="formula_74">φ(ν) = φ(µ 1 ) = R d 1 h(x)µ 1 (dx) with h : R q 1 → R p . Then we have ∂ ν φ(ν)(x, y) =     ∂ x 1 h 1 (x) • • • ∂ xq 1 h 1 (x) 0 1×q 2 . . . . . . . . . . . . ∂ x 1 h p (x) • • • ∂ xq 1 h p (x) 0 1×q 2    </formula><p>In other words, ∂ ν φ(ν)(x, y) = ((∂ x h 1 (x), 0 1×q 1 ); . . . ; (∂ x h p (x), 0 1×q 2 )).</p><p>and</p><formula xml:id="formula_75">dV t = ∂ x 0 b(t, X 0t , X t , α 0t , α t , L(X t ))V 0t + ∂ x b(t, X 0t , X t , α 0t , α t , L(X t ))V t + ∂ α 0 b(t, X 0t , X t , α 0t , α t , L(X t ))β 0t + Ẽ[∂ µ b(t, X 0t , X t , α 0t , α t , L(X t ))( Xt ) Ṽt ] dt + (∂ x σ(t, X t ))V t dB t , V 0 = 0,</formula><p>respectively. Here we interpret ∂ x σ(t, X t ) ∈ R (d×m)×d . V 0 and V serve in a sense as derivatives of ε 0 → X ε 0 0 and ε 0 → X ε 0 respectively. This fact can be verified by a formal computation of ε 0 -1 (dX ε 0 0t -d X0t ) and ε -1 0 (dX ε 0 t -d Xt ) and then taking ε 0 → 0. To be precise, one can show that lim</p><formula xml:id="formula_76">ε 0 →0 E sup t∈[0,T ] |ε -1 0 (X ε 0 0t -X0t ) -V0t | 2 = 0, lim ε 0 →0 E sup t∈[0,T ] |ε -1 0 (X ε 0 t -Xt ) -Vt | 2 = 0.</formula><p>Step M(ii) Going back to eq. (B.1), we now rewrite the differences in f 0 and g 0 using the FTOC. Then, appealing to the regularity of coefficients provided in Assumption A, we take ε 0 to 0 as the limit suggests and note that V 0 and V serve as derivatives of X ε 0 0 and X ε 0 respectively. Thus we obtain the form of the Gáteaux derivative as lim</p><formula xml:id="formula_77">ε 0 ↓0 ε -1 0 [J 0 (α ε 0 0 , α) -J 0 (α 0 , α)] = E T 0 ∂ x 0 f 0 (t, X0t , α0t , L( Xt )) • V0t + ∂ α 0 f 0 (t, X0t , α0t , L( Xt )) • β 0t + Ẽ ∂ µ f 0 (t, X0t , α0t , L( Xt ))( Xt ) • Ṽ0t dt + ∂ x 0 g 0 ( X0T , L( XT )) • V0T + Ẽ[∂ µ g 0 ( X0T , L( XT ))( XT ) • Ṽ0T ] . (B.2)</formula><p>Step M(iii) Our goal now is to eliminate the processes V0 and V in the preceding Gâteaux derivative eq. (B.2) by means of an adjoint equation. We denote the adjoints for the major and minor player's state processes by P 0t and P t respectively, and they are defined via the BSDEs:</p><formula xml:id="formula_78">dP 0t = -∂ x 0 H 0 (t, X t , P t , Q t , α 0t , α t , L(X t ))dt + Q 0t dB t , P 0T = ∂ x 0 g 0 (X 0T , L(X T ))(X T ) (B.</formula><p>3) and dP t = -∂ x H 0 (t, X t , •, P t , Q t , α 0t , α t , L(X t )) + Ẽ[∂ µ H 0 (t, Xt , P t , Qt , α0t , αt , L(X t ))(X t )] dt + Q t dB t , P T = ∂ µ g 0 (X 0T , L(X T ))(X T ), (B.4) respectively. After noting that E[ V0T • P0T + VT • PT ] = E[∂ x 0 g 0 ( X0T , L( XT )) • V0T + Ẽ[∂ µ g 0 ( X0T , L( XT ))( XT ) • Ṽ0T ]]</p><p>and then expanding the preceding LHS through stochastic integration parts, it is now possible to rewrite the Gâteaux derivative as lim</p><formula xml:id="formula_79">ε 0 ↓0 ε -1 0 [J 0 (α ε 0 0 , α) -J 0 (α 0 , α)] = E T 0 ∂ α 0 H R 0 (t,</formula><p>Xt , P t , α0t , αt , L( Xt )) • β 0t dt ≥ 0 (B.5) the last inequality being true due to the optimality of (α 0 , α). Due to β 0 ∈ A 0 being arbitrary, we obtain E ∂ α 0 H R 0 (t, Xt , P t , α0t , αt , L( Xt )) • β 0t dt ≥ 0 (B.6)</p><p>a.e. in t. Finally, utilising the convexity of α 0 → H R 0 (t, x, y, α 0 , α, µ) and replacing β 0t with α 0 -α0t proves the claim. B.2. The representative minor player's problem. We now consider optimisation for the representation minor player. As this is the representative minor player's problem, we are considering state processes with the flow of probability measures (µ t ) t∈[0,T ] fixed, which is eqs.</p><p>(2.1)-(2.2).</p><p>Consider a perturbation of their optimal strategy in the direction β ∈ A given by α ε := α + εβ, which remains in A for a sufficiently small ε. Denote by Xµ and X µ,ε for the minor player's state process eq. (2.2) along the strategies (α 0 , α) and (α 0 , αε ) respectively. Unlike the major player's problem, there is no need to consider the state process of the major player eq. (2.1) along these two different strategies, as it does not depend on the minor player's strategy. Therefore, we we will denote by Xµ 0 for the major player's state process eq. (2.1) along the strategy α0 .</p><p>Similar to the major player's problem, our goal is to study Gâteaux derivative of α → J µ (α 0 , α) at α in the direction β ∈ A, given by</p><formula xml:id="formula_80">lim ε↓0 ε -1 [J µ (α 0 , α ε ) -J µ (α 0 , α)] = lim ε↓0 ε -1 E T 0 f (t,</formula><p>Xµ 0t , X µ,ε t , α0t , α ε t , µ t ) -f (t, Xµ 0t , Xµ t , α0t , αt , µ t ) dt + g( Xµ 0T , X µ,ε T , µ T ) -g( Xµ 0T , Xµ T , µ T ) . (B.7) Step m(i) We now define the process V µ taking values in R d through the SDE: dV µ t = ∂ x b(t, Xµ 0t , Xµ t , α0t , αt , µ t )V µ t + ∂ α b(t, Xµ 0t , Xµ t , α0t , αt , µ t )β t dt + ∂ x σ(t, X µ t )V µ t dB t ,</p><p>V µ 0 = 0.</p><p>V µ serves in a sense as a derivative of ε → X µ,ε . There is no need to consider such a process for X µ 0 , since perturbations in α do not affect it. The fact that the above is the correct SDE for V µ can be deduced through a formal computation of ε -1 (dX µ,ε t -d Xt ) and then taking ε → 0. To be more precise, one can show that</p><formula xml:id="formula_81">lim ε→0 E[ sup t∈[0,T ] |ε -1 (X µ,ε t -Xµ t ) -V µ t | 2 ] = 0.</formula><p>Step m(ii) Going back to eq. (B.7), we rewrite the differences in f and g using the FTOC. Then, appealing to the regularity of the coefficients guaranteed by Assumption A, we take the limit as ε → 0. Noting that V µ serves as a derivative of X µ,ε , we obtain the form of the Gáteaux derivative as lim ε↓0 ε -1 [J(α 0 , α ε ) -J(α 0 , α)]</p><formula xml:id="formula_82">E T 0 ∂ x f (t, Xµ 0t , Xµ t , α0t , αt , µ t ) • V µ t + ∂ α f (t, Xµ 0t , Xµ t , α0t , αt , µ t ) • β t dt + ∂ x g( Xµ 0T , Xµ T , µ T ) • V µ T .</formula><p>Step m(iii) Our goal now is to eliminate the variable V µ in the preceding Gâteaux derivative by means of an adjoint equation. We define the adjoint process (Y µ t , Z µ t ) via the BSDE:</p><formula xml:id="formula_83">dY µ t = -∂ x H(t, X µ 0t , X µ t , Y µ t , Z µ t , α 0t , α t , µ t )dt + Z µ t dB t , Y µ T = ∂ x g(X µ 0T , X µ T , µ T ).</formula><p>After noting that</p><formula xml:id="formula_84">E[ V µ T • Y µ T ] = E[∂ x g( Xµ 0T , Xµ T , µ T ) • V µ T ]</formula><p>and then expanding the preceding LHS through stochastic integration parts, it is now possible to rewrite the Gâteaux derivative as</p><formula xml:id="formula_85">lim ε↓0 ε -1 [J µ (α 0 , α ε ) -J µ (α 0 , α)] = E T 0 ∂ α H R (t,</formula><p>Xµ t , Ŷ µ t , Ẑµ t , α0t , αt , µ t ) • β t dt ≥ 0 (B.8) the last inequality being true due to the optimality of (α 0 , α). Since β ∈ A is arbitrary, we obtain ∂ α H R (t, Xµ 0t , Xµ t , Ŷ µ t , Ẑµ t , α0t , αt , µ t ) (B.9) dt × dP a.e. Lastly, utilising the convexity of α → H(t, x, y, α 0 , α, µ) and replacing β with α -αt proves the claim. Remark B.1. A key difference in the major player's problem versus the minor player's problem is that we can only remove the integral w.r.t. dt, and cannot remove the expectation, in the inequality eq. (B.5) for the major player. For the minor player, we can remove both the integral w.r.t. dt and expectation in eq. (B.8). As a consequence, the inequality eq. (B.6) holds dt a.e., whereas the inequality eq. (B.9) holds dt × dP a.e. The reason for this is due to the fact that elements of A 0 are deterministic processes, whereas elements of A are processes progressively measurable w.r.t. (F t ) t∈[0,T ] . This observation is crucial for the statements of Assumption D and Theorem 3.2.</p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><rs type="person">Anna Aksamit</rs>, <rs type="person">Kaustav Das</rs>, <rs type="person">Ivan Guo</rs>, <rs type="person">Kihun Nam</rs>, and <rs type="person">Zhou Zhou</rs> have been supported by the <rs type="funder">Australian Research Council</rs> (Grant <rs type="grantNumber">DP220103106</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vfJbchG">
+					<idno type="grant-number">DP220103106</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. L differentiation</head><p>In this appendix, we will provide a brief description of the differential calculus on the space of probability measures P 2 (R q ) that we extensively utilise in this article. There are a few notions for this, but the one that is appropriate for our needs is called L differentiability, introduced by Lions in his lectures at the Collège de France, see <ref type="bibr" target="#b2">(Cardaliaguet, 2010)</ref> for a comprehensive review of these lectures. Most of this appendix is an informal summary based off <ref type="bibr">(Carmona and Delarue, 2018a, §5.</ref>2) as well as <ref type="bibr">(Carmona and Delarue, 2015, §3.1)</ref>, and we refer the reader here for more in depth discussions details, especially regarding technical results. Moreover, we will extensively be utilising the matrix notation from Remark 2.1.</p><p>A.1. Definitions. To our knowledge, the definition of L differentiability in the current literature is given for functions which map P 2 (R q ) to R. However, L differentiation is often utilised in the context where the codomain is R p for some p ≥ 1, despite the definition not being stated explicitly in the literature. Therefore, our treatment of L differentiation will cover this more general case. This is quite straightforward and just requires one to consider the function outputs component wise, and then apply the rules of L differentiation to the individual components. In fact, this is probably why this more general setting has not been explicitly treated in the literature. Despite this, we feel for completeness, clarity, and convenience to the reader, that this general setting should be addressed explicitly. One can also derive similar definitions for Appendix B. Proof of Theorem 3.1</p><p>The proof of the necessary stochastic maximum principle will be undertaken over the next few subsections. We will isolate the cases for the major player and representative minor player. Our proof is inspired by arguments made in (Carmona and Delarue, 2015, §4.1), and we refer the reader here for any details that may not pop out as obvious. The main purpose of including the proof is to illustrate the asymmetry that the necessary condition implies in the minimisations of the major and representative minor player's Hamiltonians. Recall that we write x := (x 0 , x), and • in place of any arguments of functions that are redundant. In the following we will write (α 0 , α) ≡ (α µ 0 , αµ ) to denote the Nash equilibrium obtained from Step 2 of the MmMFG strategy, thereby suppressing the explicit dependence on µ.</p><p>B.1. The major player's problem. We first address the optimisation for the major player. As this is the major player's problem, we are considering the McKean-Vlasov versions of the state processes, namely eqs. (2.3)-(2.4).</p><p>Consider a perturbation of their optimal strategy in the direction β 0 ∈ A 0 given by α ε 0 0 := α0 + ε 0 β 0 , which for a sufficient small ε 0 remains in A 0 . Denote by X0 and X ε 0 0 the major player's state process eq. ( <ref type="formula">2</ref>.3) along the strategies (α 0 , α) and (α ε 0 0 , α) respectively. Similarly, denote by X and Xε 0 for the minor player's state process eq. (2.4) along the strategies (α 0 , α) and (α ε 0 0 , α) respectively.</p><p>The main idea is to consider the Gâteaux derivative of α 0 → J 0 (α 0 , α) at α0 in the direction β 0 , given by lim</p><p>Step M(i) We now define processes V 0 and V (taking values in R d 0 and R d respectively) through the SDEs:</p><p>+ Ẽ[∂ µ b 0 (t, X 0t , α 0t , L(X t ))( Xt ) Ṽt ] dt</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mean field Stackelberg games: Aggregation of delayed instructions</title>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Bensoussan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sheung</forename><surname>Chau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Phillip</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Control and Optimization</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2237" to="2266"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mean field games with a dominating player</title>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Bensoussan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chau</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sheung</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematics &amp; Optimization</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="91" to="128"/>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Notes on mean field games</title>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Cardaliaguet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Probabilistic analysis of mean-field games</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Delarue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Control and Optimization</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2705" to="2734"/>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Forward-backward stochastic differential equations and controlled McKean-Vlasov dynamics</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Delarue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Annals of Probability</title>
+		<imprint>
+			<biblScope unit="page" from="2647" to="2700"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Probabilistic theory of Mean Field Games with applications I</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Delarue</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Probabilistic theory of Mean Field Games with applications II</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Delarue</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An alternative approach to mean field game with major and minor players, and applications to herders impacts</title>
+		<author>
+			<persName><forename type="first">Rene</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peiqi</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematics &amp; Optimization</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="27"/>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A probabilistic approach to mean field games with major and minor players</title>
+		<author>
+			<persName><forename type="first">Rene</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiuneng</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Applied Probability</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">A machine learning method for Stackelberg mean field games</title>
+		<author>
+			<persName><forename type="first">Gökçe</forename><surname>Dayanıklı</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathieu</forename><surname>Laurière</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+		<respStmt>
+			<orgName>Mathematics of Operations Research</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multi-population mean field games with multiple major players: Application to carbon emission regulations</title>
+		<author>
+			<persName><forename type="first">Gökçe</forename><surname>Dayanikli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathieu</forename><surname>Lauriere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2024 American Control Conference (ACC)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2024">2024</date>
+			<biblScope unit="page" from="5075" to="5081"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A tale of a principal and many, many agents</title>
+		<author>
+			<persName><forename type="first">Romuald</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thibaut</forename><surname>Mastrolia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dylan</forename><surname>Possamaï</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematics of Operations Research</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="440" to="467"/>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Large-population LQG games involving a major player: the Nash certainty equivalence principle</title>
+		<author>
+			<persName><forename type="first">Minyi</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Control and Optimization</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="3318" to="3353"/>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Individual and mass behaviour in large population stochastic wireless power control problems: centralized and nash equilibrium solutions</title>
+		<author>
+			<persName><forename type="first">Minyi</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Caines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><forename type="middle">P</forename><surname>Malhamé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">42nd IEEE international conference on decision and control (IEEE cat. No. 03CH37475)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="98" to="103"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Large population stochastic dynamic games: closed-loop McKean-Vlasov systems and the Nash certainty equivalence principle</title>
+		<author>
+			<persName><forename type="first">Minyi</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><forename type="middle">P</forename><surname>Malhamé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Caines</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Jeux à champ moyen i. le cas stationnaire</title>
+		<author>
+			<persName><forename type="first">Jean-Michel</forename><surname>Lasry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Louis</forename><surname>Lions</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes Rendus Mathématique</title>
+		<imprint>
+			<biblScope unit="volume">343</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="619" to="625"/>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Jeux à champ moyen ii. horizon fini et contrôle optimal</title>
+		<author>
+			<persName><forename type="first">Jean-Michel</forename><surname>Lasry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Louis</forename><surname>Lions</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes Rendus. Mathématique</title>
+		<imprint>
+			<biblScope unit="volume">343</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="679" to="684"/>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mean field games</title>
+		<author>
+			<persName><forename type="first">Jean-Michel</forename><surname>Lasry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Louis</forename><surname>Lions</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Japanese journal of mathematics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="229" to="260"/>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Lavigne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Tankov</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2301.09163</idno>
+		<title level="m">Decarbonization of financial markets: a mean-field game approach</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Linear-quadratic-Gaussian mixed games with continuumparametrized minor players</title>
+		<author>
+			<persName><forename type="first">Son</forename><surname>Luu Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minyi</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Control and Optimization</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2907" to="2937"/>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mean field LQG games with mass behavior responsive to a major player</title>
+		<author>
+			<persName><forename type="first">Son</forename><surname>Luu Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minyi</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 51st IEEE Conference on Decision and Control (CDC)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012">2012. 2012</date>
+			<biblScope unit="page" from="5792" to="5797"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">ǫ-Nash mean field game theory for nonlinear stochastic dynamical systems with major and minor agents</title>
+		<author>
+			<persName><forename type="first">Mojtaba</forename><surname>Nourian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Caines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Control and Optimization</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="3302" to="3331"/>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

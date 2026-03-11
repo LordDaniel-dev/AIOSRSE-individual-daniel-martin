@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unlocking the future of food security through access to finance for sustainable agribusiness performance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Zaporizhzhia National University</publisher>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024">2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ayobami</forename><surname>Paul Abolade</surname></persName>
+							<idno type="ORCID">0000-0001-9302-7189</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Ibrahim</forename><surname>Olanrewaju Lawal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kamoru</forename><surname>Lanre Akanbi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ahmed</forename><surname>Orilonise Salami</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Business &amp; Entrepreneurship</orgName>
+								<orgName type="institution">Kwara State University Malete</orgName>
+								<address>
+									<country key="NG">Nigeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Business &amp; Entrepreneurship</orgName>
+								<orgName type="institution" key="instit1">ORCID</orgName>
+								<orgName type="institution" key="instit2">Kwara State University Malete</orgName>
+								<address>
+									<country key="NG">Nigeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Business &amp; Entrepreneurship</orgName>
+								<orgName type="institution">Kwara State University Malete</orgName>
+								<address>
+									<country key="NG">Nigeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Ahmed Orilonise Salami Africa Business School</orgName>
+								<address>
+									<settlement>UM6P Rabbat</settlement>
+									<country>Morroco</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Business &amp; Entrepreneurship</orgName>
+								<orgName type="institution">Kwara State University Malete</orgName>
+								<address>
+									<country key="NG">Nigeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Business &amp; Entrepreneurship</orgName>
+								<orgName type="institution">Kwara State University Malete</orgName>
+								<address>
+									<country key="NG">Nigeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Business &amp; Entrepreneurship</orgName>
+								<orgName type="institution">Kwara State University Malete</orgName>
+								<address>
+									<country key="NG">Nigeria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Africa Business School</orgName>
+								<address>
+									<settlement>UM6P Rabbat</settlement>
+									<country>Morroco</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unlocking the future of food security through access to finance for sustainable agribusiness performance</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Management and Entrepreneurship: Trends of Development</title>
+						<title level="j" type="abbrev">Management and Entrepreneurship: Trends of Development</title>
+						<idno type="eISSN">2522-1566</idno>
+						<imprint>
+							<publisher>Zaporizhzhia National University</publisher>
+							<biblScope unit="volume">4</biblScope>
+							<biblScope unit="issue">30</biblScope>
+							<biblScope unit="page" from="106" to="118"/>
+							<date type="published" when="2024"/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C3F405EFB3AAC8D3A8D6AF7FBA6DBACD</idno>
+					<idno type="DOI">10.26661/2522-1566/2024-4/30-09</idno>
+					<note type="submission">RECEIVED: 09 September 2024 ACCEPTED: 14 November 2024 RELEASED: 20 December 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-04T16:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>access to finance</term>
+					<term>farmer</term>
+					<term>agribusiness</term>
+					<term>food security. JEL: L26</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Access to finance is vital for improving food security, particularly in developing nations where agricultural production is crucial. Despite several financial interventions targeted at increasing agricultural production, smallholder farmers continue to lack access to reasonable, timely, and sufficient financing, limiting their ability to invest in improved technology and inputs, lowering productivity and food supply. This study examines the relationship between access to finance and food security among smallholder farmers in Ogun State, employing institutional theory as a theoretical framework. The study takes a quantitative method, with a survey for the research design and a population of 37,200 agricultural smallholder farmers. A sample size of 380 was chosen using probability sampling and simple random techniques. The data were analysed via Partial Least Squares Structural Equation Modelling (PLS-SEM). The findings demonstrate a favourable relationship between access to finance and food security, with an R2-value of 0.615 indicating a robust link. These findings underline the need of improving financial institutions and implementing enabling policies to enable farmers have access to the financial resources they need to achieve food security outcomes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Agribusiness is crucial to promoting food security, economic growth, and sustainable development, especially in developing nations. The agricultural sector not only contributes significantly to the GDP, but it also employs a large number of the people, particularly in rural areas. In terms of food security, agribusiness contributes to the availability, accessibility, and affordability of food, which is critical for the survival and well-being of the populace. However, despite agribusiness's critical role in providing food security, numerous hurdles limit the sector's</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LITERATURE REVIEW</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.</head><p>Access to Finance Access to finance refers to the ease with which individuals or businesses can obtain formal financial products and services, such as credit, savings, insurance, and payment systems, required for economic participation, as well as the ability of businesses or individuals to secure necessary funding or credit at reasonable interest rates without excessive bureaucratic hurdles or discriminatory practices <ref type="bibr">(Demirgüç-Kunt et al., 2020;</ref><ref type="bibr">Asongu &amp; Nwachukwu, 2021)</ref>.</p><p>Furthermore, access to finance describes a financial system that inclusively accommodates underserved or vulnerable populations, such as low-income households, rural enterprises, and women, ensuring that financial services are available to all, and it involves financial institutions' ability to facilitate the provision of loans, credit facilities, and investment capital to businesses, particularly small and medium-sized enterprises (SMEs), with minimal risk-related <ref type="bibr">(Kabeer et al., 2021;</ref><ref type="bibr">Beck &amp; Maimbo, 2021)</ref>. Furthermore, access to finance entails the utilisation of digital financial platforms, such as mobile banking and digital wallets, allowing individuals and businesses to participate in financial systems without the need for physical banking infrastructure, and it refers to the availability of financial services that are specifically designed to meet the unique needs of certain sectors or groups, such as microfinance for small-scale farmers or SMEs, which frequently face barriers in traditional lending models <ref type="bibr">(Suri &amp; Jack, 2021;</ref><ref type="bibr">Grohmann, 2021)</ref>.</p><p>Furthermore, access to finance entails ensuring that financial resources are provided on sustainable terms, which means that loans and other forms of credit are not only available but structured in a way that borrowers can repay them without causing financial distress, and it is characterised by the reduction of common barriers such as high collateral requirements, high interest rates, or complex application processes, allowing easier entry for businesses and individuals. <ref type="bibr">(Akinwumi et al., 2023;</ref><ref type="bibr">Omondi &amp; Mugambi, 2023)</ref>. Access to finance is the process by which financial institutions provide adequate risk mitigation mechanisms, such as credit guarantees or insurance products, to reduce the perceived risks of lending to certain sectors, particularly agriculture or SMEs. It also includes the enhancement of financial literacy, which empowers individuals and businesses to make informed decisions about credit, savings, and investment opportunities, increasing their ability to participate in financial markets <ref type="bibr">(Asogwa &amp; Nwaogwugwu, 2022;</ref><ref type="bibr">Chen et al., 2022)</ref>.</p><p>Access to finance is broadly described as individuals and organisations' capacity to receive relevant financial products and services from formal financial institutions, such as credit, savings, insurance, and payment systems <ref type="bibr">(Demirgüç-Kunt et al., 2020)</ref>. Access to these resources is critical for business growth, risk management, and investment in new opportunities. The World Bank (2020) emphasises that without proper financial access, firms, particularly SMEs and agricultural sectors, are frequently unable to develop or enhance efficiency, contributing to economic stagnation.</p><p>1.1 Determinants of Access to Finance Several factors influence financial access, including institutional frameworks, financial literacy, digital infrastructure, and financial institutions' risk perceptions. <ref type="bibr">Beck and Maimbo (2021)</ref> identify the regulatory environment as a crucial predictor, pointing out that countries with stronger legislative frameworks for financial inclusion have higher levels of loan availability. Similarly, <ref type="bibr">Asongu and Nwachukwu (2021)</ref> contend that corruption, bureaucratic inefficiency, and weak property rights severely hinder the availability of funding to SMEs in many emerging nations. Financial literacy is another important driver, as it influences whether individuals and businesses can obtain loans and financial services. <ref type="bibr">Grohmann (2021)</ref> discovered that better levels of financial literacy among SMEs enhanced their ability to acquire formal loans and financial services, therefore supporting business growth.</p><p>1.1.1 Challenges of Access to Finance Despite global attempts to enhance financial inclusion, major hurdles still exist, particularly for marginalised communities and rural businesses. According to <ref type="bibr">Asogwa and Nwaogwugwu (2022)</ref>, main barriers to rural company financing include high interest rates, onerous collateral requirements, and a lack of specialised financial solutions. Furthermore, commercial banks view agribusiness and SMEs as high-risk due to their vulnerability to market volatility and environmental concerns, making financial institutions hesitant to lend to them <ref type="bibr">(Omondi &amp; Mugambi, 2023)</ref>. Furthermore, gender discrepancies in financial access continue to exist. According to <ref type="bibr">Kabeer et al. (2021)</ref>, cultural norms, a lack of collateral, and low financial knowledge make it more difficult for women entrepreneurs to secure loans, particularly in Sub-Saharan Africa and South Asia. These inequities prevent women-led firms from growing, limiting their economic impact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.2">Digital Finance and Access to Finance</head><p>The rise of digital banking has created new opportunities to improve financial inclusion. Mobile banking, digital wallets, and Fin-tech advances are revolutionising access to finance, especially in areas with limited penetration of traditional banking institutions. According to <ref type="bibr">Suri and Jack (2021)</ref>, mobile money platforms have played an important role in improving financial access in Africa by allowing individuals and businesses to save, borrow, and transact without the need for traditional banks. <ref type="bibr">Akinwumi et al. (2023)</ref> found that digital finance has lowered transaction costs and expanded access to microfinance for SMEs in East Africa. Furthermore, digital lending platforms have made it simpler for small enterprises and farmers to obtain short-term loans without providing physical collateral <ref type="bibr" target="#b13">(Wamba et al., 2022)</ref>. However, issues such as digital literacy, cybersecurity concerns, and regulatory deficiencies persist <ref type="bibr">(Chen et al., 2022)</ref>.</p><p>1.2 Agribusiness Performance Agribusiness, defined as the interconnected sectors of agriculture, food production, and related services, is critical to global economic development, food security, and rural lifestyles. This literature study focusses on conceptual definitions of agricultural performance, with a particular emphasis on food security and other aspects of performance. Agribusiness performance is a multidimensional notion that incorporates many aspects of efficiency, effectiveness, and sustainability in the agricultural industry.</p><p>Kueh et al. ( <ref type="formula">2021</ref>) define agribusiness performance as the ability of firms within the agricultural value chain to fulfil their strategic goals while maximising resource utilisation. This encompasses not only financial indicators like profit margins and ROI, but also operational efficiency, customer happiness, and environmental stewardship. Several researchers emphasise the relevance of integrating several performance variables. For example, <ref type="bibr">Kariuki et al. (2022)</ref> recommend that agribusiness performance be evaluated using a balanced scorecard approach that takes into account financial performance, internal procedures, customer viewpoints, and learning and growth. This complete view enables stakeholders to evaluate how well agribusinesses respond to changing market conditions while meeting long-term sustainability objectives.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.2.1</head><p>Food Security Food security is the state in which all individuals have consistent physical and economic access to sufficient, safe, and nutritious food that meets their dietary requirements for a healthy and active life (FAO, 2020). Food security is described by four pillars: availability, access, utilisation, and long-term stability. These pillars work together to ensure that individuals and households can meet their food needs consistently and without disruption <ref type="bibr">(Clapp, 2021)</ref>. Global food security refers to the ability of worldwide and national food supply systems to withstand and recover from economic, environmental, and health crises, providing continued food access <ref type="bibr">(Laborde et al., 2020)</ref>. Food security at the home level refers to all members of a household having consistent access to the quantity and quality of food needed to live an active and healthy life <ref type="bibr">(Renzaho, 2020)</ref>. Food security is the state in which people have access not only to enough calories but also to nutritious food, which promotes good health and prevents malnutrition or diet-related disorders <ref type="bibr">(Swinburn et al., 2020)</ref>.</p><p>Food security includes both economic and social factors, such as price and cultural tolerance of food. It guarantees that food systems deliver adequate quantities of culturally acceptable foods that are consistent with population tastes and social norms <ref type="bibr">(Béné et al., 2021)</ref>. Food security entails the long-term viability of food systems, which means that current food production and consumption patterns must not jeopardise future generations' access to sufficient and healthy food <ref type="bibr">(Ingram, 2021)</ref>.</p><p>Food security is inextricably related to environmental stability, as climate change, soil degradation, and water shortages all have an impact on food production and distribution, influencing long-term food availability and access. Food security is defined as a state in which policy measures ensure that food systems are resilient to shocks such as pandemics or conflicts that may disrupt food availability or access on a national or global scale <ref type="bibr">(Chauvin et al., 2022)</ref>. Food security is increasingly being viewed as a human right, with individuals having an intrinsic right to adequate food and governments being required to develop policies that ensure this right for all citizens <ref type="bibr">(De Schutter &amp; Giljum, 2021)</ref>.</p><p>Food security, a multidimensional term, is constantly evolving in academic and policy discourse. The Food and Agriculture Organisation (FAO) defines a state as one in which "all people, at all times, have physical, social, and economic access to sufficient, safe, and nutritious food that meets their dietary needs and food preferences for an active and healthy life" <ref type="bibr">(FAO, 2020)</ref>. Recent research (2020-2023) has focused on the key characteristics of food security, including availability, access, utilisation, and stability. Food availability is the actual presence of food in a certain location, encompassing production, importation, and distribution <ref type="bibr">(Clapp, 2021)</ref>.</p><p>Climate change, population increase, and conflict have had a substantial impact on the global food supply, resulting in variations in agricultural output <ref type="bibr">(Wheeler &amp; von Braun, 2022)</ref>. As agricultural systems cope with the negative effects of climate change, such as droughts and floods, global food production faces substantial problems, affecting food availability in vulnerable areas.</p><p>In Sub-Saharan Africa, a report from the Famine Early Warning Systems Network (FEWS NET, 2022) found that climate-related shocks worsened food scarcity, affecting production and supply systems and endangering food availability. Access to food includes both economic and physical access, ensuring that people can get the food they need <ref type="bibr">(Renzaho, 2020)</ref>. Economic issues such as income, inflation, and food costs have a direct impact on households' ability to obtain adequate food. For example, COVID-19 exacerbated global food insecurity by disrupting household incomes and market access <ref type="bibr">(Béné et al., 2021)</ref>.</p><p>Millions of people have more difficulties acquiring food in areas where food prices soared, such as the Middle East and Sub-Saharan Africa <ref type="bibr" target="#b25">(Béné, 2020)</ref>. Furthermore, physical access has been limited due to infrastructural concerns and conflict zones, notably in war-torn countries like Yemen and Ukraine <ref type="bibr">(Global Network Against Food Crises, 2022)</ref>. The idea of utilisation in food security refers to the nutritional and food safety components, which ensure that food consumption leads to beneficial health outcomes <ref type="bibr">(Ingram, 2021)</ref>. This dimension encompasses dietary diversity, nutritional value, and the hygiene circumstances in which food is produced and consumed. The double burden of malnutrition, characterised by both undernutrition and overnutrition, has emerged as a significant concern in current talks about food utilisation.</p><p>According to <ref type="bibr">Swinburn et al. (2020)</ref>, global food systems have evolved towards the use of highly processed, energy-dense foods, which has contributed to an increase in diet-related noncommunicable diseases such as diabetes and obesity, as well as persistent malnutrition in many low-income nations. Addressing the nutritional quality of food has become crucial in ensuring that people not only have access to food, but also that the food they eat promotes overall health. Stability refers to food systems' ability to provide consistent access to food over time, despite of external shocks such as economic crises, pandemics, or natural disasters <ref type="bibr">(FAO, 2021)</ref>. This component of food security has received more attention in the aftermath of global disruptions such as COVID-19, which exposed flaws in food supply chains <ref type="bibr">(Laborde et al., 2020)</ref>.</p><p>The epidemic impacted worldwide logistics and agricultural output, resulting in price increases and supply shortages. Furthermore, the Russia-Ukraine war, a major component in global wheat supply, has disrupted grain exports, threatening food security in import-dependent countries such as Africa and the Middle East <ref type="bibr">(Chauvin et al., 2022)</ref>. Stability also includes the resilience of food systems to future shocks, which necessitates adaptive solutions to protect food production and delivery.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.2">Operational Efficiency</head><p>Operational efficiency is another important aspect of agricultural performance. It refers to the efficiency with which resources are used to produce goods and services. Balogun et al. ( <ref type="formula">2021</ref>) define operational efficiency as agribusinesses' ability to optimise production processes, reduce waste, and improve supply chain management. Efficient operations not only decrease costs, but also improve product quality, resulting in increased customer satisfaction. Recent research emphasises the importance of technology and innovation in improving operational efficiency in agribusiness.</p><p>For example, Uche et al. ( <ref type="formula">2023</ref>) state that the use of digital technologies, precision agriculture, and data analytics can considerably boost productivity and operational efficiency. Agribusinesses can use technology to streamline processes, manage resources more effectively, and respond quickly to market demands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.3">Sustainability and Environmental Impact</head><p>Abolade, A.P., Lawal, I.O., Akanbi, K.L. &amp; Salami A.O. (2024). Unlocking the future of food security through access to finance for sustainable agribusiness performance. Management and Entrepreneurship: Trends of Development, 4(30), 106-118. <ref type="url" target="https://doi.org/10.26661/2522-1566/2024-4/30-09">https://doi.org/10.26661/2522-1566/2024-4/30-09</ref> 111</p><p>Sustainability has evolved as an important part of agribusiness success, reflecting the sector's broader commitment to environmental conservation and social equality. According to Fadahunsi and Adegboye (2023), sustainable agriculture practices include using natural resources responsibly, reducing environmental degradation, and improving social welfare. This aspect of performance is becoming increasingly relevant as consumers and stakeholders demand greater accountability for the environmental impact of agricultural practices. Furthermore, incorporating sustainability criteria into agricultural performance evaluations can increase long-term viability.</p><p>According to a study by Nwankwo and Udo (2022), organisations that embrace sustainable practices generally profit from enhanced brand recognition, customer loyalty, and access to new markets. As such, sustainability is more than just an ethical consideration; it is a strategic need for improving agribusiness success.</p><p>2 Access to Finance and Agribusiness Performance: An Institutional Theory Perspective Access to financing is a significant factor in agribusiness performance, influencing investment decisions, operational efficiency, and overall sustainability. The concept of institutional theory, as stated by <ref type="bibr">North (1990)</ref>, provides a strong lens for understanding how agribusinesses handle financial limitations and improve performance. This paper examines the relationship between access to financing and agribusiness success through the lens of institutional theory, emphasising both traditional and innovative institutional viewpoints.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>i. Old Institutionalism and Agribusiness Financing</head><p>Old institutionalism, which has its roots in the works of <ref type="bibr">Stinchcombe (1997) and</ref><ref type="bibr">Scott (1987)</ref>, emphasises how organisations can adapt to environmental conditions while maintaining institutional ideals. In the context of agriculture, access to finance is a critical resource that is influenced by institutional arrangements such as government policies, banking regulations, and market structure. Agribusinesses frequently respond to these constraints by establishing tactics that are consistent with the prevalent norms and values in their institutional environment. For example, resource dependence theory, a core component of traditional institutionalism, holds that organisations must obtain crucial resources, such as financial capital, in order to exist and grow <ref type="bibr">(Pfeffer and Salancik, 1978)</ref>.</p><p>Agribusinesses operating under this framework are required to establish partnerships with financial institutions and align their operations with their expectations and standards. This improves their access to capital, which is critical for investing in manufacturing, technology, and infrastructure. Furthermore, contingency theory, which examines the impact of external circumstances on organisational performance, emphasises the significance of aligning financial strategy with environmental conditions <ref type="bibr">(Lawrence &amp; Lorsch, 1967)</ref>.</p><p>Agribusinesses must tailor their financial processes to the unique problems they confront, such as fluctuating commodity prices and shifting consumer tastes. This adaptation illustrates the ongoing evolution of organised organisational actions in response to financial constraints while adhering to institutional principles.</p><p>ii.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>New Institutionalism and Legitimacy in Financial Access</head><p>In contrast, modern institutionalism emphasises how organisations gain resources by adhering to normative norms and developing reputation in their domains <ref type="bibr">(Greenwood &amp; Hinings, 1996)</ref>. The perception of legitimacy among financial institutions, investors, and stakeholders has a significant impact on agriculture financing.</p><p>Organisations that demonstrate conformity with regulatory requirements, industry norms, and best practices are more likely to receive financial assistance. Meyer and Rowan (1997) contend that organisations frequently increase their legitimacy by matching their activities with collectively valued goals. This alignment can take many forms, including adherence to sustainable agriculture methods, community engagement, and social responsibility activities. Agribusinesses can improve their reputation and attract possible investors by demonstrating their dedication to these ideals. <ref type="bibr">DiMaggio and Powell (1983)</ref> also establish the idea of isomorphism, which describes how organisations in the same field become more similar over time as they respond to normative forces.</p><p>Agribusinesses that meet the expectations of financial institutions may have an easier time obtaining capital, as lenders prefer organisations that follow established operating procedures. This is especially important in situations where financial institutions prioritise investments in agribusinesses that match with sustainability objectives or demonstrate social effect.</p><p>iii. The Integration of Old and New Institutionalism Oliver (1997) recognises the importance of combining both old and contemporary institutional approaches, emphasising that legitimacy gained via social acceptance, along with economic optimisation of structures and processes, adds to organisational success. For agribusinesses, integration entails not just responding to financial restrictions but also establishing legitimacy in the eyes of stakeholders. Agribusinesses can improve their performance and sustainability by combining financial optimisation with a commitment to social and environmental values. In this context, institutional theory investigates the framework and extent to which agribusinesses respond to financial rules and regulations.</p><p>This examination allows for a better understanding of how financial access influences the Overall performance of agribusinesses in the larger ecosystem. Agribusinesses who successfully traverse this landscape will be better positioned to acquire capital, generate innovation, and respond to market demands, thereby increasing their competitive edge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Empirical Review</head><p>According to Adebayo et al. ( <ref type="formula">2021</ref>), improved access to financing considerably enhances smallholder farmers' ability to invest in better agricultural methods. The study found that farmers who used financial services had higher crop yields and better food availability, showing a direct link between financial access and food security. <ref type="bibr" target="#b48">Asfaw et al. (2020)</ref> argue that access to financial services enables farmers to purchase required inputs such as seeds and fertilisers. Their findings showed that enhanced liquidity allows farmers to manage the risks associated with agricultural production, resulting in better food security. This access is essential for farmers to respond effectively to market swings and production constraints. <ref type="bibr" target="#b50">Sulaiman et al. (2022)</ref> claimed that financial inclusion measures greatly reduce food insecurity. Access to finance improves food security by allowing households to engage in productive activities and diversify their sources of income. The findings highlighted the importance of financial services in developing resistance to food insecurity.</p><p>Furthermore, Zougmoré et al. ( <ref type="formula">2021</ref>) did a study in West Africa and discovered that farmers who had access to microfinance institutions were better prepared to invest in climate-friendly agricultural techniques. This financial assistance enabled them to boost agricultural output and improve food security in their communities, illustrating the importance of access to finance in promoting sustainable agricultural practices. Furthermore, <ref type="bibr">Nugroho et al. (2022)</ref> investigated the effect of financial literacy on food security in Indonesia. Their findings demonstrated that farmers with better levels of financial literacy were more likely to use financial products and services, which improved their food security situation. This emphasises the role of financial knowledge and access to financing in increasing food security. Kumar and Singh ( <ref type="formula">2023</ref>) also look at the role of agricultural cooperatives in enhancing farmers' access to financing. The study discovered that cooperative membership considerably increased farmers' access to finance and insurance goods. As a result, this access boosted their food production capacity and helped to increase food security in rural areas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODOLOGY</head><p>This study investigated the impact of access to finance on agricultural company performance in Ogun State. 380 respondents were chosen from a population of 37,200 rice farmers through probability sampling, using simple random selection procedures. Primary data was used as a source of data; a questionnaire was constructed to collect data. However, quantitative analysis was performed to assess the extent to which explanatory variables (access to finance) influence the <ref type="bibr" target="#b34">Abolade, A.P., Lawal, I.O., Akanbi, K.L. &amp; Salami A.O. (2024)</ref>. Unlocking the future of food security through access to finance for sustainable agribusiness performance. Management and Entrepreneurship: Trends of Development, 4(30), 106-118. <ref type="url" target="https://doi.org/10.26661/2522-1566/2024-4/30-09">https://doi.org/10.26661/2522-1566/2024-4/30-09</ref> 113 provided variable (food security). Pls-Sem was utilised for data analysis, and regression and path measurement were investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Analysis and discussion of Findings</head><p>Hypothesis testing: Access to finance and Food Security HO1: there is no significant relationship between access to finance and food security This predicts the relationship between the explanatory variable (Access to finance) and the given variable (Food security). The result of hypothesis is as follows:  Source: Author's Field Survey, 2024</p><p>Table 1 provides a detailed explanation of Figure <ref type="figure">4</ref>.1, which depicts the path coefficients, tvalues, and standard error at which the hypotheses were supported or rejected. The t-values in this study were computed using 5000 resampling iterations in repetitive bootstrapping. The selection of The favourable impact of access to finance on food security is consistent with the larger theoretical framework of sustainable lifestyles, which holds that financial capital is critical for developing resistance to food insecurity <ref type="bibr" target="#b49">(Scoones, 2021)</ref>.</p><p>This viewpoint emphasises the need of including financial access into food security policies, confirming the idea that increasing financial inclusion can result in significant gains in food security indices. In conclusion, the findings of this study are consistent with current literature, which emphasises the importance of financial access in enhancing food security. The significant relationship (β = 0.615, p &lt; 0.000) suggests that boosting financial access can improve food security outcomes for the target group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The study revealed that there is a considerable positive association between access to finance and food security, emphasising financial resources as an important aspect in improving agribusiness performance. Improving access to financial services can improve food security outcomes, especially for smallholder farmers with financial restrictions (R² = 61.5%). As a result, it is advised that governments develop laws to improve loan disbursement, availability and support targeted financial inclusion programs for the agriculture sector. Furthermore, educating farmers about financial management and accessible goods might help them use these resources more effectively.</p><p>Financial institutions should be encouraged to create customised financial solutions, such as low-interest loans and flexible repayment choices, to satisfy the special demands of agribusinesses due to the seasonal and cyclical nature of agriculture. Finally, increasing collaboration between governments, non-governmental organisations, and financial institutions can result in complete support systems that improve financial access and promote sustainable farming practices. Prioritising these techniques allows stakeholders to dramatically improve food security and agribusiness performance in a variety of scenarios. значення. Незважаючи на низку фінансових інтервенцій, спрямованих на збільшення сільськогосподарського виробництва, малі фермери продовжують не мати доступу до розумного, своєчасного та достатнього фінансування, що обмежує їхні можливості інвестувати в покращення технологій та виробничих ресурсів, знижуючи продуктивність та постачання продовольства. Це дослідження вивчає взаємозв'язок між доступом до фінансування та продовольчою безпекою серед дрібних фермерів у штаті Огун, використовуючи інституційну теорію як теоретичну основу. У дослідженні використовується кількісний метод з опитуванням 37 200 малих сільськогосподарських фермерів. Розмір вибірки -380 -був обраний за допомогою імовірнісної вибірки та простих випадкових методів. Дані були проаналізовані за допомогою моделювання структурних рівнянь методом найменших квадратів (PLS-SEM). Отримані результати демонструють сприятливий зв'язок між доступом до фінансування та продовольчою безпекою, причому R2-значення 0,615 вказує на сильний зв'язок. Ці висновки підкреслюють необхідність вдосконалення фінансових установ та впровадження сприятливої політики для забезпечення доступу фермерів до фінансових ресурсів, необхідних їм для досягнення результатів у сфері продовольчої безпеки.</p><p>Ключові слова: доступ до фінансування, фермер, агробізнес, продовольча безпека.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Measurement of variables</figDesc><graphic coords="8,56.65,194.15,466.45,235.80" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig.2 Measurement Model (Algorithm testing)</figDesc><graphic coords="8,84.95,471.25,420.95,205.80" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,173.75,127.90,275.90,190.35" type="bitmap"/></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p><ref type="bibr" target="#b34">Abolade, A.P., Lawal, I.O., Akanbi, K.L. &amp; Salami A.O. (2024)</ref>. Unlocking the future of food security through access to finance for sustainable agribusiness performance.Management and Entrepreneurship: Trends of  Development, 4(30), 106-118. https://doi.org/10.26661/2522-1566/2024-4/30-09   </p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ISSUE 4 (30), 2024 114 5000 samples is justified by the fact that it assures that each model parameter has an empirical sampling distribution, and the distribution's standard deviation serves as a proxy for the parameter's empirical standard error <ref type="bibr">(Hair et al., 2012)</ref>.  In Hypothesis One, the Structural Equation Modelling (SEM) results show that access to finance, as an independent construct, has a positive association with food security. Results (Table <ref type="table">4</ref>.1, Figure <ref type="figure">4</ref>.1) reveal a substantial positive connection between access to finance and food security (β = 0.615, t = 5.070, p &lt; 0.000). Improved access to financial resources leads to higher food security levels, with a statistically significant R² value of 61.5%.</p><p>Empirical research backs up this conclusion, as access to money is widely recognised as a significant element impacting food security in a variety of scenarios. For example, <ref type="bibr">Adebayo et al. (2021)</ref> discovered that increasing financial access allows smallholder farmers to invest in better agricultural methods, resulting in higher crop yields and greater food availability. Similarly, <ref type="bibr" target="#b48">Asfaw et al. (2020)</ref> found that access to financial services not only enables farmers to acquire inputs, but also provides them with the liquidity they need to manage risks connected with agricultural production, hence improving food security.</p><p>Furthermore, research from <ref type="bibr" target="#b50">Sulaiman et al. (2022)</ref> supports the link between access to finance and food security, arguing that financial inclusion initiatives can significantly reduce food insecurity by empowering households to engage in productive activities and diversify their income sources. The ability to invest in technology and sustainable farming practices is frequently dependent on proper financial assistance, which eventually leads to better food security outcomes.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Financial inclusion and credit access in South Asia</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Bashir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">South Asian Journal of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="215" to="229"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Digital finance and microenterprise growth: Evidence from East Africa</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Akinwumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oladipo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Adeyemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Digital Innovation</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="59"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Barriers to rural finance: The case of Nigerian SMEs</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Asogwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nwaogwugwu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of African Development</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="117"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Financial inclusion, institutions, and entrepreneurship in Africa</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Asongu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nwachukwu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page">105375</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Access to finance: Regulatory frameworks and financial stability</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maimbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Financial Journal</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="85" to="98"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cybersecurity challenges in digital finance: An evolving threat landscape</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Journal of Finance and Technology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="342" to="367"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The Global Findex Database 2020: Financial inclusion in the world's economies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Demirgüç-Kunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Klapper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ansar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hess</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>World Bank Group</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Financial inclusion and economic recovery post-COVID-19</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ebeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sahay</surname></persName>
+		</author>
+		<idno>WP/21/45</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Monetary Fund Working Paper</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Financial literacy and access to finance: Evidence from SMEs in developing countries</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grohmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="765" to="780"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Women, financial inclusion, and economic justice</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kabeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sweetman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gender &amp; Development</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="223" to="240"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Government policies to promote financial inclusion: Lessons from developing economies</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mohan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development Policy Review</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="312" to="328"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Financing agribusiness in sub-Saharan Africa: Institutional constraints and opportunities</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Omondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mugambi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Agricultural Economics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="54" to="67"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The impact of mobile money on financial inclusion in Africa</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="133" to="156"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Digital credit platforms: A solution for financial inclusion</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Wamba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Banking and Finance</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page">106320</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Digital financial services and the post-COVID recovery</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Finance and Development</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Digital finance and microenterprise growth: Evidence from East Africa</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Akinwumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oladipo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Adeyemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Digital Innovation</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="59"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Barriers to rural finance: The case of Nigerian SMEs</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Asogwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nwaogwugwu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of African Development</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="117"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Financial inclusion, institutions, and entrepreneurship in Africa</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Asongu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nwachukwu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page">105375</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Access to finance: Regulatory frameworks and financial stability</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maimbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Financial Journal</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="85" to="98"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cybersecurity challenges in digital finance: An evolving threat landscape</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Journal of Finance and Technology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="342" to="367"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The Global Findex Database 2020: Financial inclusion in the world's economies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Demirgüç-Kunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Klapper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ansar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hess</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>World Bank Group</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Financial literacy and access to finance: Evidence from SMEs in developing countries</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grohmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="765" to="780"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Women, financial inclusion, and economic justice</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kabeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sweetman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gender &amp; Development</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="223" to="240"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Financing agribusiness in sub-Saharan Africa: Institutional constraints and opportunities</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Omondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mugambi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Agricultural Economics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="54" to="67"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The impact of mobile money on financial inclusion in Africa</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="24" to="31"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Resilience of local food systems and links to food security: A review of some important concepts in the context of COVID-19 and other shocks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Béné</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Security</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="805" to="822"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The COVID-19 pandemic and global food security: Where we are and where to go?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Béné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mcgranahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page">105024</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Global food crisis: Russia-Ukraine conflict, climate change, and COVID-19</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Chauvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goundan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Agricultural Journal</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="56" to="72"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Food security and international trade: Unpacking disputed narratives</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clapp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page">105195</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The global food system: An analysis of policies and sustainability</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>De Schutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giljum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Agricultural and Environmental Ethics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="113" to="128"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m">The impact of COVID-19 on food security and nutrition: Policy responses and longterm recovery. Food and Agriculture Organization of the United Nations. Famine Early Warning Systems Network</title>
+		<imprint>
+			<publisher>FEWS NET)</publisher>
+			<date type="published" when="2020">2020. 2021. 2022</date>
+		</imprint>
+	</monogr>
+	<note>The state of food security and nutrition in the world 2020 Food insecurity in Africa: A comprehensive report</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Food crises in conflict-affected regions: Annual report</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>Global Network Against Food Crises</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Food system resilience in the face of climate change: Evidence from Africa</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ingram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Security</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="857" to="870"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Estimating the impact of COVID-19 on global poverty and food insecurity</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Laborde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">IFPRI Discussion Paper</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Unlocking the future of food security through access to finance for sustainable agribusiness performance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Abolade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">O</forename><surname>Lawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Akanbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Salami</surname></persName>
+		</author>
+		<idno type="DOI">10.26661/2522-1566/2024-4/30-09</idno>
+		<ptr target="https://doi.org/10.26661/2522-1566/2024-4/30-09117"/>
+	</analytic>
+	<monogr>
+		<title level="j">Management and Entrepreneurship: Trends of Development</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="106" to="118"/>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The impact of food insecurity and malnutrition on COVID-19 mortality in developing countries: A case study of the sub-Saharan Africa region</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M N</forename><surname>Renzaho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Health</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="689" to="694"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Food system transformation and diet-related disease: Time for global action</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Swinburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kraak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Allender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="issue">10218</biblScope>
+			<biblScope unit="page" from="1457" to="1468"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Climate change impacts on global food security: Adaptation strategies</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Braun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Food</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="102" to="109"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The COVID-19 pandemic and global food security: Where we are and where to go?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Béné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mcgranahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page">105024</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Global food crisis: Russia-Ukraine conflict, climate change, and COVID-19</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Chauvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goundan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Agricultural Journal</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="56" to="72"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Food security and international trade: Unpacking disputed narratives</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clapp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Development</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page">105195</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The global food system: An analysis of policies and sustainability</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>De Schutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giljum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Agricultural and Environmental Ethics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="113" to="128"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m">The state of food security and nutrition in the world 2020</title>
+		<imprint>
+			<publisher>Food and Agriculture Organization of the United Nations</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Food system resilience in the face of climate change: Evidence from Africa</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ingram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Security</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="857" to="870"/>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Estimating the impact of COVID-19 on global poverty and food insecurity</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Laborde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">IFPRI Discussion Paper</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The impact of food insecurity and malnutrition on COVID-19 mortality in developing countries: A case study of the sub-Saharan Africa region</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M N</forename><surname>Renzaho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Health</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="689" to="694"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Food system transformation and diet-related disease: Time for global action</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Swinburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kraak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Allender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="issue">10218</biblScope>
+			<biblScope unit="page" from="1457" to="1468"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The impact of credit access on food security among smallholder farmers in Nigeria</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Agricultural Economics</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="89" to="106"/>
+			<date type="published" when="2021">2022. 2021</date>
+		</imprint>
+	</monogr>
+	<note>Climate change impacts on global food security: Adaptation st Adebayo</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Financial services and food security: Evidence from rural Ethiopia</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Asfaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Security</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="653" to="665"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Scoones</surname></persName>
+		</author>
+		<title level="m">Sustainable livelihoods and food security: Rebuilding after crises</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Financial inclusion and food security: Evidence from developing countries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sulaiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Food Policy</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="102" to="109"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>rategies Nature Food</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
