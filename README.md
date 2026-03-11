@@ -19,7 +19,7 @@ To run the container I used the following command:
 docker run --rm --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.2-full
 *The reason I didnt specify GPU with the option --gpus is because my laptop lacks CUDA-compatible options.*
 
-I used the processFulltextDocument service endpoint from the TEI section. Only header consolidation was enabled to improve metadata quality. The other options were disabled since they are not required for abstract extraction, figure counting or URI extraction.
+I used the processFulltextDocument service endpoint from the TEI section in http://localhost:8070/ (web). Only header consolidation was enabled to improve metadata quality. The other options were disabled since they are not required for abstract extraction, figure counting or URI extraction.
 
 3. Python scripts
 
@@ -93,5 +93,4 @@ To ensure reproducibility of the experiment, the analysis pipeline can be execut
 	However, this step can be reproduced independently using the official Grobid Docker image a bit differently from above. 
 	First, download the official Grobid container: docker pull grobid/grobid:0.8.2-full
 	Then start the Grobid service: docker run -t --rm -p 8070:8070 grobid/grobid:0.8.2-full
-	Once the service is running, the PDFs can be processed using the Grobid client to generate the TEI XML files: 
-	python grobid_client.py processFulltextDocument \ --input data/pdf \ --output data/grobid_xmls
+	Once the service is running, the PDFs can be processed using the Grobid client to generate the TEI XML files: http://localhost:8070/ (web.
