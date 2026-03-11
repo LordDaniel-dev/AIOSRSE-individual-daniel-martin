@@ -1,15 +1,18 @@
 """
 generate_wordcloud.py
 
-This script generates a word cloud using the text
-from abstracts extracted by Grobid in TEI XML format.
+Generates a word cloud from <abstract> sections in TEI XML files
+produced by Grobid.
 
-Workflow:
-1. Reads all XML files in data/grobid_xml/
-2. Extracts the content of the <abstract> tag
-3. Cleans and preprocesses the text
-4. Generates a word cloud
-5. Saves the image to results/wordcloud.png
+Processing steps:
+1) Parse all XML files in ../data/grobid_xmls/
+2) Extract textual content from <abstract> (TEI namespace)
+3) Merge all abstracts into a single corpus
+4) Remove English stopwords (NLTK)
+5) Generate a word cloud with linear frequency scaling
+6) Export:
+   - results/wordcloud.png  (word cloud image)
+   - results/word_frequencies.txt  (token frequencies)
 """
 
 import os
@@ -18,6 +21,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import nltk
 from nltk.corpus import stopwords
+import csv
 
 nltk.download('stopwords')
 
@@ -53,8 +57,13 @@ def generate_wordcloud(text):
         width=1200,
         height=600,
         stopwords=STOPWORDS,
-        background_color="white"
+        background_color="white",
+	relative_scaling=1.0
     ).generate(text)
+
+    freqs = wordcloud.process_text(text)
+
+    sorted_freqs = sorted(freqs.items(), key=lambda x: x[1], reverse=True)
 
     plt.figure(figsize=(12,6))
     plt.imshow(wordcloud)
@@ -62,8 +71,16 @@ def generate_wordcloud(text):
 
     plt.savefig(OUTPUT_FILE)
 
-    print("Wordcloud saved in:", OUTPUT_FILE)
 
+    print("\nWordcloud saved in:", OUTPUT_FILE)
+
+    with open("../results/word_frequencies.csv", "w", newline="") as f:
+        writer = csv.writer(f, delimiter=";")
+        writer.writerow(["word", "frequency"])
+        for word, count in sorted_freqs:
+            writer.writerow([word, count])
+
+    print("Word frequencies saved in ../results/word_frequencies.csv")
 
 def main():
 
