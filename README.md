@@ -88,7 +88,7 @@ To ensure reproducibility of the experiment, the analysis pipeline can be execut
 	docker run --rm -v $(pwd)/results:/app/results grobid-paper-analysis
 	This command runs the container, executes the full analysis pipeline and stores the generated results in the local results/ directory. The --rm flag removes the container after execution.
 
-	4.3 Pipeline executed inside the container
+	4.3 Pipeline executed inside the container (Grobid step)
 	The Docker environment executes the analysis pipeline starting from the TEI XML files already generated from the original PDFs. To keep the container lightweight and reduce build time, the transformation step from PDF articles to TEI XML using GROBID is not included in the Docker image. 
 	However, this step can be reproduced independently using the official Grobid Docker image a bit differently from above. 
 	First, download the official Grobid container: docker pull grobid/grobid:0.8.2-full
