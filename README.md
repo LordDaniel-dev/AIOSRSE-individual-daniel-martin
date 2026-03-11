@@ -15,7 +15,7 @@ Pipeline: PDF → Grobid → TEI XML → Python scripts → Results
 I downloaded the latest full image of Grobid using docker using the following command:
 docker pull grobid/grobid:0.8.2-full
 
-To run the container a used the following command:
+To run the container I used the following command:
 docker run --rm --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.2-full
 *The reason I didnt specify GPU with the option --gpus is because my laptop lacks CUDA-compatible options.*
 
@@ -70,3 +70,28 @@ The XML files generated with GROBID were processed using three Python scripts lo
 	
 	## Note on AI Usage
 	Portions of this step, including documentation and code, were created or refined with the assistance of AI tools. All outputs were reviewed and validated by the author.
+
+4. Dockerization
+
+To ensure reproducibility of the experiment, the analysis pipeline can be executed inside a Docker container. This avoids dependency issues and guarantees that the scripts run in a controlled environment.
+
+	4.1 Build the Docker image
+
+	First, clone the repository and build the Docker image:
+	git clone <repository_url>
+	cd <repository_name>
+	docker build -t <image_name> .
+	The build process installs all required Python dependencies and prepares the environment needed to run the analysis scripts.
+
+	4.2 Run the experiment
+	Once the image is built, the full analysis pipeline can be executed with:
+	docker run --rm -v $(pwd)/results:/app/results grobid-paper-analysis
+	This command runs the container, executes the full analysis pipeline and stores the generated results in the local results/ directory. The --rm flag removes the container after execution.
+
+	4.3 Pipeline executed inside the container
+	The Docker environment executes the analysis pipeline starting from the TEI XML files already generated from the original PDFs. To keep the container lightweight and reduce build time, the transformation step from PDF articles to TEI XML using GROBID is not included in the Docker image. 
+	However, this step can be reproduced independently using the official Grobid Docker image a bit differently from above. 
+	First, download the official Grobid container: docker pull grobid/grobid:0.8.2-full
+	Then start the Grobid service: docker run -t --rm -p 8070:8070 grobid/grobid:0.8.2-full
+	Once the service is running, the PDFs can be processed using the Grobid client to generate the TEI XML files: 
+	python grobid_client.py processFulltextDocument \ --input data/pdf \ --output data/grobid_xmls
