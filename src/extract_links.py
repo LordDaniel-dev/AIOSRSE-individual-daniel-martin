@@ -21,8 +21,8 @@ import re
 import pandas as pd
 from lxml import etree
 
-XML_DIR = "../data/grobid_xmls"
-OUTPUT_FILE = "../results/links_per_article.csv"
+XML_DIR = "data/grobid_xmls"
+OUTPUT_FILE = "results/links_per_article.csv"
 
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 
