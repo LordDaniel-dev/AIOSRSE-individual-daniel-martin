@@ -25,8 +25,8 @@ import csv
 
 nltk.download('stopwords')
 
-XML_DIR = "../data/grobid_xmls"
-OUTPUT_FILE = "../results/wordcloud.png"
+XML_DIR = "data/grobid_xmls"
+OUTPUT_FILE = "results/wordcloud.png"
 
 STOPWORDS = set(stopwords.words("english"))
 
@@ -74,13 +74,13 @@ def generate_wordcloud(text):
 
     print("\nWordcloud saved in:", OUTPUT_FILE)
 
-    with open("../results/word_frequencies.csv", "w", newline="") as f:
+    with open("results/word_frequencies.csv", "w", newline="") as f:
         writer = csv.writer(f, delimiter=";")
         writer.writerow(["word", "frequency"])
         for word, count in sorted_freqs:
             writer.writerow([word, count])
 
-    print("Word frequencies saved in ../results/word_frequencies.csv")
+    print("Word frequencies saved in results/word_frequencies.csv")
 
 def main():
 
